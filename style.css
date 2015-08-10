@@ -33,42 +33,74 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page h4, #page h5, #page h6 {
   color: #606060;
 }
+/* line 36, style.scss */
+#page h4 {
+  font-size: 16px;
+}
+/* line 40, style.scss */
+#page h3 {
+  font-size: 20px;
+}
+/* line 44, style.scss */
+#page .row-spacing {
+  margin-bottom: 50px;
+}
 /* line 1, _header.scss */
-#page #header .navbar {
+#page #header nav {
   position: absolute;
-  z-index: 3;
+  z-index: 1000;
   left: 0;
   right: 0;
 }
+/* line 8, _header.scss */
+#page #header nav .container ul {
+  margin: 0;
+}
 /* line 10, _header.scss */
-#page #header .navbar .collapse ul li a {
+#page #header nav .container ul li {
+  list-style: none;
+  float: left;
+}
+/* line 14, _header.scss */
+#page #header nav .container ul li a {
+  display: inline-block;
+  padding: 10px;
   color: #FFFFFF;
 }
-/* line 19, _header.scss */
-#page #header .menu-aux .navbar-nav > li > a:hover {
-  background-color: transparent;
+/* line 29, _header.scss */
+#page #header nav.menu-aux .container ul li a:hover {
   text-decoration: underline;
 }
-/* line 25, _header.scss */
-#page #header .menu-principal {
+/* line 37, _header.scss */
+#page #header nav.menu-principal {
   top: 52px;
   background-color: #9e151a;
 }
-/* line 29, _header.scss */
-#page #header .menu-principal .navbar-nav > li > a {
-  padding: 25px 15px;
+/* line 42, _header.scss */
+#page #header nav.menu-principal .container .logo-header {
+  padding: 5px;
+  margin-right: 20px;
 }
-/* line 32, _header.scss */
-#page #header .menu-principal .navbar-nav > li > a:hover {
+/* line 49, _header.scss */
+#page #header nav.menu-principal .container ul li a {
+  display: inline-block;
+  padding: 20px 30px;
+}
+/* line 53, _header.scss */
+#page #header nav.menu-principal .container ul li a:hover {
+  text-decoration: none;
   background-color: #BE191F;
 }
-/* line 36, _header.scss */
-#page #header .menu-principal .logo-header {
-  padding: 10px;
+/* line 2, _content.scss */
+#page #content .secao-a .container {
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
-/* line 5, _content.scss */
+/* line 8, _content.scss */
 #page #content .secao-b {
   background-color: #f0f2f4;
 }
-
-/*# sourceMappingURL=style.css.map */
+/* line 11, _content.scss */
+#page #content .secao-b .container {
+  padding: 25px 0;
+}

@@ -22,49 +22,27 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="header">
-		<nav class="navbar menu-aux">
+		<nav class="menu-aux">
 		  <div class="container">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-		    </div>
-
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="">Cadastrar</a></li>
-					<li><a href="">Logar</a></li>
-					<li><a href="">Sair</a></li>
-				</ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
+			<ul>
+				<li><a href="">Fale Conosco</a></li>
+				<li><a href="">11 4332-8787</a></li>
+				<li><a href="">contato@henji.com.br</a></li>
+			</ul>
+			<ul class="pull-right">
+				<li><a href="">redes sociais</a></li>
+			</ul>
+		  </div><!-- /.container -->
 		</nav>
-		<nav class="navbar menu-principal">
+		<nav class="menu-principal">
 		  <div class="container">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-		    </div>
-
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		    	<span class="pull-left logo-header"><a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/></a></span>
-				<ul class="nav navbar-nav">
-					<li></li>
+				<ul>
 					<li><a href="">menu1</a></li>
 					<li><a href="">menu2</a></li>
 					<li><a href="">menu3</a></li>
 				</ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
+		  </div><!-- /.container -->
 		</nav>
 	</header>
 	<div id="content">

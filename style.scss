@@ -19,7 +19,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
-
+ 
 #page{
 	font-family: Verdana, Geneva, sans-serif;
 	color:#606060;
@@ -31,6 +31,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 	h4,h5,h6{
 		color:#606060;
+	}
+
+	h4{
+		font-size: 16px;
+	}
+
+	h3{
+		font-size: 20px;
+	}
+
+	.row-spacing{
+		margin-bottom: 50px;
 	}
 
 	#header{
