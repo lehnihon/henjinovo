@@ -1,0 +1,39 @@
+.navbar{
+    position:absolute;
+    z-index:3;
+    left: 0;
+    right: 0;
+
+    .collapse{
+        ul{
+            li{
+                a{
+                    color:#FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+.menu-aux{
+    .navbar-nav>li>a:hover{
+        background-color: transparent;
+        text-decoration: underline;
+    }   
+}
+
+.menu-principal{
+    top:52px;
+    background-color:#9e151a;
+
+    .navbar-nav>li>a{
+        padding: 25px 15px;
+    }
+    .navbar-nav>li>a:hover{
+        background-color:#BE191F;
+    }
+
+    .logo-header{
+        padding:10px;
+    }
+}

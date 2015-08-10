@@ -1,0 +1,74 @@
+/*
+Theme Name: henjinovo
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: site
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+site is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/* line 23, style.scss */
+#page {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #606060;
+  text-align: center;
+}
+/* line 28, style.scss */
+#page h1, #page h2, #page h3 {
+  color: #9e151a;
+}
+/* line 32, style.scss */
+#page h4, #page h5, #page h6 {
+  color: #606060;
+}
+/* line 1, _header.scss */
+#page #header .navbar {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: 0;
+}
+/* line 10, _header.scss */
+#page #header .navbar .collapse ul li a {
+  color: #FFFFFF;
+}
+/* line 19, _header.scss */
+#page #header .menu-aux .navbar-nav > li > a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+/* line 25, _header.scss */
+#page #header .menu-principal {
+  top: 52px;
+  background-color: #9e151a;
+}
+/* line 29, _header.scss */
+#page #header .menu-principal .navbar-nav > li > a {
+  padding: 25px 15px;
+}
+/* line 32, _header.scss */
+#page #header .menu-principal .navbar-nav > li > a:hover {
+  background-color: #BE191F;
+}
+/* line 36, _header.scss */
+#page #header .menu-principal .logo-header {
+  padding: 10px;
+}
+/* line 5, _content.scss */
+#page #content .secao-b {
+  background-color: #f0f2f4;
+}
+
+/*# sourceMappingURL=style.css.map */
