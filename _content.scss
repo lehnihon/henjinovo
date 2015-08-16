@@ -1,14 +1,139 @@
-.secao-a{
-	.container{
-		padding-top:25px;
-		padding-bottom:15px;
-	}
-}
+#content{
+	.secao-a{
+		.container{
+			padding:25px 0;
 
-.secao-b{
-    background-color: #f0f2f4;
+			.solucoes-quadro{
+				border:1px solid #f0f2f4;
+				padding-bottom:20px;
 
-	.container{
-		padding:25px 0;
+				.quadro-cima{
+					background-color:#9e151a;
+					color:#FFFFFF;
+					min-height: 333px;
+
+					p{
+						padding:20px 5px;
+					}
+					img{
+						width: 100%;
+						margin-top: 10px;
+					}
+				}
+				.quadro-baixo{
+					padding: 15px 5px;
+					min-height: 270px;
+
+					strong{
+						color:#9e151a;
+					}
+					img{
+						margin: 15px 0;
+					}		
+				}
+			}
+		}
 	}
+
+	.secao-b{
+	    background-color: #f0f2f4;
+
+		.container{
+			padding:25px 0;
+
+		}
+	}
+
+	.secao-c{
+	    background-color:#9e151a;
+
+		.container{
+			padding:25px 0;
+			color:#FFFFFF;
+
+			img{
+				margin-left: 20px;
+			}
+		}
+	}
+
+	.solucoes-locadoras{
+		.solucoes-padding{
+			padding:10px;
+			padding-right:10px;
+		}
+	}
+
+	.sistema-locacao{
+		h3{
+			min-height: 44px;
+		}
+	}
+
+	#newsletter-background{
+		width: 100%;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+50,000000+50,000000+50 */
+		background: #feffff; /* Old browsers */
+		background: -moz-linear-gradient(left,  #9e151a 43%, #f0f2f4 43%, #f0f2f4 43%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(43%,#feffff), color-stop(43%,#f0f2f4), color-stop(43%,#f0f2f4)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(left,  #d60258 43%,#f0f2f4 43%,#f0f2f4 43%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left,  #9e151a 43%,#f0f2f4 43%,#f0f2f4 43%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(left,  #9e151a 43%,#f0f2f4 43%,#f0f2f4 43%); /* IE10+ */
+		background: linear-gradient(to right,  #9e151a 43%,#f0f2f4 43%,#f0f2f4 43%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+
+		.news-esquerdo{
+			background-color:#9e151a;
+			padding:20px 15px;
+
+			img{
+				width: 90%;
+			}
+		}
+
+		.news-direito{
+			background-color:#f0f2f4;
+			text-align: left;
+			padding:0;
+
+			img{
+				margin: 40px 0;
+			}
+		}
+
+		.newsletter-texto{
+			margin: 0;
+			margin-top: 35px;
+			p{
+				margin: 0;
+			}
+		}
+
+		.newsletter-nome-wrap{
+			margin: 0;
+		}
+		.newsletter-nome{
+			padding: 15px 5px;
+			margin-top: 35px;
+		}
+		.newsletter-email-wrap{
+			margin: 0;
+		}
+		.newsletter-email{
+			padding: 15px 5px;
+			margin-top: 35px;
+		}
+		.newsletter-enviar{
+			padding: 15px;
+			background-image: none;
+			background-color: #d60158;
+			color:white;
+			margin-top: 35px;
+		}
+		.newsletter-enviar:hover{
+		    opacity: 0.6;
+		    filter: alpha(opacity=60); /* For IE8 and earlier */
+		}
+	}
+
 }

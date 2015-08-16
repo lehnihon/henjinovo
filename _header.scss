@@ -1,61 +1,63 @@
-nav{
-    position:absolute;
-    z-index:1000;
-    left: 0;
-    right: 0;
+#header{
+    nav{
+        position:absolute;
+        z-index:1000;
+        left: 0;
+        right: 0;
 
-    .container{
-        ul{
-            margin: 0;
-            li{
-                list-style: none;
-                float:left;
+        .container{
+            ul{
+                margin: 0;
+                li{
+                    list-style: none;
+                    float:left;
 
-                a{
-                    display: inline-block;
-                    padding: 10px;
-                    color:#FFFFFF;
+                    a{
+                        display: inline-block;
+                        padding: 10px;
+                        color:#FFFFFF;
+                    }
                 }
-            }
-        }        
-    }
-
-}
-
-nav.menu-aux{
-    .container{
-        ul{
-            li{
-                a:hover{
-                    text-decoration: underline;
-                }
-            }
-        }        
-    } 
-}
-
-nav.menu-principal{
-    top:52px;
-    background-color:#9e151a;
-
-    .container{
-        .logo-header{
-            padding: 5px;
-            margin-right: 20px;
+            }        
         }
 
-        ul{
-            li{
-                a{
-                    display: inline-block;
-                    padding:20px 30px;
-                }
-                a:hover{
-                    text-decoration: none;
-                    background-color:#BE191F;
-                }
-            }
-        }        
-    } 
+    }
 
+    nav.menu-aux{
+        .container{
+            ul{
+                li{
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }        
+        } 
+    }
+
+    nav.menu-principal{
+        top:52px;
+        background-color:#9e151a;
+
+        .container{
+            .logo-header{
+                padding: 5px;
+                margin-right: 20px;
+            }
+
+            ul{
+                li{
+                    a{
+                        display: inline-block;
+                        padding:20px 30px;
+                    }
+                    a:hover{
+                        text-decoration: none;
+                        background-color:#BE191F;
+                    }
+                }
+            }        
+        } 
+
+    }    
 }

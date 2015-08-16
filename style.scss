@@ -45,15 +45,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		margin-bottom: 50px;
 	}
 
-	#header{
-		@import 'header';
-	}
+	@import 'header';
+	@import 'content';
+	@import 'footer';
 
-	#content{
-		@import 'content';
-	}
-
-	#footer{
-		@import 'footer';
-	}
 }

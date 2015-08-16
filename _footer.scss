@@ -1,0 +1,26 @@
+#footer{
+	color:#FFFFFF;		
+	text-align:left;
+
+	.container{
+		padding:25px 0;
+		ul{
+			padding:0;
+
+			li{
+				list-style: none;
+				a{
+					color:#FFFFFF;		
+				}				
+			}
+		}
+	}
+	.footer-cima{
+		background-color:#9e151a;
+	}
+	.footer-baixo{
+		background-color:#600406;
+	}
+}
+
+

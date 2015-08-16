@@ -45,62 +45,228 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page .row-spacing {
   margin-bottom: 50px;
 }
-/* line 1, _header.scss */
+/* line 2, _header.scss */
 #page #header nav {
   position: absolute;
   z-index: 1000;
   left: 0;
   right: 0;
 }
-/* line 8, _header.scss */
+/* line 9, _header.scss */
 #page #header nav .container ul {
   margin: 0;
 }
-/* line 10, _header.scss */
+/* line 11, _header.scss */
 #page #header nav .container ul li {
   list-style: none;
   float: left;
 }
-/* line 14, _header.scss */
+/* line 15, _header.scss */
 #page #header nav .container ul li a {
   display: inline-block;
   padding: 10px;
   color: #FFFFFF;
 }
-/* line 29, _header.scss */
+/* line 30, _header.scss */
 #page #header nav.menu-aux .container ul li a:hover {
   text-decoration: underline;
 }
-/* line 37, _header.scss */
+/* line 38, _header.scss */
 #page #header nav.menu-principal {
   top: 52px;
   background-color: #9e151a;
 }
-/* line 42, _header.scss */
+/* line 43, _header.scss */
 #page #header nav.menu-principal .container .logo-header {
   padding: 5px;
   margin-right: 20px;
 }
-/* line 49, _header.scss */
+/* line 50, _header.scss */
 #page #header nav.menu-principal .container ul li a {
   display: inline-block;
   padding: 20px 30px;
 }
-/* line 53, _header.scss */
+/* line 54, _header.scss */
 #page #header nav.menu-principal .container ul li a:hover {
   text-decoration: none;
   background-color: #BE191F;
 }
-/* line 2, _content.scss */
+/* line 3, _content.scss */
 #page #content .secao-a .container {
-  padding-top: 25px;
-  padding-bottom: 15px;
+  padding: 25px 0;
 }
-/* line 8, _content.scss */
+/* line 6, _content.scss */
+#page #content .secao-a .container .solucoes-quadro {
+  border: 1px solid #f0f2f4;
+  padding-bottom: 20px;
+}
+/* line 10, _content.scss */
+#page #content .secao-a .container .solucoes-quadro .quadro-cima {
+  background-color: #9e151a;
+  color: #FFFFFF;
+  min-height: 333px;
+}
+/* line 15, _content.scss */
+#page #content .secao-a .container .solucoes-quadro .quadro-cima p {
+  padding: 20px 5px;
+}
+/* line 18, _content.scss */
+#page #content .secao-a .container .solucoes-quadro .quadro-cima img {
+  width: 100%;
+  margin-top: 10px;
+}
+/* line 23, _content.scss */
+#page #content .secao-a .container .solucoes-quadro .quadro-baixo {
+  padding: 15px 5px;
+  min-height: 270px;
+}
+/* line 27, _content.scss */
+#page #content .secao-a .container .solucoes-quadro .quadro-baixo strong {
+  color: #9e151a;
+}
+/* line 30, _content.scss */
+#page #content .secao-a .container .solucoes-quadro .quadro-baixo img {
+  margin: 15px 0;
+}
+/* line 38, _content.scss */
 #page #content .secao-b {
   background-color: #f0f2f4;
 }
-/* line 11, _content.scss */
+/* line 41, _content.scss */
 #page #content .secao-b .container {
   padding: 25px 0;
 }
+/* line 47, _content.scss */
+#page #content .secao-c {
+  background-color: #9e151a;
+}
+/* line 50, _content.scss */
+#page #content .secao-c .container {
+  padding: 25px 0;
+  color: #FFFFFF;
+}
+/* line 54, _content.scss */
+#page #content .secao-c .container img {
+  margin-left: 20px;
+}
+/* line 61, _content.scss */
+#page #content .solucoes-locadoras .solucoes-padding {
+  padding: 10px;
+  padding-right: 10px;
+}
+/* line 68, _content.scss */
+#page #content .sistema-locacao h3 {
+  min-height: 44px;
+}
+/* line 73, _content.scss */
+#page #content #newsletter-background {
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+50,000000+50,000000+50 */
+  background: #feffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #9e151a 43%, #f0f2f4 43%, #f0f2f4 43%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(43%, #feffff), color-stop(43%, #f0f2f4), color-stop(43%, #f0f2f4));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #d60258 43%, #f0f2f4 43%, #f0f2f4 43%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #9e151a 43%, #f0f2f4 43%, #f0f2f4 43%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #9e151a 43%, #f0f2f4 43%, #f0f2f4 43%);
+  /* IE10+ */
+  background: linear-gradient(to right, #9e151a 43%, #f0f2f4 43%, #f0f2f4 43%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#000000',GradientType=1 );
+  /* IE6-9 */
+}
+/* line 85, _content.scss */
+#page #content #newsletter-background .news-esquerdo {
+  background-color: #9e151a;
+  padding: 20px 15px;
+}
+/* line 89, _content.scss */
+#page #content #newsletter-background .news-esquerdo img {
+  width: 90%;
+}
+/* line 94, _content.scss */
+#page #content #newsletter-background .news-direito {
+  background-color: #f0f2f4;
+  text-align: left;
+  padding: 0;
+}
+/* line 99, _content.scss */
+#page #content #newsletter-background .news-direito img {
+  margin: 40px 0;
+}
+/* line 104, _content.scss */
+#page #content #newsletter-background .newsletter-texto {
+  margin: 0;
+  margin-top: 35px;
+}
+/* line 107, _content.scss */
+#page #content #newsletter-background .newsletter-texto p {
+  margin: 0;
+}
+/* line 112, _content.scss */
+#page #content #newsletter-background .newsletter-nome-wrap {
+  margin: 0;
+}
+/* line 115, _content.scss */
+#page #content #newsletter-background .newsletter-nome {
+  padding: 15px 5px;
+  margin-top: 35px;
+}
+/* line 119, _content.scss */
+#page #content #newsletter-background .newsletter-email-wrap {
+  margin: 0;
+}
+/* line 122, _content.scss */
+#page #content #newsletter-background .newsletter-email {
+  padding: 15px 5px;
+  margin-top: 35px;
+}
+/* line 126, _content.scss */
+#page #content #newsletter-background .newsletter-enviar {
+  padding: 15px;
+  background-image: none;
+  background-color: #d60158;
+  color: white;
+  margin-top: 35px;
+}
+/* line 133, _content.scss */
+#page #content #newsletter-background .newsletter-enviar:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+}
+/* line 1, _footer.scss */
+#page #footer {
+  color: #FFFFFF;
+  text-align: left;
+}
+/* line 5, _footer.scss */
+#page #footer .container {
+  padding: 25px 0;
+}
+/* line 7, _footer.scss */
+#page #footer .container ul {
+  padding: 0;
+}
+/* line 10, _footer.scss */
+#page #footer .container ul li {
+  list-style: none;
+}
+/* line 12, _footer.scss */
+#page #footer .container ul li a {
+  color: #FFFFFF;
+}
+/* line 18, _footer.scss */
+#page #footer .footer-cima {
+  background-color: #9e151a;
+}
+/* line 21, _footer.scss */
+#page #footer .footer-baixo {
+  background-color: #600406;
+}
+
+/*# sourceMappingURL=style.css.map */
