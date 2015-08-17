@@ -1,12 +1,15 @@
 <nav class="menu-aux">
   <div class="container">
-	<ul>
-		<li><a href="">Fale Conosco</a></li>
-		<li><a href="">11 4332-8787</a></li>
-		<li><a href="">contato@henji.com.br</a></li>
+	<ul class="dados-topo">
+		<li>Fale Conosco</li>
+		<li>11 4332-8787</li>
+		<li>contato@henji.com.br</li>
 	</ul>
-	<ul class="pull-right">
-		<li><a href="">redes sociais</a></li>
+	<ul class="redes_sociais_header">
+		<li class="youtube"><a target="_blank" href="#"></a></li>
+		<li class="instagram"><a target="_blank" href="#"></a></li>
+		<li class="twitter"><a target="_blank" href="#"></a></li>
+		<li class="facebook"><a target="_blank" href="#"></a></li>
 	</ul>
   </div><!-- /.container -->
 </nav>
@@ -14,9 +17,11 @@
   <div class="container">
     	<span class="pull-left logo-header"><a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/></a></span>
 		<ul>
-			<li><a href="">menu1</a></li>
-			<li><a href="">menu2</a></li>
-			<li><a href="">menu3</a></li>
+			<li><a href="">A HENJI</a></li>
+			<li><a href="">PRODUTOS</a></li>
+			<li><a href="">PARCEIROS</a></li>
+			<li><a href="">BLOG</a></li>
+			<li><a href="">CONTATO</a></li>
 		</ul>
   </div><!-- /.container -->
 </nav>

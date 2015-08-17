@@ -45,6 +45,17 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		margin-bottom: 50px;
 	}
 
+	.e-cinza:hover{
+		-webkit-filter: grayscale(100%); 
+		filter: grayscale(100%);
+	}
+
+	.e-claro:hover{
+	    opacity: 0.6;
+	    filter: alpha(opacity=60); /* For IE8 and earlier */
+	
+}
+
 	@import 'header';
 	@import 'content';
 	@import 'footer';

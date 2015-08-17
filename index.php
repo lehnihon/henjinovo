@@ -12,6 +12,11 @@
  */
 
 get_header(); ?>
+	<div class="banner-formulario">
+		<div class="container">
+			<?php putRevSlider( "banner-index" ) ?>
+		</div>
+	</div>	
 </header><!--#header-->
 <div id="content">
 	<div class="secao-a">
@@ -28,34 +33,34 @@ get_header(); ?>
 		<div class="container">
 			<div class="row row-spacing">
 				<div class="col-md-4">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens1.png"; ?>"/>
-					<h3>Perfeito para a sua empresa</h3>
-					<p>Atende todos os nichos de locação de veículos, seja terceirização de frota, rent a car, pacotes, semanal etc.</p>
+					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens1.png"; ?>"/>
+					<h3 class="e-under">Perfeito para a sua empresa</h3>
+					<p class="e-under">Atende todos os nichos de locação de veículos, seja terceirização de frota, rent a car, pacotes, semanal etc.</p>
 				</div>
 				<div class="col-md-4">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens2.png"; ?>"/>
+					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens2.png"; ?>"/>
 					<h3>Possibilidade de customizações</h3>
 					<p>O sistema pode ser configurado de acordo com o perfil da sua locadora, diferente do "pacote fechado" da concorrência.</p>				
 				</div>
 				<div class="col-md-4">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens3.png"; ?>"/>
+					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens3.png"; ?>"/>
 					<h3>Treinamento</h3>
 					<p>Treinamento online, presencial com visitas de nossos consultores ou em nosso próprio Centro de Treinamento.</p>				
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens4.png"; ?>"/>
+					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens4.png"; ?>"/>
 					<h3>Segurança</h3>
 					<p>Segurança é uma das principais características do sistema, é possível definir a permissão de cada um dos colaboradores.</p>				
 				</div>
 				<div class="col-md-4">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens5.png"; ?>"/>
+					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens5.png"; ?>"/>
 					<h3>Integração Total</h3>
 					<p>É possível integrar com qualquer sistema de terceiros, seja ele contábil, fiscal, agências, análise de crédito etc.</p>
 				</div>
 				<div class="col-md-4">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens6.png"; ?>"/>
+					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens6.png"; ?>"/>
 					<h3>Multi Versões</h3>
 					<p>Nosso sistema é o único no mercado com Multi Versões, de acordo com a real necessidade da sua locadora.</p>				
 				</div>

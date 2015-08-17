@@ -5,7 +5,7 @@ get_header('blog'); ?>
 <div id="content">
 	<div class="container">
 		<div class="row banner-blog">
-			<?php putRevSlider( "teste-slider" ) ?>
+			<?php putRevSlider( "banner-blog" ) ?>
 		</div>
 		<div class="row banner-menu">
 			<div class="col-md-4 blog-categoria-a"><h4><a href="">Empreendedorismo</a></h4></div>

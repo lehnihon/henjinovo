@@ -20,6 +20,63 @@
 	}
 	.footer-baixo{
 		background-color:#600406;
+
+        .redes_sociais_header{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            height: 22px;
+            text-align: left;
+            list-style:none;
+            float:right;
+            padding-left: 10px;
+        }
+
+        .redes_sociais_header li:hover{
+            opacity: 0.6;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+
+        .redes_sociais_header a{
+            display: inline-block;
+            width:22px;
+            height:20px;
+        }
+
+        .redes_sociais_header .youtube{
+            background-image: url("images/redes-sociais.png");
+            background-position: left,center;
+            background-repeat:no-repeat;
+            width:22px;
+            height:20px;
+            display:inline-block;       
+        }
+
+        .redes_sociais_header .instagram{
+            background-image: url("images/redes-sociais.png");
+            background-position: -26px,center;
+            background-repeat:no-repeat;
+            width:22px;
+            height:20px;
+            display:inline-block;       
+        }
+
+        .redes_sociais_header .twitter{
+            background-image: url("images/redes-sociais.png");
+            background-position: -52px,center;
+            background-repeat:no-repeat;
+            width:22px;
+            height:20px;
+            display:inline-block;       
+        }
+
+        .redes_sociais_header .facebook{
+            background-image: url("images/redes-sociais.png");
+            background-position: -80px,center;
+            background-repeat:no-repeat;
+            width:22px;
+            height:20px;
+            display:inline-block;       
+        }
 	}
 }
 

@@ -55,7 +55,12 @@
 		<div class="footer-baixo">
 			<div class="container">
 				&copy; Copyright- Henji <a href=#>Site desenvolvido pela Agência Rino.</a>
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/redes-sociais.png"; ?>"/>
+				<ul class="redes_sociais_header">
+					<li class="youtube"><a target="_blank" href="#"></a></li>
+					<li class="instagram"><a target="_blank" href="#"></a></li>
+					<li class="twitter"><a target="_blank" href="#"></a></li>
+					<li class="facebook"><a target="_blank" href="#"></a></li>
+				</ul>
 			</div>
 		</div>
 	</footer><!-- #footer -->
