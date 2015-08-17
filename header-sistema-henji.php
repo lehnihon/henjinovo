@@ -15,10 +15,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<script type="text/javascript" src="<?php echo dirname( get_bloginfo('stylesheet_url')) ?> /js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="<?php echo dirname( get_bloginfo('stylesheet_url')) ?>/js/script.js"></script>
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<header id="header" class="banner-criacao-de-site">
+	<header id="header" class="banner-sistema-henji">
 		<?php get_template_part( 'header-part' ); ?>

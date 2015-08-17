@@ -14,7 +14,7 @@
 		<div class="footer-cima">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-4">
+					<div class="col-md-4">
 						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/>
 						<p><strong>Liderança não se conquista por acaso.</strong></p>
 						<p>
@@ -22,7 +22,7 @@
 							Nossos sistemas foram desenvolvidos exclusivamente para atender as necessidades da sua locadora.
 						</p>
 					</div>
-					<div class="col-xs-2 col-xs-offset-2">
+					<div class="col-md-2 col-md-offset-2">
 						<p><strong>Produtos</strong></p>
 						<ul>
 							<li><a href="">Sistema Henji</a></li>
@@ -32,7 +32,7 @@
 							<li><a href="">Solicite uma senha</a></li>
 						</ul>
 					</div>
-					<div class="col-xs-2">
+					<div class="col-md-2">
 						<p><strong>Institucional</strong></p>
 						<ul>
 							<li><a href="">Sobre a Henji</a></li>
@@ -40,7 +40,7 @@
 							<li><a href="">Localização</a></li>
 						</ul>
 					</div>
-					<div class="col-xs-2">
+					<div class="col-md-2">
 						<p><strong>Atendimento</strong></p>
 						<ul>
 							<li><a href="">Suporte</a></li>
@@ -60,7 +60,9 @@
 		</div>
 	</footer><!-- #footer -->
 </div><!-- #page -->
-
+<script>
+	var dirbase = "<?php echo dirname( get_bloginfo('stylesheet_url')) ?>";
+</script>
 <?php wp_footer(); ?>
 
 </body>
