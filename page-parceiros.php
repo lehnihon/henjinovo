@@ -28,19 +28,19 @@ get_header('parceiros'); ?>
 		<div class="container">
 			<div class="row parceiros-pag">
 				<div class="col-md-2 col-md-offset-1">
-					<a href=""><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro1.jpg"; ?>"/></a>					
+					<a target="_blank" href="http://www.abla.com.br"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro1.jpg"; ?>"/></a>					
 				</div>
 				<div class="col-md-2">
-					<a href=""><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro2.jpg"; ?>"/></a>					
+					<a target="_blank" href="http://www.clickseminovos.com.br"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro2.jpg"; ?>"/></a>					
 				</div>
 				<div class="col-md-2">
-					<a href=""><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro3.jpg"; ?>"/></a>					
+					<a target="_blank" href="http://www.yacp.com.br"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro3.jpg"; ?>"/></a>					
 				</div>
 				<div class="col-md-2">
-					<a href=""><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro4.jpg"; ?>"/></a>					
+					<a target="_blank" href="http://www.weblocadoras.com.br/portal/view/index.php"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro4.jpg"; ?>"/></a>					
 				</div>
 				<div class="col-md-2">
-					<a href=""><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro5.jpg"; ?>"/></a>					
+					<a target="_blank" href="http://www.segurototal.com.br/view/index.php"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro5.jpg"; ?>"/></a>					
 				</div>
 			</div>
 		</div>

@@ -33,6 +33,9 @@
 				'link_after' => '</span>'
 			) ); ?>
 		</div> <!-- /.entry-content -->
-	<?php } ?>
+	<?php } ?><br>
+	<p>
+		<a href="<?php echo esc_url( home_url( '/' ))."/blog/"; ?>">Voltar</a>
+	</p>
 </article> <!-- /#post -->
 

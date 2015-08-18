@@ -16,10 +16,10 @@ get_header('sistema-henji'); ?>
 		<div class="container">
 			<div class="col-md-6">
 				<h2>SISTEMA HENJI</h2>
-				<h3>Sistema de Gestão para Locadoras de Veículos</h3>
+				<h3>Sistema de Gestão para Locadoras de Veículos</h3><br>
 				<p>
-					O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos quando e aonde você estiver. <br>
-					É um sistema de gestão completo que vai atender todas as necessidades da sua empresa, seja ela de pequeno, médio ou grande porte. <br>
+					O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos quando e aonde você estiver. <br><br>
+					É um sistema de gestão completo que vai atender todas as necessidades da sua empresa, seja ela de pequeno, médio ou grande porte. <br><br>
 					O sistema Henji tem diferentes níveis de controle e acesso, além de poder ser acessado de qualquer lugar, basta ter uma conexão com internet.
 				</p>				
 			</div>	
@@ -45,7 +45,7 @@ get_header('sistema-henji'); ?>
 			</div>
 			<div class="row">
 				<div class="col-md-2 text-right">
-					<img class="botaoa closed" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
+					<img class="botaoa closed e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
 					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji1.png"; ?>"/>
 				</div>
 				<div class="col-md-10">
@@ -73,7 +73,7 @@ get_header('sistema-henji'); ?>
 			</div>
 			<div class="row">
 				<div class="col-md-2 text-right">
-					<img class="botaob closed" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
+					<img class="botaob closed e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
 					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji2.png"; ?>"/>
 				</div>
 				<div class="col-md-10">
@@ -123,7 +123,7 @@ get_header('sistema-henji'); ?>
 
 			<div class="row">
 				<div class="col-md-2 text-right">
-					<img class="botaoc closed" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
+					<img class="botaoc closed e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
 					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji3.png"; ?>"/>
 				</div>
 				<div class="col-md-10">
@@ -206,7 +206,7 @@ get_header('sistema-henji'); ?>
 
 			<div class="row">
 				<div class="col-md-2 text-right">
-					<img class="botaod closed" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
+					<img class="botaod closed e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
 					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji4.png"; ?>"/>
 				</div>
 				<div class="col-md-10">
@@ -254,7 +254,7 @@ get_header('sistema-henji'); ?>
 
 			<div class="row">
 				<div class="col-md-2 text-right">
-					<img class="botaoe closed" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
+					<img class="botaoe closed e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
 					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji5.png"; ?>"/>
 				</div>
 				<div class="col-md-10">
@@ -320,7 +320,7 @@ get_header('sistema-henji'); ?>
 			</div>
 
 			<div class="row text-center">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite-senha.png"; ?>"/>
+				<a href="<?php echo esc_url( home_url( '/' ))."/solicite-uma-senha/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite-senha.png"; ?>"/></a>
 			</div>
 		</div>
 	</div>
@@ -349,7 +349,7 @@ get_header('sistema-henji'); ?>
 							<p>Histórico de manutenções dos veículos</p>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
 					</div>	
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -369,7 +369,7 @@ get_header('sistema-henji'); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 					</div>					
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -389,7 +389,7 @@ get_header('sistema-henji'); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>						
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
 					</div>					
 				</div>
 			</div>

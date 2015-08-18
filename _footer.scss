@@ -11,12 +11,19 @@
 				list-style: none;
 				a{
 					color:#FFFFFF;		
-				}				
+				}	
+                a:hover{
+                    color:#2d9e9a;
+                    text-decoration: none;
+                }			
 			}
 		}
 	}
 	.footer-cima{
 		background-color:#9e151a;
+        img{
+            margin-bottom: 20px;
+        }
 	}
 	.footer-baixo{
 		background-color:#600406;

@@ -25,27 +25,27 @@
 					<div class="col-md-2 col-md-offset-2">
 						<p><strong>Produtos</strong></p>
 						<ul>
-							<li><a href="">Sistema Henji</a></li>
-							<li><a href="">GMD</a></li>
-							<li><a href="">Locação de Máquinas</a></li>
-							<li><a href="">Criação de Site</a></li>
-							<li><a href="">Solicite uma senha</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">Sistema Henji</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>">GMD</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">Locação de Máquinas</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>">Criação de Site</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/solicite-uma-senha/"; ?>">Solicite uma senha</a></li>
 						</ul>
 					</div>
 					<div class="col-md-2">
 						<p><strong>Institucional</strong></p>
 						<ul>
-							<li><a href="">Sobre a Henji</a></li>
-							<li><a href="">Parceiros</a></li>
-							<li><a href="">Localização</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/sobre/"; ?>">Sobre a Henji</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/parceiros/"; ?>">Parceiros</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>">Localização</a></li>
 						</ul>
 					</div>
 					<div class="col-md-2">
 						<p><strong>Atendimento</strong></p>
 						<ul>
-							<li><a href="">Suporte</a></li>
-							<li><a href="">Contato</a></li>
-							<li><a href="">Blog da Henji</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>">Suporte</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>">Contato</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."/blog/"; ?>">Blog da Henji</a></li>
 							<li>11 4332-8787</li>
 						</ul>
 					</div>
@@ -54,12 +54,12 @@
 		
 		<div class="footer-baixo">
 			<div class="container">
-				&copy; Copyright- Henji <a href=#>Site desenvolvido pela Agência Rino.</a>
+				&copy; Copyright- Henji <a href="#">Site desenvolvido pela Agência Rino.</a>
 				<ul class="redes_sociais_header">
-					<li class="youtube"><a target="_blank" href="#"></a></li>
-					<li class="instagram"><a target="_blank" href="#"></a></li>
-					<li class="twitter"><a target="_blank" href="#"></a></li>
-					<li class="facebook"><a target="_blank" href="#"></a></li>
+					<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCNkHrw4ujO_bUW7nmrPF1TA"></a></li>
+					<li class="instagram"><a target="_blank" href="https://instagram.com/henjioficial"></a></li>
+					<li class="twitter"><a target="_blank" href="https://twitter.com/henjioficial"></a></li>
+					<li class="facebook"><a target="_blank" href="https://www.facebook.com/henjioficial"></a></li>
 				</ul>
 			</div>
 		</div>

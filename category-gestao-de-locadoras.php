@@ -8,16 +8,18 @@ get_header('blog'); ?>
 			<?php putRevSlider( "banner-blog" ) ?>
 		</div>
 		<div class="row banner-menu">
-			<div class="col-md-4 blog-categoria-a"><h4><a href="<?php echo esc_url( home_url( '/' ))."/categoria/empreendedorismo/"; ?>">Empreendedorismo</a></h4></div>
-			<div class="col-md-4 blog-categoria-b"><h4><a href="<?php echo esc_url( home_url( '/' ))."/categoria/noticias-sobre-automoveis/"; ?>">Notícias sobre automóveis</a></h4></div>
-			<div class="col-md-4 blog-categoria-c"><h4><a href="<?php echo esc_url( home_url( '/' ))."/categoria/gestao-de-locadoras/"; ?>">Gestões de Locadoras</a></h4></div>
+			<div class="col-md-4 blog-categoria-a"><h4><a href="">Empreendedorismo</a></h4></div>
+			<div class="col-md-4 blog-categoria-b"><h4><a href="">Notícias sobre automóveis</a></h4></div>
+			<div class="col-md-4 blog-categoria-c"><h4><a href="">Gestões de Locadoras</a></h4></div>
 		</div>
 		<div class="row blog-articles">
 			<div class="col-md-8">
 				<?php 
 				$args = array(
 				    'orderby' => 'post_date',
-				    'order' => 'DESC');
+				    'order' => 'DESC',
+				    'category_name' => 'gestao-de-locadoras'
+					);
 				$query = new WP_Query( $args ); 
 				?>	
 

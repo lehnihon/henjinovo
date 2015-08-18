@@ -12,11 +12,11 @@
  */
 
 get_header('gmd'); ?>
-	<div class="banner-formulario">
+	<div class="banner-formulario" style="padding-top:30px">
 		<div class="container">
 			<div class="col-md-6">
 				<h2>MÓDULO GMD</h2>
-				<h3>Gerenciamento de Manutenção á Distância</h3>
+				<h3>Gerenciamento de Manutenção á Distância</h3><br>
 				<p>
 					Neste módulo é possível realizar as cotações, negociações e aberturas de Ordens de Serviços pela Internet através da sua própria rede
 					 de prestadores de serviços credenciados <br><br>
@@ -45,13 +45,13 @@ get_header('gmd'); ?>
 	<div class="secao-b">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 text-left">
 					<p>Abertura e análise de orçamentos online, conectado diretamente com seu prestador, sem intermediários, reduzindo custos de manutenção e mão de obra.</p>
 					<p>tenha um ganho de qualificação profissional de sua rede credenciada e seus funcionários, com acompanhamento de metas estabelecidas e níveis de aprovação.</p>
 					<p>Integração total com o módulo de manutenção.</p>
 					<p>Converta comissões pagas em descontos.</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 text-left">
 					<p>Criação de rede credenciada para seu cliente.</p>
 					<p>Análise de serviços executados através de fornecedores por região.</p>
 					<p>Histórico de manutenções dos veículos.</p>
@@ -60,7 +60,7 @@ get_header('gmd'); ?>
 				</div>
 			</div>
 			<div class="row">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite-senha.png"; ?>"/>
+				<a href="<?php echo esc_url( home_url( '/' ))."/solicite-uma-senha/"; ?>"><img class="e-claro" style="margin-top:20px" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite-senha.png"; ?>"/></a>
 			</div>
 		</div>
 	</div>
@@ -89,7 +89,7 @@ get_header('gmd'); ?>
 							<p>Módulo Manutenção</p>
 							<p>Módulo Financeiro</p>			
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 					</div>				
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -109,7 +109,7 @@ get_header('gmd'); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 					</div>					
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -129,7 +129,7 @@ get_header('gmd'); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>						
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
 					</div>					
 				</div>
 			</div>

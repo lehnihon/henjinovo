@@ -75,7 +75,7 @@ function site_setup() {
 		'default-image' => '',
 	) ) );
 
-	add_image_size('home-thumb',750,200,true);
+	add_image_size('home-thumb',750,300,true);
 }
 endif; // site_setup
 add_action( 'after_setup_theme', 'site_setup' );

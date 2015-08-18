@@ -16,9 +16,9 @@ get_header('locacao-de-maquinas'); ?>
 		<div class="container">
 			<div class="col-md-6">
 				<h2>SISTEMA LOCMAQ</h2>
-				<h3>Sistema de Gestão para locadoras de máquinas</h3>
+				<h3>Sistema de Gestão para locadoras de máquinas</h3><br>
 				<p>
-					O Sistema de Locação de Máquinas da Henji, coloca sua empresa em suas mãos quando e aonde você estiver. <br>
+					O Sistema de Locação de Máquinas da Henji, coloca sua empresa em suas mãos quando e aonde você estiver. <br><br>
 					É um sistema de gestão completo que vai atender todas as necessidades da sua empresa, seja ela de pequeno, médio ou grande porte. <br>
 				</p>				
 			</div>	
@@ -40,10 +40,10 @@ get_header('locacao-de-maquinas'); ?>
 	<div class="secao-b">
 		<div class="container">
 			<div class="row">
-				<h4><strong>Funcionalidades do sistema LocMaq</strong></h4>
+				<h4><strong>Funcionalidades do sistema LocMaq</strong></h4><br>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 text-left">
 					<p>Cadastramento das características das máquinas/equipamentos (retroescavadeiras, misturador de contreto, parafusadeiras),</p>
 					<p>Controle sobre aquisição das máquinas/equipoamentos via Contratos de Financiamento (parcelas pagas, a pagar e saldo devedor por contrato),</p>
 					<p>Controle da área financeira da Empresa através do Contas a Pagar (fornecedores),</p>
@@ -54,7 +54,7 @@ get_header('locacao-de-maquinas'); ?>
 					<p>Controles sobre a Locação das máquinas/equipamentos a curto ou longo prazo (contratos origem, diários ou mensais),</p>
 					<p>Controle sobre as manutenções realizadas (histórico),</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 text-left">
 					<p>Controle sobre toda movimentação das máquinas/equipamentos (interna ou externa),</p>			
 					<p>Controle sobre toda movimentação financeira da empresa (entradas e saídas de receita),</p>
 					<p>Controle sobre a manutenção das máquinas/equipamentos (via ordem de serviço),</p>
@@ -64,9 +64,9 @@ get_header('locacao-de-maquinas'); ?>
 					<p>Controle sobre as máquinas/equipamentos de terceiros,</p>
 					<p>Relatórios específicos por categoria diários ou acumulativos (Frota, Manutenção, Operacional e financeiros).</p>
 				</div>
-			</div>
+			</div><br>
 			<div class="row">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite-senha.png"; ?>"/>
+				<a href="<?php echo esc_url( home_url( '/' ))."/solicite-uma-senha/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite-senha.png"; ?>"/></a>
 			</div>
 		</div>
 	</div>
@@ -95,7 +95,7 @@ get_header('locacao-de-maquinas'); ?>
 							<p>Módulo Manutenção</p>
 							<p>Módulo Financeiro</p>			
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 					</div>				
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -115,7 +115,7 @@ get_header('locacao-de-maquinas'); ?>
 							<p>Histórico de manutenções dos veículos</p>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
 					</div>	
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -135,7 +135,7 @@ get_header('locacao-de-maquinas'); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>						
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
 					</div>					
 				</div>
 			</div>

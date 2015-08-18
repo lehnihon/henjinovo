@@ -16,10 +16,10 @@ get_header('criacao-de-site'); ?>
 		<div class="container">
 			<div class="col-md-6">
 				<h2>CRIAÇÃO DE SITES</h2>
-				<h3>Tenha um site profissional para sua empresa</h3>
+				<h3>Tenha um site profissional para sua empresa</h3><br>
 				<p>
-					Estamos inovando mais uma vez, oferecendo o serviço de criação de sites para locadoras de veículos. <br>
-					O serviço de criação de sites, com o objetivo de auxiliar sua locadora de veículos a aumentar as vendas. Um site profissional e bem desenvolvido vai atrair cada vez mais clientes para a sua locadora <br>
+					Estamos inovando mais uma vez, oferecendo o serviço de criação de sites para locadoras de veículos. <br><br>
+					O serviço de criação de sites, com o objetivo de auxiliar sua locadora de veículos a aumentar as vendas. Um site profissional e bem desenvolvido vai atrair cada vez mais clientes para a sua locadora <br><br>
 					Se você ainda não possui um site, está deixando de participar de um universo com mais de 105 milhões de pessoas só aqui no Brasil.
 				</p>				
 			</div>	
@@ -73,9 +73,9 @@ get_header('criacao-de-site'); ?>
 						<li>Personalização de cores</li>
 					</ul>
 				</div>
-			</div>
+			</div><br>
 			<div class="row">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contrate-agora.png"; ?>"/>
+				<a href="<?php echo esc_url( home_url( '/' ))."/contrate/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contrate-agora.png"; ?>"/></a>
 			</div>
 		</div>
 	</div>
@@ -104,7 +104,7 @@ get_header('criacao-de-site'); ?>
 							<p>Módulo Manutenção</p>
 							<p>Módulo Financeiro</p>			
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 					</div>				
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -124,7 +124,7 @@ get_header('criacao-de-site'); ?>
 							<p>Histórico de manutenções dos veículos</p>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
 					</div>	
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -144,7 +144,7 @@ get_header('criacao-de-site'); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquina/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 					</div>					
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 <nav class="menu-aux">
-  <div class="container blog">
-	<ul class="dados-topo">
+  <div class="container">
+	<ul class="dados-topo-vermelho">
 		<li>Fale Conosco</li>
 		<li>11 4332-8787</li>
 		<li>contato@henji.com.br</li>
@@ -16,14 +16,12 @@
 <nav class="menu-principal">
   <div class="container">
     	<span class="pull-left logo-header"><a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/></a></span>
-		<span class="pull-right"><?php get_search_form(); ?></span>
-  </div><!-- /.container -->
-</nav>
-<nav class="menu-aux">
-  <div class="container blog">
-	<ul class="pull-right">
-		<li><a href="<?php echo esc_url( home_url( '/' ))."/sobre/"; ?>"><strong>A HENJI</strong></a></li>
-		<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>"><strong>CONTATO</strong></a></li>
-	</ul>
+		<ul>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."/sobre/"; ?>">A HENJI</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."/produtos/"; ?>">PRODUTOS</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."/parceiros/"; ?>">PARCEIROS</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."/blog/"; ?>">BLOG</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>">CONTATO</a></li>
+		</ul>
   </div><!-- /.container -->
 </nav>

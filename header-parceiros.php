@@ -22,4 +22,4 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="header">
-		<?php get_template_part( 'header-part' ); ?>
+		<?php get_template_part( 'header-part-contato' ); ?>
