@@ -33,36 +33,48 @@ get_header(); ?>
 		<div class="container">
 			<div class="row row-spacing">
 				<div class="col-md-4">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens1.png"; ?>"/>
-					<h3 class="e-under">Perfeito para a sua empresa</h3>
-					<p class="e-under">Atende todos os nichos de locação de veículos, seja terceirização de frota, rent a car, pacotes, semanal etc.</p>
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens1.png"; ?>"/>
+						<h3>Perfeito para a sua empresa</h3>
+						<p>Atende todos os nichos de locação de veículos, seja terceirização de frota, rent a car, pacotes, semanal etc.</p>
+					</a>
 				</div>
 				<div class="col-md-4">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens2.png"; ?>"/>
-					<h3>Possibilidade de customizações</h3>
-					<p>O sistema pode ser configurado de acordo com o perfil da sua locadora, diferente do "pacote fechado" da concorrência.</p>				
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens2.png"; ?>"/>
+						<h3>Possibilidade de customizações</h3>
+						<p>O sistema pode ser configurado de acordo com o perfil da sua locadora, diferente do "pacote fechado" da concorrência.</p>				
+					</a>
 				</div>
 				<div class="col-md-4">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens3.png"; ?>"/>
-					<h3>Treinamento</h3>
-					<p>Treinamento online, presencial com visitas de nossos consultores ou em nosso próprio Centro de Treinamento.</p>				
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens3.png"; ?>"/>
+						<h3>Treinamento</h3>
+						<p>Treinamento online, presencial com visitas de nossos consultores ou em nosso próprio Centro de Treinamento.</p>	
+					</a>			
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens4.png"; ?>"/>
-					<h3>Segurança</h3>
-					<p>Segurança é uma das principais características do sistema, é possível definir a permissão de cada um dos colaboradores.</p>				
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens4.png"; ?>"/>
+						<h3>Segurança</h3>
+						<p>Segurança é uma das principais características do sistema, é possível definir a permissão de cada um dos colaboradores.</p>	
+					</a>			
 				</div>
 				<div class="col-md-4">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens5.png"; ?>"/>
-					<h3>Integração Total</h3>
-					<p>É possível integrar com qualquer sistema de terceiros, seja ele contábil, fiscal, agências, análise de crédito etc.</p>
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens5.png"; ?>"/>
+						<h3>Integração Total</h3>
+						<p>É possível integrar com qualquer sistema de terceiros, seja ele contábil, fiscal, agências, análise de crédito etc.</p>
+					</a>
 				</div>
 				<div class="col-md-4">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens6.png"; ?>"/>
-					<h3>Multi Versões</h3>
-					<p>Nosso sistema é o único no mercado com Multi Versões, de acordo com a real necessidade da sua locadora.</p>				
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/vantagens6.png"; ?>"/>
+						<h3>Multi Versões</h3>
+						<p>Nosso sistema é o único no mercado com Multi Versões, de acordo com a real necessidade da sua locadora.</p>	
+					</a>			
 				</div>
 			</div>
 		</div>
@@ -78,7 +90,7 @@ get_header(); ?>
 				<div class="col-md-3 solucoes-padding">
 					<div class="solucoes-quadro">
 						<div class="quadro-cima">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>"/>
+							<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>"/>
 							<p>
 								<strong>SISTEMA HENJI</strong><br/><br/>
 								O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos e aonde você estiver.
@@ -92,13 +104,13 @@ get_header(); ?>
 							<p>Módulo Manutenção</p>
 							<p>Módulo Financeiro</p>			
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 					</div>				
 				</div>
 				<div class="col-md-3 solucoes-padding">
 					<div class="solucoes-quadro">
 						<div class="quadro-cima">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>"/>
+							<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>"/>
 							<p>
 								<strong>MÓDULO GMD</strong><br/><br/>
 								Realize cotações, aberturas de Ordens de Serviços através de seus prestadores de serviços.
@@ -112,13 +124,13 @@ get_header(); ?>
 							<p>Histórico de manutenções dos veículos</p>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
 					</div>	
 				</div>
 				<div class="col-md-3 solucoes-padding">
 					<div class="solucoes-quadro">
 						<div class="quadro-cima">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>"/>
+							<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>"/>
 							<p>
 								<strong>LOCAÇÃO DE MÁQUINAS</strong><br/><br/>
 								O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos e aonde você estiver.
@@ -132,13 +144,13 @@ get_header(); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 					</div>					
 				</div>
 				<div class="col-md-3 solucoes-padding">
 					<div class="solucoes-quadro">
 						<div class="quadro-cima">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>"/>
+							<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>"/>
 							<p>
 								<strong>CRIAÇÃO DE SITES</strong><br/><br/>
 								A Henji em parceria está oferecendo o serviço de criação de sites, para auxiliar o aumento das suas vendas.
@@ -152,7 +164,7 @@ get_header(); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>						
 						</div>
-						<a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
 					</div>					
 				</div>
 			</div>
@@ -163,7 +175,7 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-md-12">
 					<p>
-						<strong>Solicite uma senha temporária e confira o que a Henji pode fazer pela sua locadora</strong><a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicitar-agora.jpg"; ?>"/></a>
+						<strong>Solicite uma senha temporária e confira o que a Henji pode fazer pela sua locadora</strong><a class="e-claro" href="<?php echo esc_url( home_url( '/' ))."/solicite-uma-senha/"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicitar-agora.jpg"; ?>"/></a>
 					</p>
 				</div>
 			</div>
@@ -182,29 +194,39 @@ get_header(); ?>
 			</div>
 			<div class="row">
 				<div class="col-md-2 col-md-offset-1">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji1.png"; ?>"/>
-					<h3>Central de Reservas</h3>
-					<p>Tenha seu próprio site com sua Central de Reservas online.</p>		
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji1.png"; ?>"/>
+						<h3>Central de Reservas</h3>
+						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+					</a>		
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji2.png"; ?>"/>
-					<h3>Módulo Frota</h3>
-					<p>Tenha seu próprio site com sua Central de Reservas online.</p>		
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji2.png"; ?>"/>
+						<h3>Módulo Frota</h3>
+						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+					</a>		
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji3.png"; ?>"/>
-					<h3>Módulo Operacional</h3>
-					<p>Tenha seu próprio site com sua Central de Reservas online.</p>		
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji3.png"; ?>"/>
+						<h3>Módulo Operacional</h3>
+						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+					</a>		
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji4.png"; ?>"/>
-					<h3>Módulo Manutenção</h3>
-					<p>Tenha seu próprio site com sua Central de Reservas online.</p>		
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji4.png"; ?>"/>
+						<h3>Módulo Manutenção</h3>
+						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+					</a>		
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji5.png"; ?>"/>
-					<h3>Módulo Financeiro</h3>
-					<p>Tenha seu próprio site com sua Central de Reservas online.</p>		
+					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji5.png"; ?>"/>
+						<h3>Módulo Financeiro</h3>
+						<p>Tenha seu próprio site com sua Central de Reservas online.</p>	
+					</a>	
 				</div>	
 			</div>
 		</div>
@@ -227,29 +249,39 @@ get_header(); ?>
 			</div>
 			<div class="row">
 				<div class="col-md-2 col-md-offset-1">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao1.png"; ?>"/>
-					<h3>Emissão de Notas</h3>
-					<p>Tenha seu próprio site com sua Central de Reservas online.</p>		
+					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
+						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao1.png"; ?>"/>
+						<h3>Emissão de Notas</h3>
+						<p>Tenha seu próprio site com sua Central de Reservas online.</p>	
+					</a>	
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao2.png"; ?>"/>
-					<h3>Controle por período</h3>
-					<p>Tenha seu próprio site com sua Central de Reservas online.</p>		
+					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
+						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao2.png"; ?>"/>
+						<h3>Controle por período</h3>
+						<p>Tenha seu próprio site com sua Central de Reservas online.</p>	
+					</a>	
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao3.png"; ?>"/>
-					<h3>Contas a pagar</h3>
-					<p>Tenha seu próprio site com sua Central de Reservas online.</p>		
+					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
+						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao3.png"; ?>"/>
+						<h3>Contas a pagar</h3>
+						<p>Tenha seu próprio site com sua Central de Reservas online.</p>	
+					</a>	
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao4.png"; ?>"/>
-					<h3>Relatórios</h3>
-					<p>Tenha seu próprio site com sua Central de Reservas online.</p>		
+					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
+						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao4.png"; ?>"/>
+						<h3>Relatórios</h3>
+						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+					</a>		
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao5.png"; ?>"/>
-					<h3>Controle de Máquinas</h3>
-					<p>Tenha seu próprio site com sua Central de Reservas online.</p>		
+					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
+						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao5.png"; ?>"/>
+						<h3>Controle de Máquinas</h3>
+						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+					</a>		
 				</div>	
 			</div>
 		</div>

@@ -15,13 +15,13 @@
 </nav>
 <nav class="menu-principal">
   <div class="container">
-    	<span class="pull-left logo-header"><a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/></a></span>
+    	<span class="pull-left logo-header"><a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/></a></span>
 		<ul>
-			<li><a href="">A HENJI</a></li>
-			<li><a href="">PRODUTOS</a></li>
-			<li><a href="">PARCEIROS</a></li>
-			<li><a href="">BLOG</a></li>
-			<li><a href="">CONTATO</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."/sobre/"; ?>">A HENJI</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."/produtos/"; ?>">PRODUTOS</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."/parceiros/"; ?>">PARCEIROS</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."/blog/"; ?>">BLOG</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>">CONTATO</a></li>
 		</ul>
   </div><!-- /.container -->
 </nav>

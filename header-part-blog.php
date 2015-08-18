@@ -15,15 +15,15 @@
 </nav>
 <nav class="menu-principal">
   <div class="container">
-    	<span class="pull-left logo-header"><a href=""><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/></a></span>
+    	<span class="pull-left logo-header"><a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/></a></span>
 		<span class="pull-right"><?php get_search_form(); ?></span>
   </div><!-- /.container -->
 </nav>
 <nav class="menu-aux">
   <div class="container blog">
 	<ul class="pull-right">
-		<li><a href=""><strong>A HENJI</strong></a></li>
-		<li><a href=""><strong>CONTATO</strong></a></li>
+		<li><a href="<?php echo esc_url( home_url( '/' ))."/sobre/"; ?>"><strong>A HENJI</strong></a></li>
+		<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>"><strong>CONTATO</strong></a></li>
 	</ul>
   </div><!-- /.container -->
 </nav>

@@ -33,6 +33,10 @@
 					}		
 				}
 			}
+			.solucoes-quadro:hover{
+				border:1px solid #9e151a;
+				border-bottom:8px solid #9e151a;
+			}
 		}
 	}
 
@@ -52,6 +56,12 @@
 
 			h5{
 				color:#9e151a;
+			}
+		}
+
+		.parceiros-pag{
+			img{
+				width: 100%;
 			}
 		}
 	}
