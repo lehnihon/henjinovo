@@ -15,7 +15,7 @@ get_header('criacao-de-sites'); ?>
 	<div class="banner-formulario">
 		<div class="container">
 			<div class="col-md-5">
-				<h2>Solicite uma senha temporária e confira o que o sistema da Henji pode oferecer para sua locadora de veículos.</h2>
+				<h2>Solicite uma senha temporária e confira o que o sistema da Henji pode oferecer para sua locadora de veículos.</h2><br>
 				<p>
 					Perfeito para sua empresa, <br>
 					Multi Versões, <br>

@@ -57,6 +57,20 @@
 			h5{
 				color:#9e151a;
 			}
+
+			.botaoa, .botaob, .botaoc, .botaod, .botaoe{
+				cursor: pointer;
+			}
+
+			.row{
+				padding:10px 0;
+
+				ul{
+					li{
+						padding:3px 0;
+					}
+				}
+			}
 		}
 
 		.parceiros-pag{
@@ -76,6 +90,10 @@
 			img{
 				margin-left: 20px;
 			}
+
+			p.senha-temp-box{
+				margin: 0;
+			}
 		}
 	}
 
@@ -84,10 +102,12 @@
 			padding:15px 20px;
 			h4{
 				margin: 0;
-
 				a{
 					color:#FFFFFF;	
-				}								
+				}	
+				a:hover{
+					color:#2d9e9a;	
+				}							
 			}
 	
 		}
@@ -102,13 +122,20 @@
 		}
 	}
 
+	aside{
+		overflow: hidden;
+	}
+
 	.newsletter-blog{
+		margin-bottom: 20px;
+
 		.head{
 			img{
 				width: 100%;
 			}
 		}
 		.content{
+			padding:10px;
 			background-color:#f7f7f7;
 		}
 	}
@@ -118,12 +145,18 @@
 
 		article{
 			text-align: left;
-	
+			padding-bottom: 30px;
+			margin-bottom: 40px;
+			border-bottom:1px dotted black;
+
 			h2{
 				a{
 					color:#9e151a;
 				}
 			}
+		}
+		article:last-child{
+			border-bottom:none;
 		}
 	}
 
@@ -194,46 +227,48 @@
 		.news-direito{
 			background-color:#f0f2f4;
 			text-align: left;
-			padding:0;
+			padding:35px 0;
 
 			img{
 				margin: 40px 0;
 			}
-		}
 
-		.newsletter-texto{
-			margin: 0;
-			margin-top: 35px;
-			p{
+			.newsletter-texto{
 				margin: 0;
+				margin-top: 35px;
+				p{
+					margin: 0;
+				}
+			}
+
+			.newsletter-nome-wrap{
+				margin: 0;
+			}
+			.newsletter-nome{
+				padding: 15px 5px;
+				margin-top: 35px;
+			}
+			.newsletter-email-wrap{
+				margin: 0;
+			}
+			.newsletter-email{
+				padding: 15px 5px;
+				margin-top: 35px;
+			}
+			.newsletter-enviar{
+				padding: 15px;
+				background-image: none;
+				background-color: #d60158;
+				color:white;
+				margin-top: 35px;
+			}
+			.newsletter-enviar:hover{
+			    opacity: 0.6;
+			    filter: alpha(opacity=60); /* For IE8 and earlier */
 			}
 		}
 
-		.newsletter-nome-wrap{
-			margin: 0;
-		}
-		.newsletter-nome{
-			padding: 15px 5px;
-			margin-top: 35px;
-		}
-		.newsletter-email-wrap{
-			margin: 0;
-		}
-		.newsletter-email{
-			padding: 15px 5px;
-			margin-top: 35px;
-		}
-		.newsletter-enviar{
-			padding: 15px;
-			background-image: none;
-			background-color: #d60158;
-			color:white;
-			margin-top: 35px;
-		}
-		.newsletter-enviar:hover{
-		    opacity: 0.6;
-		    filter: alpha(opacity=60); /* For IE8 and earlier */
-		}
+
 	}
 
 }

@@ -3,7 +3,7 @@ get_header('contrate'); ?>
 	<div class="banner-formulario">
 		<div class="container">
 			<div class="col-md-5">
-				<h2>Tenha um site profissional para sua empresa</h2>
+				<h2>Tenha um site profissional para sua empresa</h2><br>
 				<p>
 					Aumentar as vendas, <br>
 					Passa credibilidade, <br>

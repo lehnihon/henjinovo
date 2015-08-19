@@ -174,8 +174,8 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p>
-						<strong>Solicite uma senha temporária e confira o que a Henji pode fazer pela sua locadora</strong><a class="e-claro" href="<?php echo esc_url( home_url( '/' ))."/solicite-uma-senha/"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicitar-agora.jpg"; ?>"/></a>
+					<p class="senha-temp-box">
+						<strong>Solicite uma senha temporária e confira o que a Henji pode fazer pela sua locadora</strong><a class="e-cinza" href="<?php echo esc_url( home_url( '/' ))."/solicite-uma-senha/"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicitar-agora.jpg"; ?>"/></a>
 					</p>
 				</div>
 			</div>
@@ -295,19 +295,19 @@ get_header(); ?>
 			</div>
 			<div class="row">
 				<div class="col-md-2 col-md-offset-1">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro1.png"; ?>"/>		
+					<a target="_blank" href="http://www.abla.com.br"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro1.png"; ?>"/></a>		
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro2.png"; ?>"/>		
+					<a target="_blank" href="http://www.clickseminovos.com.br"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro2.png"; ?>"/></a>		
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro3.png"; ?>"/>	
+					<a target="_blank" href="http://www.yacp.com.br"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro3.png"; ?>"/></a>	
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro4.png"; ?>"/>		
+					<a target="_blank" href="http://www.weblocadoras.com.br/portal/view/index.php"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro4.png"; ?>"/></a>		
 				</div>	
 				<div class="col-md-2">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro5.png"; ?>"/>	
+					<a target="_blank" href="http://www.segurototal.com.br/view/index.php"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro5.png"; ?>"/></a>	
 				</div>	
 			</div>
 		</div>

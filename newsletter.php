@@ -14,8 +14,7 @@
 				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/newsletter.png"; ?>"/>
 			</div>		
 			<div class="col-md-7 news-direito" >
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/news-seta.png"; ?>"/>
-				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 6 ); }	?>		
+				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); }	?>		
 			</div>
 		</div>
 	</div>
