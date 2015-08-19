@@ -28,31 +28,59 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* line 28, style.scss */
 #page h1, #page h2, #page h3 {
   color: #9e151a;
+  line-height: 1.3;
 }
-/* line 32, style.scss */
+/* line 33, style.scss */
 #page h4, #page h5, #page h6 {
   color: #606060;
+  line-height: 1.3;
 }
-/* line 36, style.scss */
+/* line 38, style.scss */
 #page h4 {
   font-size: 16px;
 }
-/* line 40, style.scss */
+/* line 42, style.scss */
 #page h3 {
   font-size: 20px;
 }
-/* line 44, style.scss */
+/* line 46, style.scss */
 #page a {
   color: #606060;
 }
-/* line 47, style.scss */
+/* line 49, style.scss */
 #page a:hover {
   color: #2d9e9a;
   text-decoration: none;
 }
-/* line 52, style.scss */
+/* line 54, style.scss */
 #page .row-spacing {
   margin-bottom: 50px;
+}
+/* line 58, style.scss */
+#page .botao-enviar {
+  padding: 15px;
+  background-image: none;
+  background-color: #9e151a;
+  color: white;
+}
+/* line 64, style.scss */
+#page .botao-enviar:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+}
+/* line 69, style.scss */
+#page .botao-solicitar {
+  padding: 15px;
+  background-image: none;
+  background-color: #ffce00;
+  font-weight: bold;
+  color: #9e151a;
+}
+/* line 76, style.scss */
+#page .botao-solicitar:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 /* line 4, _header.scss */
 #page #header nav .container ul {
@@ -69,19 +97,23 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   padding: 10px;
   color: #FFFFFF;
 }
-/* line 22, _header.scss */
+/* line 21, _header.scss */
+#page #header nav.menu-aux .dados-topo {
+  padding-left: 0;
+}
+/* line 24, _header.scss */
 #page #header nav.menu-aux .dados-topo li {
   padding: 10px;
   color: #FFFFFF;
   font-size: small;
 }
-/* line 29, _header.scss */
+/* line 31, _header.scss */
 #page #header nav.menu-aux .dados-topo-vermelho li {
   padding: 10px;
   color: #9e151a;
   font-size: small;
 }
-/* line 36, _header.scss */
+/* line 38, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header {
   margin-top: 10px;
   margin-bottom: 5px;
@@ -91,19 +123,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   float: right;
   padding-left: 10px;
 }
-/* line 46, _header.scss */
+/* line 48, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header li:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
-/* line 51, _header.scss */
+/* line 53, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header a {
   display: inline-block;
   width: 22px;
   height: 20px;
 }
-/* line 57, _header.scss */
+/* line 59, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .youtube {
   background-image: url("images/redes-sociais.png");
   background-position: left,center;
@@ -112,218 +144,228 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   height: 20px;
   display: inline-block;
 }
-/* line 66, _header.scss */
+/* line 68, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .instagram {
   background-image: url("images/redes-sociais.png");
-  background-position: -26px, center;
+  background-position: -26px,center;
   background-repeat: no-repeat;
   width: 22px;
   height: 20px;
   display: inline-block;
 }
-/* line 75, _header.scss */
+/* line 77, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .twitter {
   background-image: url("images/redes-sociais.png");
-  background-position: -52px, center;
+  background-position: -52px,center;
   background-repeat: no-repeat;
   width: 22px;
   height: 20px;
   display: inline-block;
 }
-/* line 84, _header.scss */
+/* line 86, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .facebook {
   background-image: url("images/redes-sociais.png");
-  background-position: -80px, center;
+  background-position: -80px,center;
   background-repeat: no-repeat;
   width: 22px;
   height: 20px;
   display: inline-block;
 }
-/* line 100, _header.scss */
+/* line 102, _header.scss */
 #page #header nav.menu-aux .blog ul li {
   color: #9e151a;
 }
-/* line 102, _header.scss */
+/* line 104, _header.scss */
 #page #header nav.menu-aux .blog ul li a {
   color: #9e151a;
 }
-/* line 112, _header.scss */
+/* line 114, _header.scss */
 #page #header nav.menu-aux .container ul li a:hover {
   color: #2d9e9a;
 }
-/* line 120, _header.scss */
+/* line 122, _header.scss */
 #page #header nav.menu-principal {
   background-color: #9e151a;
 }
-/* line 124, _header.scss */
+/* line 126, _header.scss */
 #page #header nav.menu-principal .container .logo-header {
   padding: 7px;
   margin-right: 20px;
 }
-/* line 129, _header.scss */
+/* line 131, _header.scss */
 #page #header nav.menu-principal .container .search-form {
   padding: 10px;
 }
-/* line 132, _header.scss */
+/* line 134, _header.scss */
 #page #header nav.menu-principal .container .search-form .pesquisar-input {
   float: left;
   padding: 6px;
 }
-/* line 136, _header.scss */
+/* line 138, _header.scss */
 #page #header nav.menu-principal .container .search-form .pesquisar-submit {
   float: left;
 }
-/* line 143, _header.scss */
+/* line 145, _header.scss */
 #page #header nav.menu-principal .container ul li a {
   display: inline-block;
   padding: 20px 30px;
 }
-/* line 147, _header.scss */
+/* line 149, _header.scss */
 #page #header nav.menu-principal .container ul li a:hover {
   text-decoration: none;
   background-color: #BE191F;
 }
-/* line 158, _header.scss */
+/* line 160, _header.scss */
 #page header.banner-contrate {
   background-image: url("images/banner-contrate.png");
   width: 100%;
   height: 579px;
 }
-/* line 163, _header.scss */
+/* line 165, _header.scss */
 #page header.banner-contrate .banner-formulario {
-  padding: 80px 0;
+  padding: 50px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 168, _header.scss */
+/* line 170, _header.scss */
 #page header.banner-contrate .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 172, _header.scss */
+/* line 174, _header.scss */
 #page header.banner-contrate .banner-formulario .form-criacao-site {
+  padding: 20px;
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
 /* line 179, _header.scss */
+#page header.banner-contrate .banner-formulario .form-criacao-site form input[type=text] {
+  color: #606060;
+}
+/* line 187, _header.scss */
 #page header.banner-solicite-uma-senha {
   background-image: url("images/banner-solicite-uma-senha.png");
   width: 100%;
   height: 579px;
 }
-/* line 184, _header.scss */
+/* line 192, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario {
-  padding: 80px 0;
+  padding: 5px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 189, _header.scss */
+/* line 197, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 193, _header.scss */
-#page header.banner-solicite-uma-senha .banner-formulario .form-criacao-site {
+/* line 201, _header.scss */
+#page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha {
+  padding: 20px;
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 200, _header.scss */
+/* line 206, _header.scss */
+#page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha form input[type=text] {
+  color: #606060;
+}
+/* line 214, _header.scss */
 #page header.banner-locacao-de-maquinas {
   background-image: url("images/banner-locacao-de-maquinas.png");
   width: 100%;
   height: 579px;
 }
-/* line 205, _header.scss */
+/* line 219, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 210, _header.scss */
+/* line 224, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 213, _header.scss */
+/* line 227, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 216, _header.scss */
+/* line 230, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 223, _header.scss */
+/* line 237, _header.scss */
 #page header.banner-sistema-henji {
   background-image: url("images/banner-sistema-henji.png");
   width: 100%;
   height: 579px;
 }
-/* line 228, _header.scss */
+/* line 242, _header.scss */
 #page header.banner-sistema-henji .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 233, _header.scss */
+/* line 247, _header.scss */
 #page header.banner-sistema-henji .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 236, _header.scss */
+/* line 250, _header.scss */
 #page header.banner-sistema-henji .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 239, _header.scss */
+/* line 253, _header.scss */
 #page header.banner-sistema-henji .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 246, _header.scss */
+/* line 260, _header.scss */
 #page header.banner-criacao-de-site {
   background-image: url("images/banner-contrate.png");
   width: 100%;
   height: 579px;
 }
-/* line 251, _header.scss */
+/* line 265, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 256, _header.scss */
+/* line 270, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 260, _header.scss */
+/* line 274, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 264, _header.scss */
+/* line 278, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 271, _header.scss */
+/* line 286, _header.scss */
 #page header.banner-gmd {
   background-image: url("images/banner-gmd.png");
   width: 100%;
   height: 579px;
 }
-/* line 276, _header.scss */
+/* line 291, _header.scss */
 #page header.banner-gmd .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 281, _header.scss */
+/* line 296, _header.scss */
 #page header.banner-gmd .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 285, _header.scss */
+/* line 300, _header.scss */
 #page header.banner-gmd .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 289, _header.scss */
+/* line 304, _header.scss */
 #page header.banner-gmd .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
 /* line 3, _content.scss */
 #page #content .secao-a .container {
@@ -537,7 +579,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   /* IE10+ */
   background: linear-gradient(to right, #9e151a 43%, #f0f2f4 43%, #f0f2f4 43%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#feffff', endColorstr='#000000',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#000000',GradientType=1 );
   /* IE6-9 */
 }
 /* line 218, _content.scss */
@@ -553,48 +595,49 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page #content #newsletter-background .news-direito {
   background-color: #f0f2f4;
   text-align: left;
-  padding: 35px 0;
+  padding: 0;
+  min-height: 119px;
 }
-/* line 232, _content.scss */
+/* line 233, _content.scss */
 #page #content #newsletter-background .news-direito img {
   margin: 40px 0;
 }
-/* line 236, _content.scss */
+/* line 237, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-texto {
   margin: 0;
   margin-top: 35px;
 }
-/* line 239, _content.scss */
+/* line 240, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-texto p {
   margin: 0;
 }
-/* line 244, _content.scss */
+/* line 245, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-nome-wrap {
   margin: 0;
 }
-/* line 247, _content.scss */
+/* line 248, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-nome {
   padding: 15px 5px;
   margin-top: 35px;
 }
-/* line 251, _content.scss */
+/* line 252, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-email-wrap {
   margin: 0;
 }
-/* line 254, _content.scss */
+/* line 255, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-email {
   padding: 15px 5px;
   margin-top: 35px;
 }
-/* line 258, _content.scss */
+/* line 259, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-enviar {
   padding: 15px;
   background-image: none;
-  background-color: #d60158;
+  background-color: #9e151a;
   color: white;
   margin-top: 35px;
 }
-/* line 265, _content.scss */
+/* line 266, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-enviar:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
@@ -672,7 +715,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* line 61, _footer.scss */
 #page #footer .footer-baixo .redes_sociais_header .instagram {
   background-image: url("images/redes-sociais.png");
-  background-position: -26px, center;
+  background-position: -26px,center;
   background-repeat: no-repeat;
   width: 22px;
   height: 20px;
@@ -681,7 +724,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* line 70, _footer.scss */
 #page #footer .footer-baixo .redes_sociais_header .twitter {
   background-image: url("images/redes-sociais.png");
-  background-position: -52px, center;
+  background-position: -52px,center;
   background-repeat: no-repeat;
   width: 22px;
   height: 20px;
@@ -690,32 +733,34 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* line 79, _footer.scss */
 #page #footer .footer-baixo .redes_sociais_header .facebook {
   background-image: url("images/redes-sociais.png");
-  background-position: -80px, center;
+  background-position: -80px,center;
   background-repeat: no-repeat;
   width: 22px;
   height: 20px;
   display: inline-block;
 }
 
-/* line 61, style.scss */
+/* line 87, style.scss */
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
-/* line 66, style.scss */
+/* line 92, style.scss */
 .e-claro:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
 
-/* line 70, style.scss */
+/* line 96, style.scss */
 .e-under:hover {
   text-decoration: underline;
 }
 
-/* line 74, style.scss */
+/* line 100, style.scss */
 e-link:hover {
   color: #2d9e9a;
 }
+
+/*# sourceMappingURL=style.css.map */

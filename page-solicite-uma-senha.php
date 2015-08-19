@@ -11,10 +11,10 @@
  * @package site
  */
 
-get_header('criacao-de-sites'); ?>
+get_header('solicite-uma-senha'); ?>
 	<div class="banner-formulario">
 		<div class="container">
-			<div class="col-md-5">
+			<div class="col-md-5" style="padding-top:40px">
 				<h2>Solicite uma senha temporária e confira o que o sistema da Henji pode oferecer para sua locadora de veículos.</h2><br>
 				<p>
 					Perfeito para sua empresa, <br>
@@ -23,8 +23,8 @@ get_header('criacao-de-sites'); ?>
 					Segurança.
 				</p>				
 			</div>	
-			<div class="col-md-5 col-md-offset-2 form-criacao-site">
-				<p>formulario teste teste teste</p>
+			<div class="col-md-4 col-md-offset-2 form-solicite-uma-senha">
+				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 8 ); } ?>
 			</div>		
 		</div>
 	</div>	

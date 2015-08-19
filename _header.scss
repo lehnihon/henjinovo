@@ -19,6 +19,8 @@
     }
     nav.menu-aux{
         .dados-topo{
+            padding-left:0;
+            
             li{
                 padding: 10px;
                 color:#FFFFFF;
@@ -161,7 +163,7 @@ header.banner-contrate{
     height: 579px;
 
     .banner-formulario{
-        padding:80px 0;
+        padding:50px 0;
         text-align: left;
 
         color: #FFFFFF;
@@ -170,8 +172,14 @@ header.banner-contrate{
         }
 
         .form-criacao-site{
+            padding:20px;
             background-color:#9e151a;
-            background-color:rgba(111,10,13,0.7);       
+            background-color:rgba(111,10,13,0.7);  
+            form{
+                input[type=text]{  
+                    color:#606060;
+                }                
+            }        
         }   
     }
 }
@@ -182,7 +190,7 @@ header.banner-solicite-uma-senha{
     height: 579px;
 
     .banner-formulario{
-        padding:80px 0;
+        padding:5px 0;
         text-align: left;
 
         color: #FFFFFF;
@@ -190,9 +198,15 @@ header.banner-solicite-uma-senha{
             color: #FFFFFF;
         }
 
-        .form-criacao-site{
+        .form-solicite-uma-senha{
+            padding:20px;
             background-color:#9e151a;
-            background-color:rgba(111,10,13,0.7);       
+            background-color:rgba(111,10,13,0.7);  
+            form{
+                input[type=text]{  
+                    color:#606060;
+                }                
+            }        
         }   
     }
 }
@@ -263,7 +277,8 @@ header.banner-criacao-de-site{
 
         .form-criacao-site{
             background-color:#9e151a;
-            background-color:rgba(111,10,13,0.7);       
+            background-color:rgba(111,10,13,0.7); 
+ 
         }   
     }
 }

@@ -227,7 +227,8 @@
 		.news-direito{
 			background-color:#f0f2f4;
 			text-align: left;
-			padding:35px 0;
+			padding:0;
+			min-height: 119px;
 
 			img{
 				margin: 40px 0;
@@ -258,7 +259,7 @@
 			.newsletter-enviar{
 				padding: 15px;
 				background-image: none;
-				background-color: #d60158;
+				background-color: #9e151a;
 				color:white;
 				margin-top: 35px;
 			}

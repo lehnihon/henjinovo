@@ -2,7 +2,7 @@
 get_header('contrate'); ?>
 	<div class="banner-formulario">
 		<div class="container">
-			<div class="col-md-5">
+			<div class="col-md-5" style="padding-top:30px">
 				<h2>Tenha um site profissional para sua empresa</h2><br>
 				<p>
 					Aumentar as vendas, <br>
@@ -10,8 +10,8 @@ get_header('contrate'); ?>
 					Atrair mais clientes para sua locadora.
 				</p>				
 			</div>	
-			<div class="col-md-5 col-md-offset-2 form-criacao-site">
-				<p>formulario teste teste teste</p>
+			<div class="col-md-4 col-md-offset-2 form-criacao-site">
+				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 7 ); } ?>
 			</div>		
 		</div>
 	</div>	
