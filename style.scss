@@ -40,7 +40,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	h3{
 		font-size: 20px;
 	}
-	
+
 	a{
 		color:#606060;
 	}	
@@ -52,12 +52,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		margin-bottom: 50px;
 	}
 
-}
-
 	@import 'header';
 	@import 'content';
 	@import 'footer';
-
+}
 .e-cinza:hover{
 	-webkit-filter: grayscale(100%); 
 	filter: grayscale(100%);

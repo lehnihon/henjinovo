@@ -53,30 +53,29 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page .row-spacing {
   margin-bottom: 50px;
 }
-
 /* line 4, _header.scss */
-#header nav .container ul {
+#page #header nav .container ul {
   margin: 0;
 }
 /* line 6, _header.scss */
-#header nav .container ul li {
+#page #header nav .container ul li {
   list-style: none;
   float: left;
 }
 /* line 10, _header.scss */
-#header nav .container ul li a {
+#page #header nav .container ul li a {
   display: inline-block;
   padding: 10px;
   color: #FFFFFF;
 }
 /* line 22, _header.scss */
-#header nav.menu-aux .dados-topo li {
+#page #header nav.menu-aux .dados-topo li {
   padding: 10px;
   color: #FFFFFF;
   font-size: small;
 }
 /* line 29, _header.scss */
-#header nav.menu-aux .redes_sociais_header {
+#page #header nav.menu-aux .redes_sociais_header {
   margin-top: 10px;
   margin-bottom: 5px;
   height: 22px;
@@ -86,19 +85,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   padding-left: 10px;
 }
 /* line 39, _header.scss */
-#header nav.menu-aux .redes_sociais_header li:hover {
+#page #header nav.menu-aux .redes_sociais_header li:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
 /* line 44, _header.scss */
-#header nav.menu-aux .redes_sociais_header a {
+#page #header nav.menu-aux .redes_sociais_header a {
   display: inline-block;
   width: 22px;
   height: 20px;
 }
 /* line 50, _header.scss */
-#header nav.menu-aux .redes_sociais_header .youtube {
+#page #header nav.menu-aux .redes_sociais_header .youtube {
   background-image: url("images/redes-sociais.png");
   background-position: left,center;
   background-repeat: no-repeat;
@@ -107,7 +106,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   display: inline-block;
 }
 /* line 59, _header.scss */
-#header nav.menu-aux .redes_sociais_header .instagram {
+#page #header nav.menu-aux .redes_sociais_header .instagram {
   background-image: url("images/redes-sociais.png");
   background-position: -26px,center;
   background-repeat: no-repeat;
@@ -116,7 +115,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   display: inline-block;
 }
 /* line 68, _header.scss */
-#header nav.menu-aux .redes_sociais_header .twitter {
+#page #header nav.menu-aux .redes_sociais_header .twitter {
   background-image: url("images/redes-sociais.png");
   background-position: -52px,center;
   background-repeat: no-repeat;
@@ -125,7 +124,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   display: inline-block;
 }
 /* line 77, _header.scss */
-#header nav.menu-aux .redes_sociais_header .facebook {
+#page #header nav.menu-aux .redes_sociais_header .facebook {
   background-image: url("images/redes-sociais.png");
   background-position: -80px,center;
   background-repeat: no-repeat;
@@ -134,358 +133,351 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   display: inline-block;
 }
 /* line 93, _header.scss */
-#header nav.menu-aux .blog ul li {
+#page #header nav.menu-aux .blog ul li {
   color: #9e151a;
 }
 /* line 95, _header.scss */
-#header nav.menu-aux .blog ul li a {
+#page #header nav.menu-aux .blog ul li a {
   color: #9e151a;
 }
 /* line 105, _header.scss */
-#header nav.menu-aux .container ul li a:hover {
+#page #header nav.menu-aux .container ul li a:hover {
   text-decoration: underline;
 }
 /* line 113, _header.scss */
-#header nav.menu-principal {
+#page #header nav.menu-principal {
   background-color: #9e151a;
 }
 /* line 117, _header.scss */
-#header nav.menu-principal .container .logo-header {
+#page #header nav.menu-principal .container .logo-header {
   padding: 5px;
   margin-right: 20px;
 }
 /* line 122, _header.scss */
-#header nav.menu-principal .container .search-form {
+#page #header nav.menu-principal .container .search-form {
   padding: 10px;
 }
 /* line 125, _header.scss */
-#header nav.menu-principal .container .search-form .pesquisar-input {
+#page #header nav.menu-principal .container .search-form .pesquisar-input {
   float: left;
   padding: 6px;
 }
 /* line 129, _header.scss */
-#header nav.menu-principal .container .search-form .pesquisar-submit {
+#page #header nav.menu-principal .container .search-form .pesquisar-submit {
   float: left;
 }
 /* line 136, _header.scss */
-#header nav.menu-principal .container ul li a {
+#page #header nav.menu-principal .container ul li a {
   display: inline-block;
   padding: 20px 30px;
 }
 /* line 140, _header.scss */
-#header nav.menu-principal .container ul li a:hover {
+#page #header nav.menu-principal .container ul li a:hover {
   text-decoration: none;
   background-color: #BE191F;
 }
-
 /* line 151, _header.scss */
-header.banner-contrate {
+#page header.banner-contrate {
   background-image: url("images/banner-contrate.png");
   width: 100%;
   height: 579px;
 }
 /* line 156, _header.scss */
-header.banner-contrate .banner-formulario {
+#page header.banner-contrate .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
 /* line 161, _header.scss */
-header.banner-contrate .banner-formulario h2 {
+#page header.banner-contrate .banner-formulario h2 {
   color: #FFFFFF;
 }
 /* line 165, _header.scss */
-header.banner-contrate .banner-formulario .form-criacao-site {
+#page header.banner-contrate .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-
 /* line 172, _header.scss */
-header.banner-solicite-uma-senha {
+#page header.banner-solicite-uma-senha {
   background-image: url("images/banner-solicite-uma-senha.png");
   width: 100%;
   height: 579px;
 }
 /* line 177, _header.scss */
-header.banner-solicite-uma-senha .banner-formulario {
+#page header.banner-solicite-uma-senha .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
 /* line 182, _header.scss */
-header.banner-solicite-uma-senha .banner-formulario h2 {
+#page header.banner-solicite-uma-senha .banner-formulario h2 {
   color: #FFFFFF;
 }
 /* line 186, _header.scss */
-header.banner-solicite-uma-senha .banner-formulario .form-criacao-site {
+#page header.banner-solicite-uma-senha .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-
 /* line 193, _header.scss */
-header.banner-locacao-de-maquinas {
+#page header.banner-locacao-de-maquinas {
   background-image: url("images/banner-locacao-de-maquinas.png");
   width: 100%;
   height: 579px;
 }
 /* line 198, _header.scss */
-header.banner-locacao-de-maquinas .banner-formulario {
+#page header.banner-locacao-de-maquinas .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
 /* line 203, _header.scss */
-header.banner-locacao-de-maquinas .banner-formulario h2 {
+#page header.banner-locacao-de-maquinas .banner-formulario h2 {
   color: #FFFFFF;
 }
 /* line 206, _header.scss */
-header.banner-locacao-de-maquinas .banner-formulario h3 {
+#page header.banner-locacao-de-maquinas .banner-formulario h3 {
   color: #FFFFFF;
 }
 /* line 209, _header.scss */
-header.banner-locacao-de-maquinas .banner-formulario .form-criacao-site {
+#page header.banner-locacao-de-maquinas .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-
 /* line 216, _header.scss */
-header.banner-sistema-henji {
+#page header.banner-sistema-henji {
   background-image: url("images/banner-sistema-henji.png");
   width: 100%;
   height: 579px;
 }
 /* line 221, _header.scss */
-header.banner-sistema-henji .banner-formulario {
+#page header.banner-sistema-henji .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
 /* line 226, _header.scss */
-header.banner-sistema-henji .banner-formulario h2 {
+#page header.banner-sistema-henji .banner-formulario h2 {
   color: #FFFFFF;
 }
 /* line 229, _header.scss */
-header.banner-sistema-henji .banner-formulario h3 {
+#page header.banner-sistema-henji .banner-formulario h3 {
   color: #FFFFFF;
 }
 /* line 232, _header.scss */
-header.banner-sistema-henji .banner-formulario .form-criacao-site {
+#page header.banner-sistema-henji .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-
 /* line 239, _header.scss */
-header.banner-criacao-de-site {
+#page header.banner-criacao-de-site {
   background-image: url("images/banner-contrate.png");
   width: 100%;
   height: 579px;
 }
 /* line 244, _header.scss */
-header.banner-criacao-de-site .banner-formulario {
+#page header.banner-criacao-de-site .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
 /* line 249, _header.scss */
-header.banner-criacao-de-site .banner-formulario h2 {
+#page header.banner-criacao-de-site .banner-formulario h2 {
   color: #FFFFFF;
 }
 /* line 253, _header.scss */
-header.banner-criacao-de-site .banner-formulario h3 {
+#page header.banner-criacao-de-site .banner-formulario h3 {
   color: #FFFFFF;
 }
 /* line 257, _header.scss */
-header.banner-criacao-de-site .banner-formulario .form-criacao-site {
+#page header.banner-criacao-de-site .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-
 /* line 264, _header.scss */
-header.banner-gmd {
+#page header.banner-gmd {
   background-image: url("images/banner-gmd.png");
   width: 100%;
   height: 579px;
 }
 /* line 269, _header.scss */
-header.banner-gmd .banner-formulario {
+#page header.banner-gmd .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
 /* line 274, _header.scss */
-header.banner-gmd .banner-formulario h2 {
+#page header.banner-gmd .banner-formulario h2 {
   color: #FFFFFF;
 }
 /* line 278, _header.scss */
-header.banner-gmd .banner-formulario h3 {
+#page header.banner-gmd .banner-formulario h3 {
   color: #FFFFFF;
 }
 /* line 282, _header.scss */
-header.banner-gmd .banner-formulario .form-criacao-site {
+#page header.banner-gmd .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-
 /* line 3, _content.scss */
-#content .secao-a .container {
+#page #content .secao-a .container {
   padding: 25px 0;
 }
 /* line 6, _content.scss */
-#content .secao-a .container .solucoes-quadro {
+#page #content .secao-a .container .solucoes-quadro {
   border: 1px solid #f0f2f4;
   border-bottom: 8px solid #9e151a;
   padding-bottom: 20px;
 }
 /* line 11, _content.scss */
-#content .secao-a .container .solucoes-quadro .quadro-cima {
+#page #content .secao-a .container .solucoes-quadro .quadro-cima {
   background-color: #9e151a;
   color: #FFFFFF;
   min-height: 333px;
 }
 /* line 16, _content.scss */
-#content .secao-a .container .solucoes-quadro .quadro-cima p {
+#page #content .secao-a .container .solucoes-quadro .quadro-cima p {
   padding: 20px 5px;
 }
 /* line 19, _content.scss */
-#content .secao-a .container .solucoes-quadro .quadro-cima img {
+#page #content .secao-a .container .solucoes-quadro .quadro-cima img {
   width: 100%;
   margin-top: 8px;
 }
 /* line 24, _content.scss */
-#content .secao-a .container .solucoes-quadro .quadro-baixo {
+#page #content .secao-a .container .solucoes-quadro .quadro-baixo {
   padding: 15px 5px;
   min-height: 270px;
 }
 /* line 28, _content.scss */
-#content .secao-a .container .solucoes-quadro .quadro-baixo strong {
+#page #content .secao-a .container .solucoes-quadro .quadro-baixo strong {
   color: #9e151a;
 }
 /* line 31, _content.scss */
-#content .secao-a .container .solucoes-quadro .quadro-baixo img {
+#page #content .secao-a .container .solucoes-quadro .quadro-baixo img {
   margin: 15px 0;
 }
 /* line 36, _content.scss */
-#content .secao-a .container .solucoes-quadro:hover {
+#page #content .secao-a .container .solucoes-quadro:hover {
   border: 1px solid #9e151a;
   border-bottom: 8px solid #9e151a;
 }
 /* line 43, _content.scss */
-#content .secao-b {
+#page #content .secao-b {
   background-color: #f0f2f4;
 }
 /* line 46, _content.scss */
-#content .secao-b .container {
+#page #content .secao-b .container {
   padding: 25px 0;
 }
 /* line 51, _content.scss */
-#content .secao-b .sistema-henji {
+#page #content .secao-b .sistema-henji {
   text-align: left;
 }
 /* line 53, _content.scss */
-#content .secao-b .sistema-henji h4 {
+#page #content .secao-b .sistema-henji h4 {
   text-align: center;
 }
 /* line 57, _content.scss */
-#content .secao-b .sistema-henji h5 {
+#page #content .secao-b .sistema-henji h5 {
   color: #9e151a;
 }
 /* line 63, _content.scss */
-#content .secao-b .parceiros-pag img {
+#page #content .secao-b .parceiros-pag img {
   width: 100%;
 }
 /* line 69, _content.scss */
-#content .secao-c {
+#page #content .secao-c {
   background-color: #9e151a;
 }
 /* line 72, _content.scss */
-#content .secao-c .container {
+#page #content .secao-c .container {
   padding: 25px 0;
   color: #FFFFFF;
 }
 /* line 76, _content.scss */
-#content .secao-c .container img {
+#page #content .secao-c .container img {
   margin-left: 20px;
 }
 /* line 83, _content.scss */
-#content .banner-menu div {
+#page #content .banner-menu div {
   padding: 15px 20px;
 }
 /* line 85, _content.scss */
-#content .banner-menu div h4 {
+#page #content .banner-menu div h4 {
   margin: 0;
 }
 /* line 88, _content.scss */
-#content .banner-menu div h4 a {
+#page #content .banner-menu div h4 a {
   color: #FFFFFF;
 }
 /* line 94, _content.scss */
-#content .banner-menu .blog-categoria-a {
+#page #content .banner-menu .blog-categoria-a {
   background-color: #6f090d;
 }
 /* line 97, _content.scss */
-#content .banner-menu .blog-categoria-b {
+#page #content .banner-menu .blog-categoria-b {
   background-color: #921318;
 }
 /* line 100, _content.scss */
-#content .banner-menu .blog-categoria-c {
+#page #content .banner-menu .blog-categoria-c {
   background-color: #c51b22;
 }
 /* line 107, _content.scss */
-#content .newsletter-blog .head img {
+#page #content .newsletter-blog .head img {
   width: 100%;
 }
 /* line 111, _content.scss */
-#content .newsletter-blog .content {
+#page #content .newsletter-blog .content {
   background-color: #f7f7f7;
 }
 /* line 116, _content.scss */
-#content .blog-articles {
+#page #content .blog-articles {
   padding: 50px 0;
 }
 /* line 119, _content.scss */
-#content .blog-articles article {
+#page #content .blog-articles article {
   text-align: left;
 }
 /* line 123, _content.scss */
-#content .blog-articles article h2 a {
+#page #content .blog-articles article h2 a {
   color: #9e151a;
 }
 /* line 131, _content.scss */
-#content .solucoes-locadoras .solucoes-padding {
+#page #content .solucoes-locadoras .solucoes-padding {
   padding: 10px;
   padding-right: 10px;
 }
 /* line 138, _content.scss */
-#content .sistema-locacao h3 {
+#page #content .sistema-locacao h3 {
   min-height: 44px;
 }
 /* line 143, _content.scss */
-#content .conheca-henji {
+#page #content .conheca-henji {
   text-align: left;
 }
 /* line 147, _content.scss */
-#content .conheca-henji ul.conheca-dados li {
+#page #content .conheca-henji ul.conheca-dados li {
   list-style: none;
   margin: 15px 0;
 }
 /* line 156, _content.scss */
-#content .planos-henji .planos li {
+#page #content .planos-henji .planos li {
   background-color: #FFFFFF;
   padding: 10px 20px;
   margin: 5px 0;
   list-style: none;
 }
 /* line 163, _content.scss */
-#content .planos-henji .planos li.head {
+#page #content .planos-henji .planos li.head {
   color: #FFFFFF;
   background-color: #9e151a;
 }
 /* line 166, _content.scss */
-#content .planos-henji .planos li.head h3 {
+#page #content .planos-henji .planos li.head h3 {
   color: #FFFFFF;
 }
 /* line 173, _content.scss */
-#content #newsletter-background {
+#page #content #newsletter-background {
   width: 100%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+50,000000+50,000000+50 */
   background: #feffff;
@@ -506,53 +498,53 @@ header.banner-gmd .banner-formulario .form-criacao-site {
   /* IE6-9 */
 }
 /* line 185, _content.scss */
-#content #newsletter-background .news-esquerdo {
+#page #content #newsletter-background .news-esquerdo {
   background-color: #9e151a;
   padding: 20px 15px;
 }
 /* line 189, _content.scss */
-#content #newsletter-background .news-esquerdo img {
+#page #content #newsletter-background .news-esquerdo img {
   width: 90%;
 }
 /* line 194, _content.scss */
-#content #newsletter-background .news-direito {
+#page #content #newsletter-background .news-direito {
   background-color: #f0f2f4;
   text-align: left;
   padding: 0;
 }
 /* line 199, _content.scss */
-#content #newsletter-background .news-direito img {
+#page #content #newsletter-background .news-direito img {
   margin: 40px 0;
 }
 /* line 204, _content.scss */
-#content #newsletter-background .newsletter-texto {
+#page #content #newsletter-background .newsletter-texto {
   margin: 0;
   margin-top: 35px;
 }
 /* line 207, _content.scss */
-#content #newsletter-background .newsletter-texto p {
+#page #content #newsletter-background .newsletter-texto p {
   margin: 0;
 }
 /* line 212, _content.scss */
-#content #newsletter-background .newsletter-nome-wrap {
+#page #content #newsletter-background .newsletter-nome-wrap {
   margin: 0;
 }
 /* line 215, _content.scss */
-#content #newsletter-background .newsletter-nome {
+#page #content #newsletter-background .newsletter-nome {
   padding: 15px 5px;
   margin-top: 35px;
 }
 /* line 219, _content.scss */
-#content #newsletter-background .newsletter-email-wrap {
+#page #content #newsletter-background .newsletter-email-wrap {
   margin: 0;
 }
 /* line 222, _content.scss */
-#content #newsletter-background .newsletter-email {
+#page #content #newsletter-background .newsletter-email {
   padding: 15px 5px;
   margin-top: 35px;
 }
 /* line 226, _content.scss */
-#content #newsletter-background .newsletter-enviar {
+#page #content #newsletter-background .newsletter-enviar {
   padding: 15px;
   background-image: none;
   background-color: #d60158;
@@ -560,43 +552,42 @@ header.banner-gmd .banner-formulario .form-criacao-site {
   margin-top: 35px;
 }
 /* line 233, _content.scss */
-#content #newsletter-background .newsletter-enviar:hover {
+#page #content #newsletter-background .newsletter-enviar:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
-
 /* line 1, _footer.scss */
-#footer {
+#page #footer {
   color: #FFFFFF;
   text-align: left;
 }
 /* line 5, _footer.scss */
-#footer .container {
+#page #footer .container {
   padding: 25px 0;
 }
 /* line 7, _footer.scss */
-#footer .container ul {
+#page #footer .container ul {
   padding: 0;
 }
 /* line 10, _footer.scss */
-#footer .container ul li {
+#page #footer .container ul li {
   list-style: none;
 }
 /* line 12, _footer.scss */
-#footer .container ul li a {
+#page #footer .container ul li a {
   color: #FFFFFF;
 }
 /* line 18, _footer.scss */
-#footer .footer-cima {
+#page #footer .footer-cima {
   background-color: #9e151a;
 }
 /* line 21, _footer.scss */
-#footer .footer-baixo {
+#page #footer .footer-baixo {
   background-color: #600406;
 }
 /* line 24, _footer.scss */
-#footer .footer-baixo .redes_sociais_header {
+#page #footer .footer-baixo .redes_sociais_header {
   margin-top: 5px;
   margin-bottom: 5px;
   height: 22px;
@@ -606,19 +597,19 @@ header.banner-gmd .banner-formulario .form-criacao-site {
   padding-left: 10px;
 }
 /* line 34, _footer.scss */
-#footer .footer-baixo .redes_sociais_header li:hover {
+#page #footer .footer-baixo .redes_sociais_header li:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
 /* line 39, _footer.scss */
-#footer .footer-baixo .redes_sociais_header a {
+#page #footer .footer-baixo .redes_sociais_header a {
   display: inline-block;
   width: 22px;
   height: 20px;
 }
 /* line 45, _footer.scss */
-#footer .footer-baixo .redes_sociais_header .youtube {
+#page #footer .footer-baixo .redes_sociais_header .youtube {
   background-image: url("images/redes-sociais.png");
   background-position: left,center;
   background-repeat: no-repeat;
@@ -627,7 +618,7 @@ header.banner-gmd .banner-formulario .form-criacao-site {
   display: inline-block;
 }
 /* line 54, _footer.scss */
-#footer .footer-baixo .redes_sociais_header .instagram {
+#page #footer .footer-baixo .redes_sociais_header .instagram {
   background-image: url("images/redes-sociais.png");
   background-position: -26px,center;
   background-repeat: no-repeat;
@@ -636,7 +627,7 @@ header.banner-gmd .banner-formulario .form-criacao-site {
   display: inline-block;
 }
 /* line 63, _footer.scss */
-#footer .footer-baixo .redes_sociais_header .twitter {
+#page #footer .footer-baixo .redes_sociais_header .twitter {
   background-image: url("images/redes-sociais.png");
   background-position: -52px,center;
   background-repeat: no-repeat;
@@ -645,7 +636,7 @@ header.banner-gmd .banner-formulario .form-criacao-site {
   display: inline-block;
 }
 /* line 72, _footer.scss */
-#footer .footer-baixo .redes_sociais_header .facebook {
+#page #footer .footer-baixo .redes_sociais_header .facebook {
   background-image: url("images/redes-sociais.png");
   background-position: -80px,center;
   background-repeat: no-repeat;
@@ -654,20 +645,20 @@ header.banner-gmd .banner-formulario .form-criacao-site {
   display: inline-block;
 }
 
-/* line 61, style.scss */
+/* line 59, style.scss */
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
-/* line 66, style.scss */
+/* line 64, style.scss */
 .e-claro:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
 
-/* line 70, style.scss */
+/* line 68, style.scss */
 .e-under:hover {
   text-decoration: underline;
 }
