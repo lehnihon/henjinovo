@@ -17,9 +17,11 @@ get_header('produtos'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Produtos para sua locadora de veículos</h2>
 				<h4>O Sistema Henji coloca sua empresa em suas mãos quando e onde você quiser. É um sistema completo para Gestão de Locadoras de Veículos. Conheça nossos produtos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>

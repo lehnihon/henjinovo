@@ -17,9 +17,11 @@ get_header('contato'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Contato</h2>
 				<h4>Fale com a Henji.<br> Temos a solução perfeita para sua locadora de veículos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>

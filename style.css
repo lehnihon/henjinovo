@@ -258,7 +258,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page header.banner-contrate .banner-formulario .form-criacao-site {
   padding: 20px;
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0.7);
+  background-color: rgba(111, 10, 13, 0);
 }
 /* line 199, _header.scss */
 #page header.banner-contrate .banner-formulario .form-criacao-site form input[type=text] {
@@ -284,7 +284,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha {
   padding: 20px;
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0.7);
+  background-color: rgba(111, 10, 13, 0);
 }
 /* line 226, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha form input[type=text] {
@@ -313,7 +313,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* line 250, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0.7);
+  background-color: rgba(111, 10, 13, 0);
 }
 /* line 257, _header.scss */
 #page header.banner-sistema-henji {
@@ -338,7 +338,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* line 273, _header.scss */
 #page header.banner-sistema-henji .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0.7);
+  background-color: rgba(111, 10, 13, 0);
 }
 /* line 280, _header.scss */
 #page header.banner-criacao-de-site {
@@ -363,7 +363,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* line 298, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0.7);
+  background-color: rgba(111, 10, 13, 0);
 }
 /* line 306, _header.scss */
 #page header.banner-gmd {
@@ -388,7 +388,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* line 324, _header.scss */
 #page header.banner-gmd .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0.7);
+  background-color: rgba(111, 10, 13, 0);
 }
 @media (max-width: 991px) {
   /* line 334, _header.scss */
@@ -690,9 +690,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   /* For IE8 and earlier */
 }
 @media (max-width: 991px) {
-  /* line 278, _content.scss */
-  #page #content #newsletter-background .container {
-    margin: 0;
+  /* line 277, _content.scss */
+  #page #content #newsletter-background {
+    background: #feffff;
+    /* Old browsers */
   }
 }
 /* line 1, _footer.scss */

@@ -275,9 +275,8 @@
 @media (max-width: 991px) {  
 	#content{
 		#newsletter-background{
-			.container{
-				margin: 0;
-			}
+			background: #feffff; /* Old browsers */
+
 		}
 	}
 }

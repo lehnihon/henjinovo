@@ -20,9 +20,11 @@ get_header('contrate'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Por que escolher o sistema da Henji?</h2>
 				<h4>É um completo sistema de gestão de locadoras de veículos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>
