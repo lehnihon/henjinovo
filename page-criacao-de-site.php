@@ -110,7 +110,7 @@ get_header('criacao-de-site'); ?>
 				<div class="col-md-3 solucoes-padding">
 					<div class="solucoes-quadro">
 						<div class="quadro-cima">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>"/>
+							<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>"/>
 							<p>
 								<strong>MÓDULO GMD</strong><br/><br/>
 								Realize cotações, aberturas de Ordens de Serviços através de seus prestadores de serviços.
@@ -118,10 +118,10 @@ get_header('criacao-de-site'); ?>
 						</div>
 						<div class="quadro-baixo">
 							<p><strong>MÓDULOS</strong></p>
-							<p>Abertura e análise de orçamentos online</p>
-							<p>Integração com módulo de manutenção</p>
+							<p>Análise online</p>
+							<p>Módulo manutenção integrado</p>
 							<p>Criação de rede credenciada</p>
-							<p>Histórico de manutenções dos veículos</p>
+							<p>Histórico de manutenções</p>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
@@ -130,7 +130,7 @@ get_header('criacao-de-site'); ?>
 				<div class="col-md-3 solucoes-padding">
 					<div class="solucoes-quadro">
 						<div class="quadro-cima">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>"/>
+							<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>"/>
 							<p>
 								<strong>LOCAÇÃO DE MÁQUINAS</strong><br/><br/>
 								O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos e aonde você estiver.
@@ -139,12 +139,12 @@ get_header('criacao-de-site'); ?>
 						<div class="quadro-baixo">
 							<p><strong>LOCAÇÃO DE MÁQUINAS</strong></p>
 							<p>Você escolhe o layout</p>
-							<p>Seus site integrado ao Sistema Henji</p>
+							<p>Site integrado ao Sistema Henji</p>
 							<p>Integração com o Google Maps</p>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquina/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 					</div>					
 				</div>
 			</div>

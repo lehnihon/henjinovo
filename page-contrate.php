@@ -84,16 +84,19 @@ get_header('contrate'); ?>
 						<li>
 							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/icon-seta.png"; ?>"/>
 							<strong>Henji</strong> <br>
-							Rua Alzira Ferreira Ventura, 53 <br>
+							Rua Américo Batista, 12 - Baeta Neves<br/>
 							São Bernardo do Campo - SP
 						</li>
 						<li>
 							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/icon-carta.png"; ?>"/>
-							<strong>11 4332-8787</strong>
+							<strong>contato@henji.com.br</strong>
+
 						</li>
 						<li>
 							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/icon-tel.png"; ?>"/>
-							<strong>contato@henji.com.br</strong>
+							11 4332-1944<br/>
+							11 4332-9871 <br>
+							11 4337-8404							
 						</li>
 					</ul>
 				</div>

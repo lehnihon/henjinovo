@@ -58,10 +58,10 @@ get_header('produtos'); ?>
 						</div>
 						<div class="quadro-baixo">
 							<p><strong>MÓDULOS</strong></p>
-							<p>Abertura e análise de orçamentos online</p>
-							<p>Integração com módulo de manutenção</p>
+							<p>Análise online</p>
+							<p>Módulo manutenção integrado</p>
 							<p>Criação de rede credenciada</p>
-							<p>Histórico de manutenções dos veículos</p>
+							<p>Histórico de manutenções</p>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
@@ -79,7 +79,7 @@ get_header('produtos'); ?>
 						<div class="quadro-baixo">
 							<p><strong>LOCAÇÃO DE MÁQUINAS</strong></p>
 							<p>Você escolhe o layout</p>
-							<p>Seus site integrado ao Sistema Henji</p>
+							<p>Site integrado ao Sistema Henji</p>
 							<p>Integração com o Google Maps</p>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					

@@ -101,7 +101,7 @@ get_header('locacao-de-maquinas'); ?>
 				<div class="col-md-3 solucoes-padding">
 					<div class="solucoes-quadro">
 						<div class="quadro-cima">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>"/>
+							<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>"/>
 							<p>
 								<strong>MÓDULO GMD</strong><br/><br/>
 								Realize cotações, aberturas de Ordens de Serviços através de seus prestadores de serviços.
@@ -109,10 +109,10 @@ get_header('locacao-de-maquinas'); ?>
 						</div>
 						<div class="quadro-baixo">
 							<p><strong>MÓDULOS</strong></p>
-							<p>Abertura e análise de orçamentos online</p>
-							<p>Integração com módulo de manutenção</p>
+							<p>Análise online</p>
+							<p>Módulo manutenção integrado</p>
 							<p>Criação de rede credenciada</p>
-							<p>Histórico de manutenções dos veículos</p>
+							<p>Histórico de manutenções</p>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>

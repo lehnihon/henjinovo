@@ -118,10 +118,10 @@ get_header(); ?>
 						</div>
 						<div class="quadro-baixo">
 							<p><strong>MÓDULOS</strong></p>
-							<p>Abertura e análise de orçamentos online</p>
-							<p>Integração com módulo de manutenção</p>
+							<p>Análise online</p>
+							<p>Módulo manutenção integrado</p>
 							<p>Criação de rede credenciada</p>
-							<p>Histórico de manutenções dos veículos</p>
+							<p>Histórico de manutenções</p>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
@@ -139,7 +139,7 @@ get_header(); ?>
 						<div class="quadro-baixo">
 							<p><strong>LOCAÇÃO DE MÁQUINAS</strong></p>
 							<p>Você escolhe o layout</p>
-							<p>Seus site integrado ao Sistema Henji</p>
+							<p>Site integrado ao Sistema Henji</p>
 							<p>Integração com o Google Maps</p>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					
@@ -204,28 +204,28 @@ get_header(); ?>
 					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
 						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji2.png"; ?>"/>
 						<h3>Módulo Frota</h3>
-						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+						<p>Controle de toda Frota de Veículos, documentação multas e SAC.</p>
 					</a>		
 				</div>	
 				<div class="col-md-2">
 					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
 						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji3.png"; ?>"/>
 						<h3>Módulo Operacional</h3>
-						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+						<p>Gestão completa de Locadora, com controle total das funcionalidades.</p>
 					</a>		
 				</div>	
 				<div class="col-md-2">
 					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
 						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji4.png"; ?>"/>
 						<h3>Módulo Manutenção</h3>
-						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+						<p>Gerenciamento das manutenções preventivas e corretivas.</p>
 					</a>		
 				</div>	
 				<div class="col-md-2">
 					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
 						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji5.png"; ?>"/>
 						<h3>Módulo Financeiro</h3>
-						<p>Tenha seu próprio site com sua Central de Reservas online.</p>	
+						<p>Controle da movimentação financeira, contas a pagar e faturamento.</p>	
 					</a>	
 				</div>	
 			</div>
@@ -252,35 +252,35 @@ get_header(); ?>
 					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
 						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao1.png"; ?>"/>
 						<h3>Emissão de Notas</h3>
-						<p>Tenha seu próprio site com sua Central de Reservas online.</p>	
+						<p>Controle de Emissão de Notas de Faturamento com layout próprio.</p>	
 					</a>	
 				</div>	
 				<div class="col-md-2">
 					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
 						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao2.png"; ?>"/>
 						<h3>Controle por período</h3>
-						<p>Tenha seu próprio site com sua Central de Reservas online.</p>	
+						<p>Controle sobre a locação de máquinas, equipamentos a curto ou longo prazo.</p>	
 					</a>	
 				</div>	
 				<div class="col-md-2">
 					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
 						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao3.png"; ?>"/>
 						<h3>Contas a pagar</h3>
-						<p>Tenha seu próprio site com sua Central de Reservas online.</p>	
+						<p>Controle da área financeira da empresa através do Contas a Pagar.</p>	
 					</a>	
 				</div>	
 				<div class="col-md-2">
 					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
 						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao4.png"; ?>"/>
 						<h3>Relatórios</h3>
-						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+						<p>Relatórios específicos por categoria diários ou acumulativos.</p>
 					</a>		
 				</div>	
 				<div class="col-md-2">
 					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
 						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao5.png"; ?>"/>
 						<h3>Controle de Máquinas</h3>
-						<p>Tenha seu próprio site com sua Central de Reservas online.</p>
+						<p>Controle sobre as máquinas e equipamentos de terceiros.</p>
 					</a>		
 				</div>	
 			</div>

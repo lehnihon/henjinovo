@@ -23,8 +23,6 @@
 				}
 				.quadro-baixo{
 					padding: 15px 5px;
-					min-height: 270px;
-
 					strong{
 						color:#9e151a;
 					}
@@ -169,7 +167,7 @@
 
 	.sistema-locacao{
 		h3{
-			min-height: 44px;
+			min-height: 52px;
 		}
 	}
 
@@ -272,4 +270,18 @@
 
 	}
 
+}
+
+@media (max-width: 991px) {  
+	#content{
+		#newsletter-background{
+			.container{
+				margin: 0;
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {  
+  
 }
