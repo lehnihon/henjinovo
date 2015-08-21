@@ -107,13 +107,17 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   color: #FFFFFF;
   font-size: small;
 }
-/* line 31, _header.scss */
+/* line 30, _header.scss */
+#page #header nav.menu-aux .dados-topo-vermelho {
+  padding-left: 0;
+}
+/* line 32, _header.scss */
 #page #header nav.menu-aux .dados-topo-vermelho li {
   padding: 10px;
   color: #9e151a;
   font-size: small;
 }
-/* line 38, _header.scss */
+/* line 39, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header {
   margin-top: 10px;
   margin-bottom: 5px;
@@ -123,19 +127,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   float: right;
   padding-left: 10px;
 }
-/* line 48, _header.scss */
+/* line 49, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header li:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
-/* line 53, _header.scss */
+/* line 54, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header a {
   display: inline-block;
   width: 22px;
   height: 20px;
 }
-/* line 59, _header.scss */
+/* line 60, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .youtube {
   background-image: url("images/redes-sociais.png");
   background-position: left,center;
@@ -144,7 +148,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   height: 20px;
   display: inline-block;
 }
-/* line 68, _header.scss */
+/* line 69, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .instagram {
   background-image: url("images/redes-sociais.png");
   background-position: -26px, center;
@@ -153,7 +157,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   height: 20px;
   display: inline-block;
 }
-/* line 77, _header.scss */
+/* line 78, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .twitter {
   background-image: url("images/redes-sociais.png");
   background-position: -52px, center;
@@ -162,7 +166,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   height: 20px;
   display: inline-block;
 }
-/* line 86, _header.scss */
+/* line 87, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .facebook {
   background-image: url("images/redes-sociais.png");
   background-position: -80px, center;
@@ -171,245 +175,245 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   height: 20px;
   display: inline-block;
 }
-/* line 101, _header.scss */
+/* line 102, _header.scss */
 #page #header nav.menu-aux .blog ul {
   padding-left: 0;
 }
-/* line 103, _header.scss */
+/* line 104, _header.scss */
 #page #header nav.menu-aux .blog ul li {
   color: #9e151a;
 }
-/* line 105, _header.scss */
+/* line 106, _header.scss */
 #page #header nav.menu-aux .blog ul li a {
   color: #9e151a;
 }
-/* line 115, _header.scss */
+/* line 116, _header.scss */
 #page #header nav.menu-aux .container ul li a:hover {
   color: #2d9e9a;
 }
-/* line 123, _header.scss */
+/* line 124, _header.scss */
 #page #header nav.menu-principal {
   background-color: #9e151a;
 }
-/* line 127, _header.scss */
+/* line 128, _header.scss */
 #page #header nav.menu-principal .container .botao-menu-responsivo {
   float: left;
   margin-right: 20px;
   margin-top: 12px;
 }
-/* line 133, _header.scss */
+/* line 134, _header.scss */
 #page #header nav.menu-principal .container .botao-menu-responsivo .dropdown-menu li {
   width: 100%;
 }
-/* line 135, _header.scss */
+/* line 136, _header.scss */
 #page #header nav.menu-principal .container .botao-menu-responsivo .dropdown-menu li a {
   width: 100%;
   color: #606060;
 }
-/* line 139, _header.scss */
+/* line 140, _header.scss */
 #page #header nav.menu-principal .container .botao-menu-responsivo .dropdown-menu li a:hover {
   background-color: #f0f2f4;
 }
-/* line 146, _header.scss */
+/* line 147, _header.scss */
 #page #header nav.menu-principal .container .logo-header {
   padding: 7px;
   margin-right: 20px;
 }
-/* line 151, _header.scss */
+/* line 152, _header.scss */
 #page #header nav.menu-principal .container .search-form {
   padding: 10px;
 }
-/* line 154, _header.scss */
+/* line 155, _header.scss */
 #page #header nav.menu-principal .container .search-form .pesquisar-input {
   float: left;
   padding: 6px;
 }
-/* line 158, _header.scss */
+/* line 159, _header.scss */
 #page #header nav.menu-principal .container .search-form .pesquisar-submit {
   float: left;
 }
-/* line 165, _header.scss */
+/* line 166, _header.scss */
 #page #header nav.menu-principal .container ul li a {
   display: inline-block;
   padding: 20px 30px;
 }
-/* line 169, _header.scss */
+/* line 170, _header.scss */
 #page #header nav.menu-principal .container ul li a:hover {
   text-decoration: none;
   background-color: #BE191F;
 }
-/* line 180, _header.scss */
+/* line 181, _header.scss */
 #page header.banner-contrate {
   background-image: url("images/banner-contrate.png");
   width: 100%;
   height: 579px;
 }
-/* line 185, _header.scss */
+/* line 186, _header.scss */
 #page header.banner-contrate .banner-formulario {
   padding: 50px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 190, _header.scss */
+/* line 191, _header.scss */
 #page header.banner-contrate .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 194, _header.scss */
+/* line 195, _header.scss */
 #page header.banner-contrate .banner-formulario .form-criacao-site {
   padding: 20px;
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 199, _header.scss */
+/* line 200, _header.scss */
 #page header.banner-contrate .banner-formulario .form-criacao-site form input[type=text] {
   color: #606060;
 }
-/* line 207, _header.scss */
+/* line 208, _header.scss */
 #page header.banner-solicite-uma-senha {
   background-image: url("images/banner-solicite-uma-senha.png");
   width: 100%;
   height: 579px;
 }
-/* line 212, _header.scss */
+/* line 213, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario {
   padding: 5px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 217, _header.scss */
+/* line 218, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 221, _header.scss */
+/* line 222, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha {
   padding: 20px;
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 226, _header.scss */
+/* line 227, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha form input[type=text] {
   color: #606060;
 }
-/* line 234, _header.scss */
+/* line 235, _header.scss */
 #page header.banner-locacao-de-maquinas {
   background-image: url("images/banner-locacao-de-maquinas.png");
   width: 100%;
   height: 579px;
 }
-/* line 239, _header.scss */
+/* line 240, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 244, _header.scss */
+/* line 245, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 247, _header.scss */
+/* line 248, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 250, _header.scss */
+/* line 251, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 257, _header.scss */
+/* line 258, _header.scss */
 #page header.banner-sistema-henji {
   background-image: url("images/banner-sistema-henji.png");
   width: 100%;
   height: 579px;
 }
-/* line 262, _header.scss */
+/* line 263, _header.scss */
 #page header.banner-sistema-henji .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 267, _header.scss */
+/* line 268, _header.scss */
 #page header.banner-sistema-henji .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 270, _header.scss */
+/* line 271, _header.scss */
 #page header.banner-sistema-henji .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 273, _header.scss */
+/* line 274, _header.scss */
 #page header.banner-sistema-henji .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 280, _header.scss */
+/* line 281, _header.scss */
 #page header.banner-criacao-de-site {
   background-image: url("images/banner-solicite-uma-senha.png");
   width: 100%;
   height: 579px;
 }
-/* line 285, _header.scss */
+/* line 286, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 290, _header.scss */
+/* line 291, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 294, _header.scss */
+/* line 295, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 298, _header.scss */
+/* line 299, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 306, _header.scss */
+/* line 307, _header.scss */
 #page header.banner-gmd {
   background-image: url("images/banner-gmd.png");
   width: 100%;
   height: 579px;
 }
-/* line 311, _header.scss */
+/* line 312, _header.scss */
 #page header.banner-gmd .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 316, _header.scss */
+/* line 317, _header.scss */
 #page header.banner-gmd .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 320, _header.scss */
+/* line 321, _header.scss */
 #page header.banner-gmd .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 324, _header.scss */
+/* line 325, _header.scss */
 #page header.banner-gmd .banner-formulario .form-criacao-site {
   background-color: #9e151a;
-  background-color: rgba(111, 10, 13, 0);
+  background-color: rgba(111, 10, 13, 0.7);
 }
 @media (max-width: 991px) {
-  /* line 334, _header.scss */
+  /* line 335, _header.scss */
   #page #header nav.menu-aux .dados-topo {
     display: none;
   }
-  /* line 337, _header.scss */
+  /* line 338, _header.scss */
   #page #header nav.menu-aux .dados-topo-vermelho {
     display: none;
   }
-  /* line 342, _header.scss */
+  /* line 343, _header.scss */
   #page #header nav.menu-principal .menu-opcoes {
     display: none;
   }
-  /* line 345, _header.scss */
+  /* line 346, _header.scss */
   #page #header nav.menu-principal .botao-menu-responsivo {
     display: inline-block;
   }
 }
 @media (min-width: 992px) {
-  /* line 355, _header.scss */
+  /* line 356, _header.scss */
   #page #header nav.menu-principal .botao-menu-responsivo {
     display: none;
   }
