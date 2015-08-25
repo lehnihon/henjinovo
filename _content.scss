@@ -5,8 +5,6 @@
 
 			.solucoes-quadro{
 				border:1px solid #f0f2f4;
-				border-bottom:8px solid #9e151a;
-				padding-bottom:20px;
 
 				.quadro-cima{
 					background-color:#9e151a;
@@ -33,7 +31,6 @@
 			}
 			.solucoes-quadro:hover{
 				border:1px solid #9e151a;
-				border-bottom:8px solid #9e151a;
 			}
 		}
 	}
@@ -259,6 +256,7 @@
 				background-image: none;
 				background-color: #9e151a;
 				color:white;
+				border:0;
 				margin-top: 35px;
 			}
 			.newsletter-enviar:hover{

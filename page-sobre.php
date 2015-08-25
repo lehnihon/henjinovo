@@ -18,7 +18,7 @@ get_header('sobre'); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-				<h2>Sobre</h2>
+				<h2>Sobre a Henji</h2>
 				
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
 				</div>
@@ -30,18 +30,18 @@ get_header('sobre'); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<p class="text-left">
+					<br><p class="text-left">
 						A Henji Informática Ltda. é uma empresa brasileira fundada em 1994 . Desenvolve sistemas para a administração de empresas que atuam no segmento de Locação de Veículos e de Máquinas e Equipamentos.					
-					</p>
+					</p><br>
 					<p class="text-left">
 						A empresa tem como filosofia, proporcionar aos usuários de seus sistemas, um completo e personalizado treinamento para que o objetivo da implantação, seja alcançado com segurança e confiabilidade.
-					</p>
-					<p class="text-left">
+					</p><br>
+				    <p class="text-left">
 						Prestando serviços de consultoria, assessoria com treinamento interno e externo, efetuando customizações de acordo com as necessidades do cliente, mantém seus sistemas sempre atualizados com o que há de mais moderno em tecnologia.
-					</p>
+					</p><br>
 					<p class="text-left">
 						Conta hoje com mais de 500 cópias dos sistemas instalados em todo o país e com aproximadamente 3.000 usuários ativos, com uma equipe altamente qualificada e estrutura adequada para um atendimento de ótima qualidade.
-					</p>
+					</p><br>
 				</div>
 			</div>
 		</div>

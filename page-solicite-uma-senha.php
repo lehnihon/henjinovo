@@ -16,7 +16,7 @@ get_header('solicite-uma-senha'); ?>
 		<div class="container">
 			<div class="col-md-5" style="padding-top:40px">
 				<h2>Solicite uma senha temporária e confira o que o sistema da Henji pode oferecer para sua locadora de veículos.</h2><br>
-				<p>
+				<p style="line-height:2">
 					Perfeito para sua empresa, <br>
 					Multi Versões, <br>
 					Integração total, <br>
@@ -111,7 +111,7 @@ get_header('solicite-uma-senha'); ?>
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div><br><br>
 		</div>
 	</div>
 	

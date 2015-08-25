@@ -45,18 +45,18 @@ get_header('gmd'); ?>
 	<div class="secao-b">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 text-left">
-					<p>Abertura e análise de orçamentos online, conectado diretamente com seu prestador, sem intermediários, reduzindo custos de manutenção e mão de obra.</p>
-					<p>tenha um ganho de qualificação profissional de sua rede credenciada e seus funcionários, com acompanhamento de metas estabelecidas e níveis de aprovação.</p>
-					<p>Integração total com o módulo de manutenção.</p>
-					<p>Converta comissões pagas em descontos.</p>
-				</div>
-				<div class="col-md-6 text-left">
-					<p>Criação de rede credenciada para seu cliente.</p>
-					<p>Análise de serviços executados através de fornecedores por região.</p>
-					<p>Histórico de manutenções dos veículos.</p>
-					<p>Análise de orçamentos através de status (aprovados, não aprovados, em andamento etc).</p>
-					<p>Fique próximo de seu cliente com o auto atendimento.</p>
+				<ul class="col-md-6 text-left" style="margin-top:20px">
+					<li style="margin-bottom:10px">Abertura e análise de orçamentos online, conectado diretamente com seu prestador, sem intermediários, reduzindo custos de manutenção e mão de obra.</li>
+					<li style="margin-bottom:10px">tenha um ganho de qualificação profissional de sua rede credenciada e seus funcionários, com acompanhamento de metas estabelecidas e níveis de aprovação.</li>
+					<li style="margin-bottom:10px">Integração total com o módulo de manutenção.</li>
+					<li style="margin-bottom:10px">Converta comissões pagas em descontos.</li>
+				</ul>
+				<div class="col-md-6 text-left" style="margin-top:20px">
+					<li style="margin-bottom:10px">Criação de rede credenciada para seu cliente.</li>
+					<li style="margin-bottom:10px">Análise de serviços executados através de fornecedores por região.</li>
+					<li style="margin-bottom:10px">Histórico de manutenções dos veículos.</li>
+					<li style="margin-bottom:10px">Análise de orçamentos através de status (aprovados, não aprovados, em andamento etc).</li>
+					<li style="margin-bottom:10px">Fique próximo de seu cliente com o auto atendimento</li>
 				</div>
 			</div>
 			<div class="row">
@@ -90,6 +90,7 @@ get_header('gmd'); ?>
 							<p>Módulo Financeiro</p>			
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>				
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -110,6 +111,7 @@ get_header('gmd'); ?>
 							<p>Personalização de cores</p>					
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -130,6 +132,7 @@ get_header('gmd'); ?>
 							<p>Personalização de cores</p>						
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
 			</div>

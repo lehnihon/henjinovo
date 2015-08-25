@@ -105,6 +105,7 @@ get_header(); ?>
 							<p>Módulo Financeiro</p>			
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>				
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -125,6 +126,7 @@ get_header(); ?>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>	
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -145,6 +147,7 @@ get_header(); ?>
 							<p>Personalização de cores</p>					
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -165,6 +168,7 @@ get_header(); ?>
 							<p>Personalização de cores</p>						
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
 			</div>
@@ -203,7 +207,7 @@ get_header(); ?>
 				<div class="col-md-2">
 					<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">
 						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji2.png"; ?>"/>
-						<h3>Módulo Frota</h3>
+						<h3>Módulo <span class="br-responsivo"><br></span> Frota</h3>
 						<p>Controle de toda Frota de Veículos, documentação multas e SAC.</p>
 					</a>		
 				</div>	
@@ -259,20 +263,20 @@ get_header(); ?>
 					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
 						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao2.png"; ?>"/>
 						<h3>Controle por período</h3>
-						<p>Controle sobre a locação de máquinas, equipamentos a curto ou longo prazo.</p>	
+						<p>Controle sobre a locação de máquinas a curtou ou longo prazo</p>	
 					</a>	
 				</div>	
 				<div class="col-md-2">
 					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
 						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao3.png"; ?>"/>
-						<h3>Contas a pagar</h3>
-						<p>Controle da área financeira da empresa através do Contas a Pagar.</p>	
+						<h3>Contas <span class="br-responsivo"><br></span> a pagar</h3>
+						<p>Controle da área financeira através do Contas a Pagar.</p>	
 					</a>	
 				</div>	
 				<div class="col-md-2">
 					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
 						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao4.png"; ?>"/>
-						<h3>Relatórios</h3>
+						<h3>Relatórios <span class="br-responsivo"><br></span> Específicos</h3>
 						<p>Relatórios específicos por categoria diários ou acumulativos.</p>
 					</a>		
 				</div>	
@@ -280,7 +284,7 @@ get_header(); ?>
 					<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">
 						<img class="e-cinza"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/locacao5.png"; ?>"/>
 						<h3>Controle de Máquinas</h3>
-						<p>Controle sobre as máquinas e equipamentos de terceiros.</p>
+						<p>Controle sobre as máquinas e equip. de terceiros.</p>
 					</a>		
 				</div>	
 			</div>
@@ -309,7 +313,7 @@ get_header(); ?>
 				<div class="col-md-2">
 					<a target="_blank" href="http://www.segurototal.com.br/view/index.php"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro5.png"; ?>"/></a>	
 				</div>	
-			</div>
+			</div><br><br>
 		</div>
 	</div>
 <?php get_footer(); ?>

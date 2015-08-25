@@ -2,9 +2,9 @@
 get_header('contrate'); ?>
 	<div class="banner-formulario">
 		<div class="container">
-			<div class="col-md-5" style="padding-top:30px">
-				<h2>Tenha um site profissional para sua empresa</h2><br>
-				<p>
+			<div class="col-md-5" style="padding-top:50px">
+				<h2>Tenha um site profissional para sua empresa.</h2><br>
+				<p style="line-height:2">
 					Aumentar as vendas, <br>
 					Passa credibilidade, <br>
 					Atrair mais clientes para sua locadora.
@@ -100,7 +100,7 @@ get_header('contrate'); ?>
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div><br><br>
 		</div>
 	</div>
 

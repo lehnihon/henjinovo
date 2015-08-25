@@ -105,6 +105,7 @@ get_header('criacao-de-site'); ?>
 							<p>Módulo Financeiro</p>			
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>				
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -125,6 +126,7 @@ get_header('criacao-de-site'); ?>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>	
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -145,6 +147,7 @@ get_header('criacao-de-site'); ?>
 							<p>Personalização de cores</p>					
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
 			</div>

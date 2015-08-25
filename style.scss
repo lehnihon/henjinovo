@@ -60,6 +60,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		background-image: none;
 		background-color: #9e151a;
 		color:white;
+		border:0;
 	}
 	.botao-enviar:hover{
 	    opacity: 0.6;
@@ -72,10 +73,28 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		background-color: #ffce00;
 		font-weight: bold;
 		color:#9e151a;
+		border:0;
 	}
 	.botao-solicitar:hover{
 		-webkit-filter: grayscale(100%); 
 		filter: grayscale(100%);
+	}
+
+	.contato-input{
+		border-color: #F0F0F0;
+	    padding: 5px;
+	}
+
+	.senha-input{
+		border-color: #F0F0F0;
+	}
+
+	.senha-input-wrap{
+		margin-bottom: 10px;
+	}
+
+	.ninja-forms-form-wrap label{
+		font-weight:normal !important;
 	}
 
 	@import 'header';
@@ -101,3 +120,10 @@ e-link:hover{
 	color:#2d9e9a;
 }
 
+@media (max-width: 992px) {  
+	#page{
+	 	span.br-responsivo{
+	 		display: none;
+	 	}  		
+	 }
+}

@@ -19,14 +19,14 @@ get_header('produtos'); ?>
 			<div class="row">
 				<div class="col-md-12">
 				<h2>Produtos para sua locadora de veículos</h2>
-				<h4>O Sistema Henji coloca sua empresa em suas mãos quando e onde você quiser. É um sistema completo para Gestão de Locadoras de Veículos. Conheça nossos produtos.</h4><br/>
+				<h4 style="line-height:1.5">O Sistema Henji coloca sua empresa em suas mãos quando e onde você quiser.<br> É um sistema completo para Gestão de Locadoras de Veículos. Conheça nossos produtos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="secao-a">
+	<div class="secao-a solucoes-locadoras">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 solucoes-padding">
@@ -47,6 +47,7 @@ get_header('produtos'); ?>
 							<p>Módulo Financeiro</p>			
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>				
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -67,6 +68,7 @@ get_header('produtos'); ?>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>	
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -87,6 +89,7 @@ get_header('produtos'); ?>
 							<p>Personalização de cores</p>					
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -107,6 +110,7 @@ get_header('produtos'); ?>
 							<p>Personalização de cores</p>						
 						</div>
 						<a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
 			</div>
