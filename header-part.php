@@ -20,21 +20,21 @@
 				<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 			</button>
 			<ul class="dropdown-menu">
-				<li><a href="<?php echo esc_url( home_url( '/' ))."/sobre/"; ?>">A HENJI</a></li>
+				<li><a href="<?php echo esc_url( home_url( '/' ))."sobre/"; ?>">A HENJI</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ))."/produtos/"; ?>">PRODUTOS</a></li>
-				<li><a href="<?php echo esc_url( home_url( '/' ))."/parceiros/"; ?>">PARCEIROS</a></li>
-				<li><a href="<?php echo esc_url( home_url( '/' ))."/blog/"; ?>">BLOG</a></li>
-				<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>">CONTATO</a></li>
+				<li><a href="<?php echo esc_url( home_url( '/' ))."parceiros/"; ?>">PARCEIROS</a></li>
+				<li><a href="<?php echo esc_url( home_url( '/' ))."blog/"; ?>">BLOG</a></li>
+				<li><a href="<?php echo esc_url( home_url( '/' ))."contato/"; ?>">CONTATO</a></li>
 			</ul>
 		</div>
     	<span class="pull-left logo-header"><a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/></a></span>
 
 		<ul class="menu-opcoes">
-			<li><a href="<?php echo esc_url( home_url( '/' ))."/sobre/"; ?>">A HENJI</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."sobre/"; ?>">A HENJI</a></li>
 			<li><a href="<?php echo esc_url( home_url( '/' ))."/produtos/"; ?>">PRODUTOS</a></li>
-			<li><a href="<?php echo esc_url( home_url( '/' ))."/parceiros/"; ?>">PARCEIROS</a></li>
-			<li><a href="<?php echo esc_url( home_url( '/' ))."/blog/"; ?>">BLOG</a></li>
-			<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>">CONTATO</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."parceiros/"; ?>">PARCEIROS</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."blog/"; ?>">BLOG</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."contato/"; ?>">CONTATO</a></li>
 		</ul>
   </div><!-- /.container -->
 </nav>

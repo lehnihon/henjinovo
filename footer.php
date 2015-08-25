@@ -25,27 +25,27 @@
 					<div class="col-md-2 col-md-offset-2">
 						<p><strong>Produtos</strong></p>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>">Sistema Henji</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>">GMD</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>">Locação de Máquinas</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>">Criação de Site</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/solicite-uma-senha/"; ?>">Solicite uma senha</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."sistema-henji/"; ?>">Sistema Henji</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."gmd/"; ?>">GMD</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."locacao-de-maquinas/"; ?>">Locação de Máquinas</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."criacao-de-site/"; ?>">Criação de Site</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."solicite-uma-senha/"; ?>">Solicite uma senha</a></li>
 						</ul>
 					</div>
 					<div class="col-md-2">
 						<p><strong>Institucional</strong></p>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/sobre/"; ?>">Sobre a Henji</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/parceiros/"; ?>">Parceiros</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>">Localização</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."sobre/"; ?>">Sobre a Henji</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."parceiros/"; ?>">Parceiros</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."contato/"; ?>">Localização</a></li>
 						</ul>
 					</div>
 					<div class="col-md-2">
 						<p><strong>Atendimento</strong></p>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>">Suporte</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/contato/"; ?>">Contato</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."/blog/"; ?>">Blog da Henji</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."contato/"; ?>">Suporte</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."contato/"; ?>">Contato</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."blog/"; ?>">Blog da Henji</a></li>
 							<li>11 4332-8787</li>
 						</ul>
 					</div>

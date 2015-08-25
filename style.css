@@ -86,7 +86,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 /* line 83, style.scss */
 #page .contato-input {
-  border-color: #F0F0F0;
+  border: 0;
   padding: 5px;
 }
 /* line 88, style.scss */
@@ -306,133 +306,134 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* line 222, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha {
   padding: 20px;
+  margin-top: 25px;
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 227, _header.scss */
+/* line 228, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha form input[type=text] {
   color: #606060;
 }
-/* line 235, _header.scss */
+/* line 236, _header.scss */
 #page header.banner-locacao-de-maquinas {
   background-image: url("images/banner-locacao-de-maquinas.png");
   width: 100%;
   height: 579px;
 }
-/* line 240, _header.scss */
+/* line 241, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 245, _header.scss */
+/* line 246, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 248, _header.scss */
+/* line 249, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 251, _header.scss */
+/* line 252, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 258, _header.scss */
+/* line 259, _header.scss */
 #page header.banner-sistema-henji {
   background-image: url("images/banner-sistema-henji.png");
   width: 100%;
   height: 579px;
 }
-/* line 263, _header.scss */
+/* line 264, _header.scss */
 #page header.banner-sistema-henji .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 268, _header.scss */
+/* line 269, _header.scss */
 #page header.banner-sistema-henji .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 271, _header.scss */
+/* line 272, _header.scss */
 #page header.banner-sistema-henji .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 274, _header.scss */
+/* line 275, _header.scss */
 #page header.banner-sistema-henji .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 281, _header.scss */
+/* line 282, _header.scss */
 #page header.banner-criacao-de-site {
   background-image: url("images/banner-solicite-uma-senha.png");
   width: 100%;
   height: 579px;
 }
-/* line 286, _header.scss */
+/* line 287, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 291, _header.scss */
+/* line 292, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 295, _header.scss */
+/* line 296, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 299, _header.scss */
+/* line 300, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 307, _header.scss */
+/* line 308, _header.scss */
 #page header.banner-gmd {
   background-image: url("images/banner-gmd.png");
   width: 100%;
   height: 579px;
 }
-/* line 312, _header.scss */
+/* line 313, _header.scss */
 #page header.banner-gmd .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 317, _header.scss */
+/* line 318, _header.scss */
 #page header.banner-gmd .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 321, _header.scss */
+/* line 322, _header.scss */
 #page header.banner-gmd .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 325, _header.scss */
+/* line 326, _header.scss */
 #page header.banner-gmd .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
 @media (max-width: 991px) {
-  /* line 335, _header.scss */
+  /* line 336, _header.scss */
   #page #header nav.menu-aux .dados-topo {
     display: none;
   }
-  /* line 338, _header.scss */
+  /* line 339, _header.scss */
   #page #header nav.menu-aux .dados-topo-vermelho {
     display: none;
   }
-  /* line 343, _header.scss */
+  /* line 344, _header.scss */
   #page #header nav.menu-principal .menu-opcoes {
     display: none;
   }
-  /* line 346, _header.scss */
+  /* line 347, _header.scss */
   #page #header nav.menu-principal .botao-menu-responsivo {
     display: inline-block;
   }
 }
 @media (min-width: 992px) {
-  /* line 356, _header.scss */
+  /* line 357, _header.scss */
   #page #header nav.menu-principal .botao-menu-responsivo {
     display: none;
   }

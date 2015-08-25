@@ -320,7 +320,7 @@ get_header('sistema-henji'); ?>
 			</div>
 
 			<div class="row text-center">
-				<a href="<?php echo esc_url( home_url( '/' ))."/solicite-uma-senha/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite-senha.png"; ?>"/></a>
+				<a href="<?php echo esc_url( home_url( '/' ))."solicite-uma-senha/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite-senha.png"; ?>"/></a>
 			</div>
 		</div>
 	</div>
@@ -349,7 +349,7 @@ get_header('sistema-henji'); ?>
 							<p>Histórico de manutenções</p>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
 						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>	
 				</div>
@@ -371,7 +371,7 @@ get_header('sistema-henji'); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
@@ -392,7 +392,7 @@ get_header('sistema-henji'); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>						
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
 						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
