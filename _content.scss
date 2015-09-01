@@ -32,6 +32,17 @@
 			.solucoes-quadro:hover{
 				border:1px solid #9e151a;
 			}
+
+			.parceiros{
+				img{
+					-webkit-filter: grayscale(100%); 
+					filter: grayscale(100%);				
+				}
+				img:hover{
+					-webkit-filter: none; 
+					filter: none;				
+				}
+			}
 		}
 	}
 
@@ -73,6 +84,7 @@
 				width: 100%;
 			}
 		}
+
 	}
 
 	.secao-c{

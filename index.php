@@ -297,21 +297,21 @@ get_header(); ?>
 				<h4>Construímos ao longo de mais de 20 anos uma sólida rede de parcerias, que fortalece ainda mais nossos produtos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>				
 			</div>
-			<div class="row">
+			<div class="row parceiros">
 				<div class="col-md-2 col-md-offset-1">
-					<a target="_blank" href="http://www.abla.com.br"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro1.png"; ?>"/></a>		
+					<a target="_blank" href="http://www.abla.com.br"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro1.jpg"; ?>"/></a>		
 				</div>	
 				<div class="col-md-2">
-					<a target="_blank" href="http://www.clickseminovos.com.br"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro2.png"; ?>"/></a>		
+					<a target="_blank" href="http://www.clickseminovos.com.br"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro2.jpg"; ?>"/></a>		
 				</div>	
 				<div class="col-md-2">
-					<a target="_blank" href="http://www.yacp.com.br"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro3.png"; ?>"/></a>	
+					<a target="_blank" href="http://www.yacp.com.br"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro3.jpg"; ?>"/></a>	
 				</div>	
 				<div class="col-md-2">
-					<a target="_blank" href="http://www.weblocadoras.com.br/portal/view/index.php"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro4.png"; ?>"/></a>		
+					<a target="_blank" href="http://www.weblocadoras.com.br/portal/view/index.php"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro4.jpg"; ?>"/></a>		
 				</div>	
 				<div class="col-md-2">
-					<a target="_blank" href="http://www.segurototal.com.br/view/index.php"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro5.png"; ?>"/></a>	
+					<a target="_blank" href="http://www.segurototal.com.br/view/index.php"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/parceiro5.jpg"; ?>"/></a>	
 				</div>	
 			</div><br><br>
 		</div>

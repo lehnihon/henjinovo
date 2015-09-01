@@ -18,7 +18,7 @@
 						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/>
 						<p><strong>Liderança não se conquista por acaso.</strong></p>
 						<p>
-							A Henji é uma empressa que desenvolve sistemas para a gestão de locadoras de veículos.<br/>
+							A Henji é uma empresa que desenvolve sistemas para a gestão de locadoras de veículos.<br/>
 							Nossos sistemas foram desenvolvidos exclusivamente para atender as necessidades da sua locadora.
 						</p>
 					</div>

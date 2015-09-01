@@ -126,7 +126,7 @@ function site_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'site_scripts' );
+add_action( 'wp_enqueue_scripts', 'site_scripts', '1.0.0', true  );
 
 // Change number or products per row to 3
 add_filter('loop_shop_columns', 'loop_columns');

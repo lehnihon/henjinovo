@@ -477,158 +477,168 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page #content .secao-a .container .solucoes-quadro:hover {
   border: 1px solid #9e151a;
 }
-/* line 38, _content.scss */
+/* line 37, _content.scss */
+#page #content .secao-a .container .parceiros img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* line 41, _content.scss */
+#page #content .secao-a .container .parceiros img:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+/* line 49, _content.scss */
 #page #content .secao-b {
   background-color: #f0f2f4;
 }
-/* line 41, _content.scss */
+/* line 52, _content.scss */
 #page #content .secao-b .container {
   padding: 25px 0;
 }
-/* line 46, _content.scss */
+/* line 57, _content.scss */
 #page #content .secao-b .sistema-henji {
   text-align: left;
 }
-/* line 48, _content.scss */
+/* line 59, _content.scss */
 #page #content .secao-b .sistema-henji h4 {
   text-align: center;
 }
-/* line 52, _content.scss */
+/* line 63, _content.scss */
 #page #content .secao-b .sistema-henji h5 {
   color: #9e151a;
 }
-/* line 56, _content.scss */
+/* line 67, _content.scss */
 #page #content .secao-b .sistema-henji .botaoa, #page #content .secao-b .sistema-henji .botaob, #page #content .secao-b .sistema-henji .botaoc, #page #content .secao-b .sistema-henji .botaod, #page #content .secao-b .sistema-henji .botaoe {
   cursor: pointer;
 }
-/* line 60, _content.scss */
+/* line 71, _content.scss */
 #page #content .secao-b .sistema-henji .row {
   padding: 10px 0;
 }
-/* line 64, _content.scss */
+/* line 75, _content.scss */
 #page #content .secao-b .sistema-henji .row ul li {
   padding: 3px 0;
 }
-/* line 72, _content.scss */
+/* line 83, _content.scss */
 #page #content .secao-b .parceiros-pag img {
   width: 100%;
 }
-/* line 78, _content.scss */
+/* line 90, _content.scss */
 #page #content .secao-c {
   background-color: #9e151a;
 }
-/* line 81, _content.scss */
+/* line 93, _content.scss */
 #page #content .secao-c .container {
   padding: 25px 0;
   color: #FFFFFF;
 }
-/* line 85, _content.scss */
+/* line 97, _content.scss */
 #page #content .secao-c .container img {
   margin-left: 20px;
 }
-/* line 89, _content.scss */
+/* line 101, _content.scss */
 #page #content .secao-c .container p.senha-temp-box {
   margin: 0;
 }
-/* line 96, _content.scss */
+/* line 108, _content.scss */
 #page #content .banner-menu div {
   padding: 15px 20px;
 }
-/* line 98, _content.scss */
+/* line 110, _content.scss */
 #page #content .banner-menu div h4 {
   margin: 0;
 }
-/* line 100, _content.scss */
+/* line 112, _content.scss */
 #page #content .banner-menu div h4 a {
   color: #FFFFFF;
 }
-/* line 103, _content.scss */
+/* line 115, _content.scss */
 #page #content .banner-menu div h4 a:hover {
   color: #2d9e9a;
 }
-/* line 109, _content.scss */
+/* line 121, _content.scss */
 #page #content .banner-menu .blog-categoria-a {
   background-color: #6f090d;
 }
-/* line 112, _content.scss */
+/* line 124, _content.scss */
 #page #content .banner-menu .blog-categoria-b {
   background-color: #921318;
 }
-/* line 115, _content.scss */
+/* line 127, _content.scss */
 #page #content .banner-menu .blog-categoria-c {
   background-color: #c51b22;
 }
-/* line 120, _content.scss */
+/* line 132, _content.scss */
 #page #content aside {
   overflow: hidden;
 }
-/* line 124, _content.scss */
+/* line 136, _content.scss */
 #page #content .newsletter-blog {
   margin-bottom: 20px;
 }
-/* line 128, _content.scss */
+/* line 140, _content.scss */
 #page #content .newsletter-blog .head img {
   width: 100%;
 }
-/* line 132, _content.scss */
+/* line 144, _content.scss */
 #page #content .newsletter-blog .content {
   padding: 10px;
   background-color: #f7f7f7;
 }
-/* line 138, _content.scss */
+/* line 150, _content.scss */
 #page #content .blog-articles {
   padding: 50px 0;
 }
-/* line 141, _content.scss */
+/* line 153, _content.scss */
 #page #content .blog-articles article {
   text-align: left;
   padding-bottom: 30px;
   margin-bottom: 40px;
   border-bottom: 1px dotted black;
 }
-/* line 148, _content.scss */
+/* line 160, _content.scss */
 #page #content .blog-articles article h2 a {
   color: #9e151a;
 }
-/* line 153, _content.scss */
+/* line 165, _content.scss */
 #page #content .blog-articles article:last-child {
   border-bottom: none;
 }
-/* line 159, _content.scss */
+/* line 171, _content.scss */
 #page #content .solucoes-locadoras .solucoes-padding {
   padding: 10px;
   padding-right: 10px;
 }
-/* line 166, _content.scss */
+/* line 178, _content.scss */
 #page #content .sistema-locacao h3 {
   min-height: 52px;
 }
-/* line 171, _content.scss */
+/* line 183, _content.scss */
 #page #content .conheca-henji {
   text-align: left;
 }
-/* line 175, _content.scss */
+/* line 187, _content.scss */
 #page #content .conheca-henji ul.conheca-dados li {
   list-style: none;
   margin: 15px 0;
 }
-/* line 184, _content.scss */
+/* line 196, _content.scss */
 #page #content .planos-henji .planos li {
   background-color: #FFFFFF;
   padding: 10px 20px;
   margin: 5px 0;
   list-style: none;
 }
-/* line 191, _content.scss */
+/* line 203, _content.scss */
 #page #content .planos-henji .planos li.head {
   color: #FFFFFF;
   background-color: #9e151a;
 }
-/* line 194, _content.scss */
+/* line 206, _content.scss */
 #page #content .planos-henji .planos li.head h3 {
   color: #FFFFFF;
 }
-/* line 201, _content.scss */
+/* line 213, _content.scss */
 #page #content #newsletter-background {
   width: 100%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+50,000000+50,000000+50 */
@@ -649,54 +659,54 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#000000',GradientType=1 );
   /* IE6-9 */
 }
-/* line 213, _content.scss */
+/* line 225, _content.scss */
 #page #content #newsletter-background .news-esquerdo {
   background-color: #9e151a;
   padding: 20px 15px;
 }
-/* line 217, _content.scss */
+/* line 229, _content.scss */
 #page #content #newsletter-background .news-esquerdo img {
   width: 90%;
 }
-/* line 222, _content.scss */
+/* line 234, _content.scss */
 #page #content #newsletter-background .news-direito {
   background-color: #f0f2f4;
   text-align: left;
   padding: 0;
   min-height: 119px;
 }
-/* line 228, _content.scss */
+/* line 240, _content.scss */
 #page #content #newsletter-background .news-direito img {
   margin: 40px 0;
 }
-/* line 232, _content.scss */
+/* line 244, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-texto {
   margin: 0;
   margin-top: 35px;
 }
-/* line 235, _content.scss */
+/* line 247, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-texto p {
   margin: 0;
 }
-/* line 240, _content.scss */
+/* line 252, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-nome-wrap {
   margin: 0;
 }
-/* line 243, _content.scss */
+/* line 255, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-nome {
   padding: 15px 5px;
   margin-top: 35px;
 }
-/* line 247, _content.scss */
+/* line 259, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-email-wrap {
   margin: 0;
 }
-/* line 250, _content.scss */
+/* line 262, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-email {
   padding: 15px 5px;
   margin-top: 35px;
 }
-/* line 254, _content.scss */
+/* line 266, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-enviar {
   padding: 15px;
   background-image: none;
@@ -705,14 +715,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   border: 0;
   margin-top: 35px;
 }
-/* line 262, _content.scss */
+/* line 274, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-enviar:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
 @media (max-width: 991px) {
-  /* line 275, _content.scss */
+  /* line 287, _content.scss */
   #page #content #newsletter-background {
     background: #feffff;
     /* Old browsers */
