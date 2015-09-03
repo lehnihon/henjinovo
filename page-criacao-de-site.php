@@ -31,12 +31,14 @@ get_header('criacao-de-site'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Planos e Valores</h2>
 				<h4>
 					Confira nosso planos e escolha qual modelo vai atender melhor as suas necessidades<br/>
 					Dê o primeiro passo para colocar sua locadora na internet e sair na frente da concorrência.
 				</h4>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -82,9 +84,11 @@ get_header('criacao-de-site'); ?>
 	<div class="secao-a solucoes-locadoras">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Soluções para sua locadora de veículos.</h2>
 				<h4>Confira as soluções completas que a Henji oferece para sua locadora de veículos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-md-offset-2 solucoes-padding">

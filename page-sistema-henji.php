@@ -31,9 +31,11 @@ get_header('sistema-henji'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Sistema Henji</h2>
 				<h4>Sistema de Gestão para Locadoras de Veículos</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -41,10 +43,12 @@ get_header('sistema-henji'); ?>
 	<div class="secao-b">
 		<div class="container sistema-henji">
 			<div class="row">
+				<div class="col-md-12">
 				<h4><strong>Descrição dos módulos que compõe o sistema</strong></h4>
+				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-2 text-right">
+				<div class="col-md-2">
 					<img class="botaoa closed e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.png"; ?>"/>
 					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sistema-henji1.png"; ?>"/>
 				</div>

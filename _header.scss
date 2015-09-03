@@ -349,6 +349,22 @@ header.banner-gmd{
             }
         }
     }   
+
+    .banner-formulario{
+        h2{
+            font-size: 22px
+        }
+        h3{
+            font-size: 15px;
+        }
+        p{
+            font-size: 12px;
+        }
+        .responsivo-solicite{
+            display: none;
+        }
+        
+    }
 }
 
 @media (min-width: 992px) {  

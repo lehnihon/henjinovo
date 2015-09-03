@@ -22,9 +22,11 @@ get_header(); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
-				<h2>Por que escolher o sistema da Henji?</h2>
-				<h4>É um completo sistema de gestão de locadoras de veículos.</h4><br/>
-				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				<div class="col-md-12">
+					<h2>Por que escolher o sistema da Henji?</h2>
+					<h4>É um completo sistema de gestão de locadoras de veículos.</h4><br/>
+					<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>			
+				</div>
 			</div>
 		</div>
 	</div>
@@ -82,9 +84,11 @@ get_header(); ?>
 	<div class="secao-a solucoes-locadoras">
 		<div class="container">
 			<div class="row">
-				<h2>Soluções para sua locadora de veículos.</h2>
-				<h4>Confira as soluções completas que a Henji oferece para sua locadora de veículos.</h4><br/>
-				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>
+				<div class="col-md-12">
+					<h2>Soluções para sua locadora de veículos.</h2>
+					<h4>Confira as soluções completas que a Henji oferece para sua locadora de veículos.</h4><br/>
+					<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>
+					</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 solucoes-padding">
@@ -192,9 +196,11 @@ get_header(); ?>
 	<div class="secao-b sistema-locacao">
 		<div class="container">
 			<div class="row">
-				<h2>Sistema Henji</h2>
-				<h4>Conheça os módulos do sistema Henji para a gestão da sua locadora de veículos.</h4><br/>
-				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-cinza.jpg"; ?>"/><br/><br/>				
+				<div class="col-md-12">
+					<h2>Sistema Henji</h2>
+					<h4>Conheça os módulos do sistema Henji para a gestão da sua locadora de veículos.</h4><br/>
+					<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-cinza.jpg"; ?>"/><br/><br/>				
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-2 col-md-offset-1">
@@ -247,9 +253,11 @@ get_header(); ?>
 	<div class="secao-b sistema-locacao">
 		<div class="container">
 			<div class="row">
-				<h2>Locação de Máquinas</h2>
-				<h4>Conheça algumas das funcionalidades do Sistema LocMaq</h4><br/>
-				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-cinza.jpg"; ?>"/><br/><br/>				
+				<div class="col-md-12">
+					<h2>Locação de Máquinas</h2>
+					<h4>Conheça algumas das funcionalidades do Sistema LocMaq</h4><br/>
+					<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-cinza.jpg"; ?>"/><br/><br/>				
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-2 col-md-offset-1">
@@ -293,9 +301,11 @@ get_header(); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
-				<h2>Parceiros</h2>
-				<h4>Construímos ao longo de mais de 20 anos uma sólida rede de parcerias, que fortalece ainda mais nossos produtos.</h4><br/>
-				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>				
+				<div class="col-md-12">
+					<h2>Parceiros</h2>
+					<h4>Construímos ao longo de mais de 20 anos uma sólida rede de parcerias, que fortalece ainda mais nossos produtos.</h4><br/>
+					<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>				
+				</div>
 			</div>
 			<div class="row parceiros">
 				<div class="col-md-2 col-md-offset-1">

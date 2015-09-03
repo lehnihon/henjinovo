@@ -14,7 +14,7 @@
 get_header('solicite-uma-senha'); ?>
 	<div class="banner-formulario">
 		<div class="container">
-			<div class="col-md-5" style="padding-top:40px">
+			<div class="col-md-5 responsivo-solicite" style="padding-top:40px">
 				<h2>Solicite uma senha temporária e confira o que o sistema da Henji pode oferecer para sua locadora de veículos.</h2><br>
 				<p style="line-height:2">
 					Perfeito para sua empresa, <br>
@@ -33,9 +33,11 @@ get_header('solicite-uma-senha'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Por que escolher o sistema da Henji?</h2>
 				<h4>É um completo sistema de gestão de locadoras de veículos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -81,9 +83,11 @@ get_header('solicite-uma-senha'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Conheça a Henji.</h2>
 				<h4>Conheça um pouco mais sobre a Henji.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>
+				</div>
 			</div>
 			<div class="row conheca-henji">
 				<div class="col-md-6">

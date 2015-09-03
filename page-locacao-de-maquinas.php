@@ -30,9 +30,11 @@ get_header('locacao-de-maquinas'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Sistema LocMaq</h2>
 				<h4>Sistema de Gestão para Locadoras de Máquinas.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -40,7 +42,9 @@ get_header('locacao-de-maquinas'); ?>
 	<div class="secao-b">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<br><h4><strong>Funcionalidades do sistema LocMaq</strong></h4><br>
+				</div>
 			</div>
 			<div class="row">
 				<ul class="col-md-6 text-left">
@@ -73,9 +77,11 @@ get_header('locacao-de-maquinas'); ?>
 	<div class="secao-a solucoes-locadoras">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Soluções para sua locadora de veículos.</h2>
 				<h4>Confira as soluções completas que a Henji oferece para sua locadora de veículos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-md-offset-2 solucoes-padding">

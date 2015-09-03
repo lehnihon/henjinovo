@@ -56,6 +56,9 @@
 
 		.sistema-henji{
 			text-align: left;
+			div.col-md-2{
+				text-align: right;
+			}
 			h4{
 				text-align:center;
 			}
@@ -287,6 +290,14 @@
 		#newsletter-background{
 			background: #feffff; /* Old browsers */
 
+		}
+		.secao-b{
+
+			.sistema-henji{
+				div.col-md-2{
+					text-align: center!important;
+				}
+			}
 		}
 	}
 }

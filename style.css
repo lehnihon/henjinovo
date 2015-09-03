@@ -431,9 +431,25 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #header nav.menu-principal .botao-menu-responsivo {
     display: inline-block;
   }
+  /* line 354, _header.scss */
+  #page .banner-formulario h2 {
+    font-size: 22px;
+  }
+  /* line 357, _header.scss */
+  #page .banner-formulario h3 {
+    font-size: 15px;
+  }
+  /* line 360, _header.scss */
+  #page .banner-formulario p {
+    font-size: 12px;
+  }
+  /* line 363, _header.scss */
+  #page .banner-formulario .responsivo-solicite {
+    display: none;
+  }
 }
 @media (min-width: 992px) {
-  /* line 357, _header.scss */
+  /* line 373, _header.scss */
   #page #header nav.menu-principal .botao-menu-responsivo {
     display: none;
   }
@@ -500,145 +516,149 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   text-align: left;
 }
 /* line 59, _content.scss */
+#page #content .secao-b .sistema-henji div.col-md-2 {
+  text-align: right;
+}
+/* line 62, _content.scss */
 #page #content .secao-b .sistema-henji h4 {
   text-align: center;
 }
-/* line 63, _content.scss */
+/* line 66, _content.scss */
 #page #content .secao-b .sistema-henji h5 {
   color: #9e151a;
 }
-/* line 67, _content.scss */
+/* line 70, _content.scss */
 #page #content .secao-b .sistema-henji .botaoa, #page #content .secao-b .sistema-henji .botaob, #page #content .secao-b .sistema-henji .botaoc, #page #content .secao-b .sistema-henji .botaod, #page #content .secao-b .sistema-henji .botaoe {
   cursor: pointer;
 }
-/* line 71, _content.scss */
+/* line 74, _content.scss */
 #page #content .secao-b .sistema-henji .row {
   padding: 10px 0;
 }
-/* line 75, _content.scss */
+/* line 78, _content.scss */
 #page #content .secao-b .sistema-henji .row ul li {
   padding: 3px 0;
 }
-/* line 83, _content.scss */
+/* line 86, _content.scss */
 #page #content .secao-b .parceiros-pag img {
   width: 100%;
 }
-/* line 90, _content.scss */
+/* line 93, _content.scss */
 #page #content .secao-c {
   background-color: #9e151a;
 }
-/* line 93, _content.scss */
+/* line 96, _content.scss */
 #page #content .secao-c .container {
   padding: 25px 0;
   color: #FFFFFF;
 }
-/* line 97, _content.scss */
+/* line 100, _content.scss */
 #page #content .secao-c .container img {
   margin-left: 20px;
 }
-/* line 101, _content.scss */
+/* line 104, _content.scss */
 #page #content .secao-c .container p.senha-temp-box {
   margin: 0;
 }
-/* line 108, _content.scss */
+/* line 111, _content.scss */
 #page #content .banner-menu div {
   padding: 15px 20px;
 }
-/* line 110, _content.scss */
+/* line 113, _content.scss */
 #page #content .banner-menu div h4 {
   margin: 0;
 }
-/* line 112, _content.scss */
+/* line 115, _content.scss */
 #page #content .banner-menu div h4 a {
   color: #FFFFFF;
 }
-/* line 115, _content.scss */
+/* line 118, _content.scss */
 #page #content .banner-menu div h4 a:hover {
   color: #2d9e9a;
 }
-/* line 121, _content.scss */
+/* line 124, _content.scss */
 #page #content .banner-menu .blog-categoria-a {
   background-color: #6f090d;
 }
-/* line 124, _content.scss */
+/* line 127, _content.scss */
 #page #content .banner-menu .blog-categoria-b {
   background-color: #921318;
 }
-/* line 127, _content.scss */
+/* line 130, _content.scss */
 #page #content .banner-menu .blog-categoria-c {
   background-color: #c51b22;
 }
-/* line 132, _content.scss */
+/* line 135, _content.scss */
 #page #content aside {
   overflow: hidden;
 }
-/* line 136, _content.scss */
+/* line 139, _content.scss */
 #page #content .newsletter-blog {
   margin-bottom: 20px;
 }
-/* line 140, _content.scss */
+/* line 143, _content.scss */
 #page #content .newsletter-blog .head img {
   width: 100%;
 }
-/* line 144, _content.scss */
+/* line 147, _content.scss */
 #page #content .newsletter-blog .content {
   padding: 10px;
   background-color: #f7f7f7;
 }
-/* line 150, _content.scss */
+/* line 153, _content.scss */
 #page #content .blog-articles {
   padding: 50px 0;
 }
-/* line 153, _content.scss */
+/* line 156, _content.scss */
 #page #content .blog-articles article {
   text-align: left;
   padding-bottom: 30px;
   margin-bottom: 40px;
   border-bottom: 1px dotted black;
 }
-/* line 160, _content.scss */
+/* line 163, _content.scss */
 #page #content .blog-articles article h2 a {
   color: #9e151a;
 }
-/* line 165, _content.scss */
+/* line 168, _content.scss */
 #page #content .blog-articles article:last-child {
   border-bottom: none;
 }
-/* line 171, _content.scss */
+/* line 174, _content.scss */
 #page #content .solucoes-locadoras .solucoes-padding {
   padding: 10px;
   padding-right: 10px;
 }
-/* line 178, _content.scss */
+/* line 181, _content.scss */
 #page #content .sistema-locacao h3 {
   min-height: 52px;
 }
-/* line 183, _content.scss */
+/* line 186, _content.scss */
 #page #content .conheca-henji {
   text-align: left;
 }
-/* line 187, _content.scss */
+/* line 190, _content.scss */
 #page #content .conheca-henji ul.conheca-dados li {
   list-style: none;
   margin: 15px 0;
 }
-/* line 196, _content.scss */
+/* line 199, _content.scss */
 #page #content .planos-henji .planos li {
   background-color: #FFFFFF;
   padding: 10px 20px;
   margin: 5px 0;
   list-style: none;
 }
-/* line 203, _content.scss */
+/* line 206, _content.scss */
 #page #content .planos-henji .planos li.head {
   color: #FFFFFF;
   background-color: #9e151a;
 }
-/* line 206, _content.scss */
+/* line 209, _content.scss */
 #page #content .planos-henji .planos li.head h3 {
   color: #FFFFFF;
 }
-/* line 213, _content.scss */
+/* line 216, _content.scss */
 #page #content #newsletter-background {
   width: 100%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+50,000000+50,000000+50 */
@@ -659,54 +679,54 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#000000',GradientType=1 );
   /* IE6-9 */
 }
-/* line 225, _content.scss */
+/* line 228, _content.scss */
 #page #content #newsletter-background .news-esquerdo {
   background-color: #9e151a;
   padding: 20px 15px;
 }
-/* line 229, _content.scss */
+/* line 232, _content.scss */
 #page #content #newsletter-background .news-esquerdo img {
   width: 90%;
 }
-/* line 234, _content.scss */
+/* line 237, _content.scss */
 #page #content #newsletter-background .news-direito {
   background-color: #f0f2f4;
   text-align: left;
   padding: 0;
   min-height: 119px;
 }
-/* line 240, _content.scss */
+/* line 243, _content.scss */
 #page #content #newsletter-background .news-direito img {
   margin: 40px 0;
 }
-/* line 244, _content.scss */
+/* line 247, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-texto {
   margin: 0;
   margin-top: 35px;
 }
-/* line 247, _content.scss */
+/* line 250, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-texto p {
   margin: 0;
 }
-/* line 252, _content.scss */
+/* line 255, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-nome-wrap {
   margin: 0;
 }
-/* line 255, _content.scss */
+/* line 258, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-nome {
   padding: 15px 5px;
   margin-top: 35px;
 }
-/* line 259, _content.scss */
+/* line 262, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-email-wrap {
   margin: 0;
 }
-/* line 262, _content.scss */
+/* line 265, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-email {
   padding: 15px 5px;
   margin-top: 35px;
 }
-/* line 266, _content.scss */
+/* line 269, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-enviar {
   padding: 15px;
   background-image: none;
@@ -715,17 +735,21 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   border: 0;
   margin-top: 35px;
 }
-/* line 274, _content.scss */
+/* line 277, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-enviar:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
 @media (max-width: 991px) {
-  /* line 287, _content.scss */
+  /* line 290, _content.scss */
   #page #content #newsletter-background {
     background: #feffff;
     /* Old browsers */
+  }
+  /* line 297, _content.scss */
+  #page #content .secao-b .sistema-henji div.col-md-2 {
+    text-align: center !important;
   }
 }
 /* line 1, _footer.scss */

@@ -21,7 +21,7 @@
 			</button>
 			<ul class="dropdown-menu">
 				<li><a href="<?php echo esc_url( home_url( '/' ))."sobre/"; ?>">A HENJI</a></li>
-				<li><a href="<?php echo esc_url( home_url( '/' ))."/produtos/"; ?>">PRODUTOS</a></li>
+				<li><a href="<?php echo esc_url( home_url( '/' ))."produto/"; ?>">PRODUTOS</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ))."parceiros/"; ?>">PARCEIROS</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ))."blog/"; ?>">BLOG</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ))."contato/"; ?>">CONTATO</a></li>
@@ -31,7 +31,7 @@
 
 		<ul class="menu-opcoes">
 			<li><a href="<?php echo esc_url( home_url( '/' ))."sobre/"; ?>">A HENJI</a></li>
-			<li><a href="<?php echo esc_url( home_url( '/' ))."/produtos/"; ?>">PRODUTOS</a></li>
+			<li><a href="<?php echo esc_url( home_url( '/' ))."produto/"; ?>">PRODUTOS</a></li>
 			<li><a href="<?php echo esc_url( home_url( '/' ))."parceiros/"; ?>">PARCEIROS</a></li>
 			<li><a href="<?php echo esc_url( home_url( '/' ))."blog/"; ?>">BLOG</a></li>
 			<li><a href="<?php echo esc_url( home_url( '/' ))."contato/"; ?>">CONTATO</a></li>
