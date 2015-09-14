@@ -35,7 +35,7 @@
 		</div> <!-- /.entry-content -->
 	<?php } ?><br>
 	<p>
-		<a href="<?php echo esc_url( home_url( '/' ))."/blog/"; ?>">Voltar</a>
+		<a href="<?php echo esc_url( home_url( '/' ))."blog/"; ?>">Voltar</a>
 	</p>
 </article> <!-- /#post -->
 
