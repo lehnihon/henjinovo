@@ -93,7 +93,7 @@ get_header('gmd'); ?>
 							<p>Módulo Manutenção</p>
 							<p>Módulo Financeiro</p>			
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."sistema-de-gestao-para-locadoras-de-veiculos/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>				
 				</div>
@@ -114,7 +114,7 @@ get_header('gmd'); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."locacao-de-maquinas-e-equipamentos/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
 						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>

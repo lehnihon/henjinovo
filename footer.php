@@ -25,9 +25,9 @@
 					<div class="col-md-2 col-md-offset-2">
 						<p><strong>Produtos</strong></p>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."sistema-henji/"; ?>">Sistema Henji</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."gmd/"; ?>">GMD</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."locacao-de-maquinas/"; ?>">Locação de Máquinas</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."sistema-de-gestao-para-locadoras-de-veiculos/"; ?>">Sistema Henji</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."sistema-de-gestao-para-locadoras-de-carros/"; ?>">GMD</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."locacao-de-maquinas-e-equipamentos/"; ?>">Locação de Máquinas</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' ))."criacao-de-site/"; ?>">Criação de Site</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' ))."solicite-uma-senha/"; ?>">Solicite uma senha</a></li>
 						</ul>
@@ -35,7 +35,7 @@
 					<div class="col-md-2">
 						<p><strong>Institucional</strong></p>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' ))."sobre/"; ?>">Sobre a Henji</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' ))."henji/"; ?>">Sobre a Henji</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' ))."parceiros/"; ?>">Parceiros</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' ))."contato/"; ?>">Localização</a></li>
 						</ul>
@@ -54,7 +54,7 @@
 		
 		<div class="footer-baixo">
 			<div class="container">
-				&copy; Copyright- Henji <a href="#">Site desenvolvido pela Agência Rino.</a>
+				&copy; Copyright- Henji <a href="http://agenciarino.com.br/">Site desenvolvido pela Agência Rino.</a>
 				<ul class="redes_sociais_header">
 					<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCNkHrw4ujO_bUW7nmrPF1TA"></a></li>
 					<li class="instagram"><a target="_blank" href="https://instagram.com/henjioficial"></a></li>
