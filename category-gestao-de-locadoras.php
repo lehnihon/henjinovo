@@ -8,17 +8,21 @@ get_header('blog'); ?>
 			<?php putRevSlider( "banner-blog" ) ?>
 		</div>
 		<div class="row banner-menu">
-			<div class="col-md-4 blog-categoria-a"><h4><a href="">Empreendedorismo</a></h4></div>
-			<div class="col-md-4 blog-categoria-b"><h4><a href="">Notícias sobre automóveis</a></h4></div>
-			<div class="col-md-4 blog-categoria-c"><h4><a href="">Gestões de Locadoras</a></h4></div>
+			<div class="col-md-4 blog-categoria-a"><h4><a href="<?php echo esc_url( home_url( '/' ))."categoria/empreendedorismo/"; ?>">Empreendedorismo</a></h4></div>
+			<div class="col-md-4 blog-categoria-b"><h4><a href="<?php echo esc_url( home_url( '/' ))."categoria/noticias-sobre-automoveis/"; ?>">Notícias sobre automóveis</a></h4></div>
+			<div class="col-md-4 blog-categoria-c"><h4><a href="<?php echo esc_url( home_url( '/' ))."categoria/gestao-de-locadoras/"; ?>">Gestões de Locadoras</a></h4></div>
 		</div>
 		<div class="row blog-articles">
 			<div class="col-md-8">
 				<?php 
+				$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
+
 				$args = array(
+					'posts_per_page' => 10,
 				    'orderby' => 'post_date',
 				    'order' => 'DESC',
-				    'category_name' => 'gestao-de-locadoras'
+				    'category_name' => 'gestao-de-locadoras',
+				    'paged' => $paged
 					);
 				$query = new WP_Query( $args ); 
 				?>	
@@ -39,7 +43,15 @@ get_header('blog'); ?>
 						?>
 
 					<?php endwhile; ?>
-
+					<?php
+					$big = 999999999; // need an unlikely integer
+					echo paginate_links( array(
+						'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+						'format' => '?paged=%#%',
+						'current' => max( 1, get_query_var('paged') ),
+						'total' => $query->max_num_pages
+					) );
+					?>
 
 				<?php else : ?>
 

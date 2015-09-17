@@ -28,6 +28,7 @@
             }
         }
         .dados-topo-vermelho{
+            padding-left:0;
             li{
                 padding: 10px;
                 color:#9e151a;
@@ -99,6 +100,7 @@
     nav.menu-aux{
         .blog{
             ul{
+                padding-left:0;
                 li{
                     color:#9e151a;
                     a{
@@ -123,6 +125,25 @@
         background-color:#9e151a;
 
         .container{
+            .botao-menu-responsivo{
+                float:left;
+                margin-right: 20px;
+                margin-top: 12px;
+
+                .dropdown-menu{
+                    li{
+                        width: 100%;
+                        a{
+                            width: 100%;
+                            color:#606060;
+                        }
+                        a:hover{
+                            background-color:#f0f2f4;
+                        }
+                    }
+                }
+            }
+
             .logo-header{
                 padding: 7px;
                 margin-right: 20px;
@@ -163,7 +184,7 @@ header.banner-contrate{
     height: 579px;
 
     .banner-formulario{
-        padding:50px 0;
+        padding:30px 0;
         text-align: left;
 
         color: #FFFFFF;
@@ -200,6 +221,7 @@ header.banner-solicite-uma-senha{
 
         .form-solicite-uma-senha{
             padding:20px;
+            margin-top: 25px;
             background-color:#9e151a;
             background-color:rgba(111,10,13,0.7);  
             form{
@@ -258,7 +280,7 @@ header.banner-sistema-henji{
 }
 
 header.banner-criacao-de-site{
-    background-image: url("images/banner-contrate.png");
+    background-image: url("images/banner-solicite-uma-senha.png");
     width: 100%;
     height: 579px;
 
@@ -306,4 +328,51 @@ header.banner-gmd{
             background-color:rgba(111,10,13,0.7);       
         }   
     }
+}
+
+@media (max-width: 991px) {  
+    #header{
+        nav.menu-aux{
+            .dados-topo{
+                display: none;
+            }   
+            .dados-topo-vermelho{
+                display: none;
+            }               
+        }
+        nav.menu-principal{
+            .menu-opcoes{
+                display:none;
+            }
+            .botao-menu-responsivo{
+                display: inline-block;
+            }
+        }
+    }   
+
+    .banner-formulario{
+        h2{
+            font-size: 22px
+        }
+        h3{
+            font-size: 15px;
+        }
+        p{
+            font-size: 12px;
+        }
+        .responsivo-solicite{
+            display: none;
+        }
+        
+    }
+}
+
+@media (min-width: 992px) {  
+    #header{
+        nav.menu-principal{
+            .botao-menu-responsivo{
+                display: none;
+            }
+        }
+    }    
 }

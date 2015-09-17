@@ -31,12 +31,14 @@ get_header('criacao-de-site'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Planos e Valores</h2>
 				<h4>
 					Confira nosso planos e escolha qual modelo vai atender melhor as suas necessidades<br/>
 					Dê o primeiro passo para colocar sua locadora na internet e sair na frente da concorrência.
 				</h4>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -75,16 +77,18 @@ get_header('criacao-de-site'); ?>
 				</div>
 			</div><br>
 			<div class="row">
-				<a href="<?php echo esc_url( home_url( '/' ))."/contrate/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contrate-agora.png"; ?>"/></a>
+				<a href="<?php echo esc_url( home_url( '/' ))."contrate/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/contrate-agora.png"; ?>"/></a>
 			</div>
 		</div>
 	</div>
 	<div class="secao-a solucoes-locadoras">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Soluções para sua locadora de veículos.</h2>
 				<h4>Confira as soluções completas que a Henji oferece para sua locadora de veículos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-md-offset-2 solucoes-padding">
@@ -104,13 +108,14 @@ get_header('criacao-de-site'); ?>
 							<p>Módulo Manutenção</p>
 							<p>Módulo Financeiro</p>			
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."sistema-de-gestao-para-locadoras-de-veiculos/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>				
 				</div>
 				<div class="col-md-3 solucoes-padding">
 					<div class="solucoes-quadro">
 						<div class="quadro-cima">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>"/>
+							<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>"/>
 							<p>
 								<strong>MÓDULO GMD</strong><br/><br/>
 								Realize cotações, aberturas de Ordens de Serviços através de seus prestadores de serviços.
@@ -118,19 +123,20 @@ get_header('criacao-de-site'); ?>
 						</div>
 						<div class="quadro-baixo">
 							<p><strong>MÓDULOS</strong></p>
-							<p>Abertura e análise de orçamentos online</p>
-							<p>Integração com módulo de manutenção</p>
+							<p>Análise online</p>
+							<p>Módulo manutenção integrado</p>
 							<p>Criação de rede credenciada</p>
-							<p>Histórico de manutenções dos veículos</p>
+							<p>Histórico de manutenções</p>
 							<p>Fique próximo do seu cliente</p>							
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."/gmd/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."sistema-de-gestao-para-locadoras-de-carros/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>	
 				</div>
 				<div class="col-md-3 solucoes-padding">
 					<div class="solucoes-quadro">
 						<div class="quadro-cima">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>"/>
+							<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>"/>
 							<p>
 								<strong>LOCAÇÃO DE MÁQUINAS</strong><br/><br/>
 								O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos e aonde você estiver.
@@ -139,12 +145,13 @@ get_header('criacao-de-site'); ?>
 						<div class="quadro-baixo">
 							<p><strong>LOCAÇÃO DE MÁQUINAS</strong></p>
 							<p>Você escolhe o layout</p>
-							<p>Seus site integrado ao Sistema Henji</p>
+							<p>Site integrado ao Sistema Henji</p>
 							<p>Integração com o Google Maps</p>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquina/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."locacao-de-maquinas-e-equipamentos/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
 			</div>

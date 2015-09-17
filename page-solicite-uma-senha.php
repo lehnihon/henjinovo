@@ -14,9 +14,9 @@
 get_header('solicite-uma-senha'); ?>
 	<div class="banner-formulario">
 		<div class="container">
-			<div class="col-md-5" style="padding-top:40px">
+			<div class="col-md-5 responsivo-solicite" style="padding-top:40px">
 				<h2>Solicite uma senha temporária e confira o que o sistema da Henji pode oferecer para sua locadora de veículos.</h2><br>
-				<p>
+				<p style="line-height:2">
 					Perfeito para sua empresa, <br>
 					Multi Versões, <br>
 					Integração total, <br>
@@ -33,9 +33,11 @@ get_header('solicite-uma-senha'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Por que escolher o sistema da Henji?</h2>
 				<h4>É um completo sistema de gestão de locadoras de veículos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -81,9 +83,11 @@ get_header('solicite-uma-senha'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Conheça a Henji.</h2>
 				<h4>Conheça um pouco mais sobre a Henji.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>
+				</div>
 			</div>
 			<div class="row conheca-henji">
 				<div class="col-md-6">
@@ -97,20 +101,21 @@ get_header('solicite-uma-senha'); ?>
 						<li>
 							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/icon-seta.png"; ?>"/>
 							<strong>Henji</strong> <br>
-							Rua Alzira Ferreira Ventura, 53 <br>
+							Rua Américo Batista, 12 - Baeta Neves<br/>
 							São Bernardo do Campo - SP
 						</li>
 						<li>
 							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/icon-carta.png"; ?>"/>
-							<strong>11 4332-8787</strong>
+							<strong>contato@henji.com.br</strong>
+
 						</li>
 						<li>
 							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/icon-tel.png"; ?>"/>
-							<strong>contato@henji.com.br</strong>
+							<strong> 4332-8787</strong>						
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div><br><br>
 		</div>
 	</div>
 	

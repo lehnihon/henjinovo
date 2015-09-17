@@ -35,9 +35,11 @@ get_header('gmd'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Gerenciamento de Manutenção a Distância</h2>
 				<h4>Nesse módulo é possível realizar ordens de serviço através da sua própria rede de prestadores de serviços.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -45,31 +47,33 @@ get_header('gmd'); ?>
 	<div class="secao-b">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 text-left">
-					<p>Abertura e análise de orçamentos online, conectado diretamente com seu prestador, sem intermediários, reduzindo custos de manutenção e mão de obra.</p>
-					<p>tenha um ganho de qualificação profissional de sua rede credenciada e seus funcionários, com acompanhamento de metas estabelecidas e níveis de aprovação.</p>
-					<p>Integração total com o módulo de manutenção.</p>
-					<p>Converta comissões pagas em descontos.</p>
-				</div>
-				<div class="col-md-6 text-left">
-					<p>Criação de rede credenciada para seu cliente.</p>
-					<p>Análise de serviços executados através de fornecedores por região.</p>
-					<p>Histórico de manutenções dos veículos.</p>
-					<p>Análise de orçamentos através de status (aprovados, não aprovados, em andamento etc).</p>
-					<p>Fique próximo de seu cliente com o auto atendimento.</p>
+				<ul class="col-md-6 text-left" style="margin-top:20px">
+					<li style="margin-bottom:10px">Abertura e análise de orçamentos online, conectado diretamente com seu prestador, sem intermediários, reduzindo custos de manutenção e mão de obra.</li>
+					<li style="margin-bottom:10px">tenha um ganho de qualificação profissional de sua rede credenciada e seus funcionários, com acompanhamento de metas estabelecidas e níveis de aprovação.</li>
+					<li style="margin-bottom:10px">Integração total com o módulo de manutenção.</li>
+					<li style="margin-bottom:10px">Converta comissões pagas em descontos.</li>
+				</ul>
+				<div class="col-md-6 text-left" style="margin-top:20px">
+					<li style="margin-bottom:10px">Criação de rede credenciada para seu cliente.</li>
+					<li style="margin-bottom:10px">Análise de serviços executados através de fornecedores por região.</li>
+					<li style="margin-bottom:10px">Histórico de manutenções dos veículos.</li>
+					<li style="margin-bottom:10px">Análise de orçamentos através de status (aprovados, não aprovados, em andamento etc).</li>
+					<li style="margin-bottom:10px">Fique próximo de seu cliente com o auto atendimento</li>
 				</div>
 			</div>
 			<div class="row">
-				<a href="<?php echo esc_url( home_url( '/' ))."/solicite-uma-senha/"; ?>"><img class="e-claro" style="margin-top:20px" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite-senha.png"; ?>"/></a>
+				<a href="<?php echo esc_url( home_url( '/' ))."solicite-uma-senha/"; ?>"><img class="e-claro" style="margin-top:20px" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solicite-senha.png"; ?>"/></a>
 			</div>
 		</div>
 	</div>
 	<div class="secao-a solucoes-locadoras">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Soluções para sua locadora de veículos.</h2>
 				<h4>Confira as soluções completas que a Henji oferece para sua locadora de veículos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-md-offset-2 solucoes-padding">
@@ -89,13 +93,14 @@ get_header('gmd'); ?>
 							<p>Módulo Manutenção</p>
 							<p>Módulo Financeiro</p>			
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."/sistema-henji/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."sistema-de-gestao-para-locadoras-de-veiculos/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>				
 				</div>
 				<div class="col-md-3 solucoes-padding">
 					<div class="solucoes-quadro">
 						<div class="quadro-cima">
-							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>"/>
+							<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>"/>
 							<p>
 								<strong>LOCAÇÃO DE MÁQUINAS</strong><br/><br/>
 								O Sistema de Gestão de Locadoras de Veículos Henji, coloca sua empresa em suas mãos e aonde você estiver.
@@ -104,12 +109,13 @@ get_header('gmd'); ?>
 						<div class="quadro-baixo">
 							<p><strong>LOCAÇÃO DE MÁQUINAS</strong></p>
 							<p>Você escolhe o layout</p>
-							<p>Seus site integrado ao Sistema Henji</p>
+							<p>Site integrado ao Sistema Henji</p>
 							<p>Integração com o Google Maps</p>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>					
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."/locacao-de-maquinas/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<a href="<?php echo esc_url( home_url( '/' ))."locacao-de-maquinas-e-equipamentos/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>	
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
 				<div class="col-md-3 solucoes-padding">
@@ -129,7 +135,8 @@ get_header('gmd'); ?>
 							<p>Integrado com suas redes sociais</p>
 							<p>Personalização de cores</p>						
 						</div>
-						<a href="<?php echo esc_url( home_url( '/' ))."/criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<a href="<?php echo esc_url( home_url( '/' ))."criacao-de-site/"; ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/saiba-mais.jpg"; ?>"/></a>
+						<div style="background-color:#9e151a; height:8px; width:100%; margin-top:20px"></div>
 					</div>					
 				</div>
 			</div>

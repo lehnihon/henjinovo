@@ -17,9 +17,11 @@ get_header('parceiros'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Parceiros</h2>
-				<h4>Construímos ao longo de mais de 20 anos uma sólida rede de parcerias, que fortalece ainda mais nossos produtos. A Henji e seus parceiros estão focados em um objetivo: o sucesso dos clientes.</h4><br/>
+				<h4>Construímos ao longo de mais de 20 anos uma sólida rede de parcerias, que fortalece ainda mais nossos produtos.<br> A Henji e seus parceiros estão focados em um objetivo: o sucesso dos clientes.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>

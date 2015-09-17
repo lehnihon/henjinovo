@@ -2,9 +2,9 @@
 get_header('contrate'); ?>
 	<div class="banner-formulario">
 		<div class="container">
-			<div class="col-md-5" style="padding-top:30px">
-				<h2>Tenha um site profissional para sua empresa</h2><br>
-				<p>
+			<div class="col-md-5" style="padding-top:50px">
+				<h2>Tenha um site profissional para sua empresa.</h2><br>
+				<p style="line-height:2">
 					Aumentar as vendas, <br>
 					Passa credibilidade, <br>
 					Atrair mais clientes para sua locadora.
@@ -20,9 +20,11 @@ get_header('contrate'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Por que escolher o sistema da Henji?</h2>
 				<h4>É um completo sistema de gestão de locadoras de veículos.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -68,9 +70,11 @@ get_header('contrate'); ?>
 	<div class="secao-a">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
 				<h2>Conheça a Henji.</h2>
 				<h4>Conheça um pouco mais sobre a Henji.</h4><br/>
 				<img width="100%" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/separador-topo.jpg"; ?>"/><br/><br/>
+				</div>
 			</div>
 			<div class="row conheca-henji">
 				<div class="col-md-6">
@@ -84,20 +88,21 @@ get_header('contrate'); ?>
 						<li>
 							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/icon-seta.png"; ?>"/>
 							<strong>Henji</strong> <br>
-							Rua Alzira Ferreira Ventura, 53 <br>
+							Rua Américo Batista, 12 - Baeta Neves<br/>
 							São Bernardo do Campo - SP
 						</li>
 						<li>
 							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/icon-carta.png"; ?>"/>
-							<strong>11 4332-8787</strong>
+							<strong>contato@henji.com.br</strong>
+
 						</li>
 						<li>
 							<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/icon-tel.png"; ?>"/>
-							<strong>contato@henji.com.br</strong>
+							<strong> 4332-8787</strong>							
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div><br><br>
 		</div>
 	</div>
 

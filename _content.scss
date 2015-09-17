@@ -5,8 +5,6 @@
 
 			.solucoes-quadro{
 				border:1px solid #f0f2f4;
-				border-bottom:8px solid #9e151a;
-				padding-bottom:20px;
 
 				.quadro-cima{
 					background-color:#9e151a;
@@ -23,8 +21,6 @@
 				}
 				.quadro-baixo{
 					padding: 15px 5px;
-					min-height: 270px;
-
 					strong{
 						color:#9e151a;
 					}
@@ -35,7 +31,17 @@
 			}
 			.solucoes-quadro:hover{
 				border:1px solid #9e151a;
-				border-bottom:8px solid #9e151a;
+			}
+
+			.parceiros{
+				img{
+					-webkit-filter: grayscale(100%); 
+					filter: grayscale(100%);				
+				}
+				img:hover{
+					-webkit-filter: none; 
+					filter: none;				
+				}
 			}
 		}
 	}
@@ -50,6 +56,9 @@
 
 		.sistema-henji{
 			text-align: left;
+			div.col-md-2{
+				text-align: right;
+			}
 			h4{
 				text-align:center;
 			}
@@ -78,6 +87,7 @@
 				width: 100%;
 			}
 		}
+
 	}
 
 	.secao-c{
@@ -169,7 +179,7 @@
 
 	.sistema-locacao{
 		h3{
-			min-height: 44px;
+			min-height: 52px;
 		}
 	}
 
@@ -261,6 +271,7 @@
 				background-image: none;
 				background-color: #9e151a;
 				color:white;
+				border:0;
 				margin-top: 35px;
 			}
 			.newsletter-enviar:hover{
@@ -272,4 +283,25 @@
 
 	}
 
+}
+
+@media (max-width: 991px) {  
+	#content{
+		#newsletter-background{
+			background: #feffff; /* Old browsers */
+
+		}
+		.secao-b{
+
+			.sistema-henji{
+				div.col-md-2{
+					text-align: center!important;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {  
+  
 }
