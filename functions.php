@@ -136,6 +136,21 @@ if (!function_exists('loop_columns')) {
 	}
 }
 
+function annointed_admin_bar_remove() {
+        global $wp_admin_bar;
+
+        /* Remove their stuff */
+        $wp_admin_bar->remove_menu('wp-logo');
+}
+
+add_action('wp_before_admin_bar_render', 'annointed_admin_bar_remove', 0);
+
+add_filter( 'get_the_excerpt', 'wpse162725_ltrim_excerpt' );
+
+function wpse162725_ltrim_excerpt( $excerpt ) {
+    return preg_replace( '~^(\s*(?:&nbsp;)?)*~i', '', $excerpt );
+}
+
 /**
  * Implement the Custom Header feature.
  */

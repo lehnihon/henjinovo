@@ -3,7 +3,7 @@ get_header('blog'); ?>
 </header><!--#header-->
 <div id="content">
 	<div class="container">
-		<div class="row blog-articles">
+		<div class="row blog-articles-single">
 			<div class="col-md-8">
 				<?php while ( have_posts() ) : the_post(); ?>
 

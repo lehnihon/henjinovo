@@ -170,6 +170,25 @@
 		}
 	}
 
+	.blog-articles-single{
+		article{
+			text-align: left;
+			padding-bottom: 30px;
+			margin-bottom: 40px;
+
+			div{
+				p:first-of-type{
+					margin:0;
+					padding:0;
+					height: 0;
+				}						
+			}
+			
+
+		}
+
+	}
+
 	.solucoes-locadoras{
 		.solucoes-padding{
 			padding:10px;
