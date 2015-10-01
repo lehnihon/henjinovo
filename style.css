@@ -238,218 +238,231 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   padding: 7px;
   margin-right: 20px;
 }
-/* line 152, _header.scss */
-#page #header nav.menu-principal .container .search-form {
+/* line 151, _header.scss */
+#page #header nav.menu-principal .container .wrap-searchform {
+  float: right;
+}
+/* line 153, _header.scss */
+#page #header nav.menu-principal .container .wrap-searchform .search-form {
   padding: 10px;
 }
-/* line 155, _header.scss */
-#page #header nav.menu-principal .container .search-form .pesquisar-input {
+/* line 156, _header.scss */
+#page #header nav.menu-principal .container .wrap-searchform .search-form .pesquisar-input {
   float: left;
   padding: 6px;
 }
-/* line 159, _header.scss */
-#page #header nav.menu-principal .container .search-form .pesquisar-submit {
+/* line 160, _header.scss */
+#page #header nav.menu-principal .container .wrap-searchform .search-form .pesquisar-submit {
   float: left;
 }
-/* line 166, _header.scss */
+/* line 169, _header.scss */
 #page #header nav.menu-principal .container ul li a {
   display: inline-block;
   padding: 20px 30px;
 }
-/* line 170, _header.scss */
+/* line 173, _header.scss */
 #page #header nav.menu-principal .container ul li a:hover {
   text-decoration: none;
   background-color: #BE191F;
 }
-/* line 181, _header.scss */
+/* line 184, _header.scss */
 #page header.banner-contrate {
   background-image: url("images/banner-contrate.png");
   width: 100%;
   height: 579px;
 }
-/* line 186, _header.scss */
+/* line 189, _header.scss */
 #page header.banner-contrate .banner-formulario {
   padding: 30px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 191, _header.scss */
+/* line 194, _header.scss */
 #page header.banner-contrate .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 195, _header.scss */
+/* line 198, _header.scss */
 #page header.banner-contrate .banner-formulario .form-criacao-site {
   padding: 20px;
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 200, _header.scss */
+/* line 203, _header.scss */
 #page header.banner-contrate .banner-formulario .form-criacao-site form input[type=text] {
   color: #606060;
 }
-/* line 208, _header.scss */
+/* line 211, _header.scss */
 #page header.banner-solicite-uma-senha {
   background-image: url("images/banner-solicite-uma-senha.png");
   width: 100%;
   height: 579px;
 }
-/* line 213, _header.scss */
+/* line 216, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario {
   padding: 5px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 218, _header.scss */
+/* line 221, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 222, _header.scss */
+/* line 225, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha {
   padding: 20px;
   margin-top: 25px;
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 228, _header.scss */
+/* line 231, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha form input[type=text] {
   color: #606060;
 }
-/* line 236, _header.scss */
+/* line 239, _header.scss */
 #page header.banner-locacao-de-maquinas {
   background-image: url("images/banner-locacao-de-maquinas.png");
   width: 100%;
   height: 579px;
 }
-/* line 241, _header.scss */
+/* line 244, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 246, _header.scss */
+/* line 249, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 249, _header.scss */
+/* line 252, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 252, _header.scss */
+/* line 255, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 259, _header.scss */
+/* line 262, _header.scss */
 #page header.banner-sistema-henji {
   background-image: url("images/banner-sistema-henji.png");
   width: 100%;
   height: 579px;
 }
-/* line 264, _header.scss */
+/* line 267, _header.scss */
 #page header.banner-sistema-henji .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 269, _header.scss */
+/* line 272, _header.scss */
 #page header.banner-sistema-henji .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 272, _header.scss */
+/* line 275, _header.scss */
 #page header.banner-sistema-henji .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 275, _header.scss */
+/* line 278, _header.scss */
 #page header.banner-sistema-henji .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 282, _header.scss */
+/* line 285, _header.scss */
 #page header.banner-criacao-de-site {
   background-image: url("images/banner-solicite-uma-senha.png");
   width: 100%;
   height: 579px;
 }
-/* line 287, _header.scss */
+/* line 290, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 292, _header.scss */
+/* line 295, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 296, _header.scss */
+/* line 299, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 300, _header.scss */
+/* line 303, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 308, _header.scss */
+/* line 311, _header.scss */
 #page header.banner-gmd {
   background-image: url("images/banner-gmd.png");
   width: 100%;
   height: 579px;
 }
-/* line 313, _header.scss */
+/* line 316, _header.scss */
 #page header.banner-gmd .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 318, _header.scss */
+/* line 321, _header.scss */
 #page header.banner-gmd .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 322, _header.scss */
+/* line 325, _header.scss */
 #page header.banner-gmd .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 326, _header.scss */
+/* line 329, _header.scss */
 #page header.banner-gmd .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
 @media (max-width: 991px) {
-  /* line 336, _header.scss */
+  /* line 339, _header.scss */
   #page #header nav.menu-aux .dados-topo {
     display: none;
   }
-  /* line 339, _header.scss */
+  /* line 342, _header.scss */
   #page #header nav.menu-aux .dados-topo-vermelho {
     display: none;
   }
-  /* line 344, _header.scss */
+  /* line 347, _header.scss */
+  #page #header nav.menu-principal .wrap-searchform:before {
+    clear: both;
+  }
+  /* line 350, _header.scss */
+  #page #header nav.menu-principal .wrap-searchform {
+    float: left !important;
+    margin-bottom: 10px;
+  }
+  /* line 354, _header.scss */
   #page #header nav.menu-principal .menu-opcoes {
     display: none;
   }
-  /* line 347, _header.scss */
+  /* line 357, _header.scss */
   #page #header nav.menu-principal .botao-menu-responsivo {
     display: inline-block;
   }
-  /* line 354, _header.scss */
+  /* line 364, _header.scss */
   #page .banner-formulario h2 {
     font-size: 22px;
   }
-  /* line 357, _header.scss */
+  /* line 367, _header.scss */
   #page .banner-formulario h3 {
     font-size: 15px;
   }
-  /* line 360, _header.scss */
+  /* line 370, _header.scss */
   #page .banner-formulario p {
     font-size: 12px;
   }
-  /* line 363, _header.scss */
+  /* line 373, _header.scss */
   #page .banner-formulario .responsivo-solicite {
     display: none;
   }
 }
 @media (min-width: 992px) {
-  /* line 373, _header.scss */
+  /* line 383, _header.scss */
   #page #header nav.menu-principal .botao-menu-responsivo {
     display: none;
   }
@@ -616,61 +629,65 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   margin-bottom: 40px;
   border-bottom: 1px dotted black;
 }
-/* line 163, _content.scss */
+/* line 162, _content.scss */
+#page #content .blog-articles article img {
+  max-width: 100%;
+}
+/* line 167, _content.scss */
 #page #content .blog-articles article h2 a {
   color: #9e151a;
 }
-/* line 168, _content.scss */
+/* line 172, _content.scss */
 #page #content .blog-articles article:last-child {
   border-bottom: none;
 }
-/* line 174, _content.scss */
+/* line 178, _content.scss */
 #page #content .blog-articles-single article {
   text-align: left;
   padding-bottom: 30px;
   margin-bottom: 40px;
 }
-/* line 180, _content.scss */
+/* line 184, _content.scss */
 #page #content .blog-articles-single article div p:first-of-type {
   margin: 0;
   padding: 0;
   height: 0;
 }
-/* line 193, _content.scss */
+/* line 197, _content.scss */
 #page #content .solucoes-locadoras .solucoes-padding {
   padding: 10px;
   padding-right: 10px;
 }
-/* line 200, _content.scss */
+/* line 204, _content.scss */
 #page #content .sistema-locacao h3 {
   min-height: 52px;
 }
-/* line 205, _content.scss */
+/* line 209, _content.scss */
 #page #content .conheca-henji {
   text-align: left;
 }
-/* line 209, _content.scss */
+/* line 213, _content.scss */
 #page #content .conheca-henji ul.conheca-dados li {
   list-style: none;
   margin: 15px 0;
 }
-/* line 218, _content.scss */
+/* line 222, _content.scss */
 #page #content .planos-henji .planos li {
   background-color: #FFFFFF;
   padding: 10px 20px;
   margin: 5px 0;
   list-style: none;
 }
-/* line 225, _content.scss */
+/* line 229, _content.scss */
 #page #content .planos-henji .planos li.head {
   color: #FFFFFF;
   background-color: #9e151a;
 }
-/* line 228, _content.scss */
+/* line 232, _content.scss */
 #page #content .planos-henji .planos li.head h3 {
   color: #FFFFFF;
 }
-/* line 235, _content.scss */
+/* line 239, _content.scss */
 #page #content #newsletter-background {
   width: 100%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+50,000000+50,000000+50 */
@@ -691,54 +708,54 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#000000',GradientType=1 );
   /* IE6-9 */
 }
-/* line 247, _content.scss */
+/* line 251, _content.scss */
 #page #content #newsletter-background .news-esquerdo {
   background-color: #9e151a;
   padding: 20px 15px;
 }
-/* line 251, _content.scss */
+/* line 255, _content.scss */
 #page #content #newsletter-background .news-esquerdo img {
   width: 90%;
 }
-/* line 256, _content.scss */
+/* line 260, _content.scss */
 #page #content #newsletter-background .news-direito {
   background-color: #f0f2f4;
   text-align: left;
   padding: 0;
   min-height: 119px;
 }
-/* line 262, _content.scss */
+/* line 266, _content.scss */
 #page #content #newsletter-background .news-direito img {
   margin: 40px 0;
 }
-/* line 266, _content.scss */
+/* line 270, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-texto {
   margin: 0;
   margin-top: 35px;
 }
-/* line 269, _content.scss */
+/* line 273, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-texto p {
   margin: 0;
 }
-/* line 274, _content.scss */
+/* line 278, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-nome-wrap {
   margin: 0;
 }
-/* line 277, _content.scss */
+/* line 281, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-nome {
   padding: 15px 5px;
   margin-top: 35px;
 }
-/* line 281, _content.scss */
+/* line 285, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-email-wrap {
   margin: 0;
 }
-/* line 284, _content.scss */
+/* line 288, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-email {
   padding: 15px 5px;
   margin-top: 35px;
 }
-/* line 288, _content.scss */
+/* line 292, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-enviar {
   padding: 15px;
   background-image: none;
@@ -747,19 +764,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   border: 0;
   margin-top: 35px;
 }
-/* line 296, _content.scss */
+/* line 300, _content.scss */
 #page #content #newsletter-background .news-direito .newsletter-enviar:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
 @media (max-width: 991px) {
-  /* line 309, _content.scss */
+  /* line 313, _content.scss */
   #page #content #newsletter-background {
     background: #feffff;
     /* Old browsers */
   }
-  /* line 316, _content.scss */
+  /* line 320, _content.scss */
   #page #content .secao-b .sistema-henji div.col-md-2 {
     text-align: center !important;
   }

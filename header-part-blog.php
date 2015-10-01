@@ -16,7 +16,7 @@
 <nav class="menu-principal">
   <div class="container">
     	<span class="pull-left logo-header"><a href="<?php echo esc_url( home_url( '/' ))."blog/"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.png"; ?>"/></a></span>
-		<span class="pull-right"><?php get_search_form(); ?></span>
+		<span class="wrap-searchform"><?php get_search_form(); ?></span>
   </div><!-- /.container -->
 </nav>
 <nav class="menu-aux">

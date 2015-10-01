@@ -41,10 +41,8 @@ get_header('contato'); ?>
 						São Bernardo do Campo - SP
 					</p>
 					<p>
-						<strong>Telefones</strong><br/>
-						11 4332-1944<br/>
-						11 4332-9871 <br>
-						11 4337-8404
+						<strong>Telefone</strong><br/>
+						11  4332 8787
 					</p>
 				</div> 
 			</div>

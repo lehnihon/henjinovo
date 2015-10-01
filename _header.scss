@@ -148,18 +148,21 @@
                 padding: 7px;
                 margin-right: 20px;
             }
+            .wrap-searchform{
+                float:right;
+                .search-form{
+                    padding:10px;
 
-            .search-form{
-                padding:10px;
-
-                .pesquisar-input{
-                    float:left;
-                    padding:6px;
-                }
-                .pesquisar-submit{
-                   float:left;
-                }
+                    .pesquisar-input{
+                        float:left;
+                        padding:6px;
+                    }
+                    .pesquisar-submit{
+                       float:left;
+                    }
+                }                
             }
+
 
             ul{
                 li{
@@ -341,6 +344,13 @@ header.banner-gmd{
             }               
         }
         nav.menu-principal{
+            .wrap-searchform:before{
+                clear:both;
+            }
+            .wrap-searchform{
+                float:left!important;
+                margin-bottom: 10px;
+            }
             .menu-opcoes{
                 display:none;
             }
