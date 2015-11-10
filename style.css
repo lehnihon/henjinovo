@@ -780,6 +780,22 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page #content .secao-b .sistema-henji div.col-md-2 {
     text-align: center !important;
   }
+  /* line 326, _content.scss */
+  #page #content .blog-articles-single article {
+    text-align: left;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+  }
+  /* line 332, _content.scss */
+  #page #content .blog-articles-single article div p:first-of-type {
+    margin: 0;
+    padding: 0;
+    height: 0;
+  }
+  /* line 338, _content.scss */
+  #page #content .blog-articles-single article div img {
+    width: 100%;
+  }
 }
 /* line 1, _footer.scss */
 #page #footer {
