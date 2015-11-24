@@ -30,15 +30,32 @@ get_header('blog'); ?>
 					<?php /* Start the Loop */ ?>
 					<?php while ( $query->have_posts() ) : $query->the_post(); ?>
 
-						<?php
+						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+							<header class="entry-header">
+								<?php if ( has_post_thumbnail() && !is_search() ) { ?>
+									<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'quark' ), the_title_attribute( 'echo=0' ) ) ); ?>">
+										<?php the_post_thumbnail('home-thumb', array(
+											'class' => "e-cinza img-responsive",
+										)); ?>
+									</a>
+								<?php } ?>
 
-							/*
-							 * Include the Post-Format-specific template for the content.
-							 * If you want to override this in a child theme, then include a file
-							 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-							 */
-							get_template_part( 'template-parts/content', get_post_format() );
-						?>
+								<?php if ( is_single() ) { ?>
+									<h2 class="entry-title"><?php the_title(); ?></h2>
+								<?php }
+								else { ?>
+									<h2 class="entry-title">
+										<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'quark' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
+									</h2>
+								<?php } // is_single() ?>
+							</header> <!-- /.entry-header -->
+							
+							<div class="entry-summary">
+								<?php the_excerpt(); ?>
+								<a href="<?php the_permalink(); ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-post.jpg"; ?>"/></a>
+							</div> <!-- /.entry-summary -->
+
+						</article> <!-- /#post -->
 
 					<?php endwhile; ?>
 					<?php

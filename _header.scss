@@ -36,6 +36,63 @@
             }     
         }
 
+        .redes_sociais_header_blog{
+            margin-top: 10px;
+            margin-bottom: 5px;
+            height: 22px;
+            text-align: left;
+            list-style:none;
+            float:right;
+            padding-left: 10px;
+        }
+
+        .redes_sociais_header_blog li:hover{
+            opacity: 0.6;
+            filter: alpha(opacity=60); /* For IE8 and earlier */
+        }
+
+        .redes_sociais_header_blog a{
+            display: inline-block;
+            width:22px;
+            height:20px;
+        }
+
+        .redes_sociais_header_blog .youtube{
+            background-image: url("images/redes-sociais2.png");
+            background-position: left,center;
+            background-repeat:no-repeat;
+            width:22px;
+            height:20px;
+            display:inline-block;       
+        }
+
+        .redes_sociais_header_blog .instagram{
+            background-image: url("images/redes-sociais2.png");
+            background-position: -26px,center;
+            background-repeat:no-repeat;
+            width:22px;
+            height:20px;
+            display:inline-block;       
+        }
+
+        .redes_sociais_header_blog .twitter{
+            background-image: url("images/redes-sociais2.png");
+            background-position: -52px,center;
+            background-repeat:no-repeat;
+            width:22px;
+            height:20px;
+            display:inline-block;       
+        }
+
+        .redes_sociais_header_blog .facebook{
+            background-image: url("images/redes-sociais2.png");
+            background-position: -80px,center;
+            background-repeat:no-repeat;
+            width:22px;
+            height:20px;
+            display:inline-block;       
+        }
+
         .redes_sociais_header{
             margin-top: 10px;
             margin-bottom: 5px;
@@ -155,7 +212,8 @@
 
                     .pesquisar-input{
                         float:left;
-                        padding:6px;
+                        padding:8px;
+                        border: 0
                     }
                     .pesquisar-submit{
                        float:left;

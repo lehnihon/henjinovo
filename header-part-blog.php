@@ -5,7 +5,7 @@
 		<li>11 4332-8787</li>
 		<li>contato@henji.com.br</li>
 	</ul>
-	<ul class="redes_sociais_header">
+	<ul class="redes_sociais_header_blog">
 		<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCNkHrw4ujO_bUW7nmrPF1TA"></a></li>
 		<li class="instagram"><a target="_blank" href="https://instagram.com/henjioficial"></a></li>
 		<li class="twitter"><a target="_blank" href="https://twitter.com/henjioficial"></a></li>

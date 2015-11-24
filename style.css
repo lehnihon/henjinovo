@@ -137,7 +137,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   font-size: small;
 }
 /* line 39, _header.scss */
-#page #header nav.menu-aux .redes_sociais_header {
+#page #header nav.menu-aux .redes_sociais_header_blog {
   margin-top: 10px;
   margin-bottom: 5px;
   height: 22px;
@@ -147,18 +147,76 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   padding-left: 10px;
 }
 /* line 49, _header.scss */
-#page #header nav.menu-aux .redes_sociais_header li:hover {
+#page #header nav.menu-aux .redes_sociais_header_blog li:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */
 }
 /* line 54, _header.scss */
-#page #header nav.menu-aux .redes_sociais_header a {
+#page #header nav.menu-aux .redes_sociais_header_blog a {
   display: inline-block;
   width: 22px;
   height: 20px;
 }
 /* line 60, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog .youtube {
+  background-image: url("images/redes-sociais2.png");
+  background-position: left,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 69, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog .instagram {
+  background-image: url("images/redes-sociais2.png");
+  background-position: -26px,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 78, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog .twitter {
+  background-image: url("images/redes-sociais2.png");
+  background-position: -52px,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 87, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog .facebook {
+  background-image: url("images/redes-sociais2.png");
+  background-position: -80px,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 96, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 22px;
+  text-align: left;
+  list-style: none;
+  float: right;
+  padding-left: 10px;
+}
+/* line 106, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header li:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+}
+/* line 111, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header a {
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+}
+/* line 117, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .youtube {
   background-image: url("images/redes-sociais.png");
   background-position: left,center;
@@ -167,7 +225,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   height: 20px;
   display: inline-block;
 }
-/* line 69, _header.scss */
+/* line 126, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .instagram {
   background-image: url("images/redes-sociais.png");
   background-position: -26px,center;
@@ -176,7 +234,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   height: 20px;
   display: inline-block;
 }
-/* line 78, _header.scss */
+/* line 135, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .twitter {
   background-image: url("images/redes-sociais.png");
   background-position: -52px,center;
@@ -185,7 +243,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   height: 20px;
   display: inline-block;
 }
-/* line 87, _header.scss */
+/* line 144, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header .facebook {
   background-image: url("images/redes-sociais.png");
   background-position: -80px,center;
@@ -194,275 +252,276 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   height: 20px;
   display: inline-block;
 }
-/* line 102, _header.scss */
+/* line 159, _header.scss */
 #page #header nav.menu-aux .blog ul {
   padding-left: 0;
 }
-/* line 104, _header.scss */
+/* line 161, _header.scss */
 #page #header nav.menu-aux .blog ul li {
   color: #9e151a;
 }
-/* line 106, _header.scss */
+/* line 163, _header.scss */
 #page #header nav.menu-aux .blog ul li a {
   color: #9e151a;
 }
-/* line 116, _header.scss */
+/* line 173, _header.scss */
 #page #header nav.menu-aux .container ul li a:hover {
   color: #2d9e9a;
 }
-/* line 124, _header.scss */
+/* line 181, _header.scss */
 #page #header nav.menu-principal {
   background-color: #9e151a;
 }
-/* line 128, _header.scss */
+/* line 185, _header.scss */
 #page #header nav.menu-principal .container .botao-menu-responsivo {
   float: left;
   margin-right: 20px;
   margin-top: 12px;
 }
-/* line 134, _header.scss */
+/* line 191, _header.scss */
 #page #header nav.menu-principal .container .botao-menu-responsivo .dropdown-menu li {
   width: 100%;
 }
-/* line 136, _header.scss */
+/* line 193, _header.scss */
 #page #header nav.menu-principal .container .botao-menu-responsivo .dropdown-menu li a {
   width: 100%;
   color: #606060;
 }
-/* line 140, _header.scss */
+/* line 197, _header.scss */
 #page #header nav.menu-principal .container .botao-menu-responsivo .dropdown-menu li a:hover {
   background-color: #f0f2f4;
 }
-/* line 147, _header.scss */
+/* line 204, _header.scss */
 #page #header nav.menu-principal .container .logo-header {
   padding: 7px;
   margin-right: 20px;
 }
-/* line 151, _header.scss */
+/* line 208, _header.scss */
 #page #header nav.menu-principal .container .wrap-searchform {
   float: right;
 }
-/* line 153, _header.scss */
+/* line 210, _header.scss */
 #page #header nav.menu-principal .container .wrap-searchform .search-form {
   padding: 10px;
 }
-/* line 156, _header.scss */
+/* line 213, _header.scss */
 #page #header nav.menu-principal .container .wrap-searchform .search-form .pesquisar-input {
   float: left;
-  padding: 6px;
+  padding: 8px;
+  border: 0;
 }
-/* line 160, _header.scss */
+/* line 218, _header.scss */
 #page #header nav.menu-principal .container .wrap-searchform .search-form .pesquisar-submit {
   float: left;
 }
-/* line 169, _header.scss */
+/* line 227, _header.scss */
 #page #header nav.menu-principal .container ul li a {
   display: inline-block;
   padding: 20px 30px;
 }
-/* line 173, _header.scss */
+/* line 231, _header.scss */
 #page #header nav.menu-principal .container ul li a:hover {
   text-decoration: none;
   background-color: #BE191F;
 }
-/* line 184, _header.scss */
+/* line 242, _header.scss */
 #page header.banner-contrate {
   background-image: url("images/banner-contrate.png");
   width: 100%;
   height: 579px;
 }
-/* line 189, _header.scss */
+/* line 247, _header.scss */
 #page header.banner-contrate .banner-formulario {
   padding: 30px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 194, _header.scss */
+/* line 252, _header.scss */
 #page header.banner-contrate .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 198, _header.scss */
+/* line 256, _header.scss */
 #page header.banner-contrate .banner-formulario .form-criacao-site {
   padding: 20px;
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 203, _header.scss */
+/* line 261, _header.scss */
 #page header.banner-contrate .banner-formulario .form-criacao-site form input[type=text] {
   color: #606060;
 }
-/* line 211, _header.scss */
+/* line 269, _header.scss */
 #page header.banner-solicite-uma-senha {
   background-image: url("images/banner-solicite-uma-senha.png");
   width: 100%;
   height: 579px;
 }
-/* line 216, _header.scss */
+/* line 274, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario {
   padding: 5px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 221, _header.scss */
+/* line 279, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 225, _header.scss */
+/* line 283, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha {
   padding: 20px;
   margin-top: 25px;
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 231, _header.scss */
+/* line 289, _header.scss */
 #page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha form input[type=text] {
   color: #606060;
 }
-/* line 239, _header.scss */
+/* line 297, _header.scss */
 #page header.banner-locacao-de-maquinas {
   background-image: url("images/banner-locacao-de-maquinas.png");
   width: 100%;
   height: 579px;
 }
-/* line 244, _header.scss */
+/* line 302, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 249, _header.scss */
+/* line 307, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 252, _header.scss */
+/* line 310, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 255, _header.scss */
+/* line 313, _header.scss */
 #page header.banner-locacao-de-maquinas .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 262, _header.scss */
+/* line 320, _header.scss */
 #page header.banner-sistema-henji {
   background-image: url("images/banner-sistema-henji.png");
   width: 100%;
   height: 579px;
 }
-/* line 267, _header.scss */
+/* line 325, _header.scss */
 #page header.banner-sistema-henji .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 272, _header.scss */
+/* line 330, _header.scss */
 #page header.banner-sistema-henji .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 275, _header.scss */
+/* line 333, _header.scss */
 #page header.banner-sistema-henji .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 278, _header.scss */
+/* line 336, _header.scss */
 #page header.banner-sistema-henji .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 285, _header.scss */
+/* line 343, _header.scss */
 #page header.banner-criacao-de-site {
   background-image: url("images/banner-solicite-uma-senha.png");
   width: 100%;
   height: 579px;
 }
-/* line 290, _header.scss */
+/* line 348, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 295, _header.scss */
+/* line 353, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 299, _header.scss */
+/* line 357, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 303, _header.scss */
+/* line 361, _header.scss */
 #page header.banner-criacao-de-site .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
-/* line 311, _header.scss */
+/* line 369, _header.scss */
 #page header.banner-gmd {
   background-image: url("images/banner-gmd.png");
   width: 100%;
   height: 579px;
 }
-/* line 316, _header.scss */
+/* line 374, _header.scss */
 #page header.banner-gmd .banner-formulario {
   padding: 80px 0;
   text-align: left;
   color: #FFFFFF;
 }
-/* line 321, _header.scss */
+/* line 379, _header.scss */
 #page header.banner-gmd .banner-formulario h2 {
   color: #FFFFFF;
 }
-/* line 325, _header.scss */
+/* line 383, _header.scss */
 #page header.banner-gmd .banner-formulario h3 {
   color: #FFFFFF;
 }
-/* line 329, _header.scss */
+/* line 387, _header.scss */
 #page header.banner-gmd .banner-formulario .form-criacao-site {
   background-color: #9e151a;
   background-color: rgba(111, 10, 13, 0.7);
 }
 @media (max-width: 991px) {
-  /* line 339, _header.scss */
+  /* line 397, _header.scss */
   #page #header nav.menu-aux .dados-topo {
     display: none;
   }
-  /* line 342, _header.scss */
+  /* line 400, _header.scss */
   #page #header nav.menu-aux .dados-topo-vermelho {
     display: none;
   }
-  /* line 347, _header.scss */
+  /* line 405, _header.scss */
   #page #header nav.menu-principal .wrap-searchform:before {
     clear: both;
   }
-  /* line 350, _header.scss */
+  /* line 408, _header.scss */
   #page #header nav.menu-principal .wrap-searchform {
     float: left !important;
     margin-bottom: 10px;
   }
-  /* line 354, _header.scss */
+  /* line 412, _header.scss */
   #page #header nav.menu-principal .menu-opcoes {
     display: none;
   }
-  /* line 357, _header.scss */
+  /* line 415, _header.scss */
   #page #header nav.menu-principal .botao-menu-responsivo {
     display: inline-block;
   }
-  /* line 364, _header.scss */
+  /* line 422, _header.scss */
   #page .banner-formulario h2 {
     font-size: 22px;
   }
-  /* line 367, _header.scss */
+  /* line 425, _header.scss */
   #page .banner-formulario h3 {
     font-size: 15px;
   }
-  /* line 370, _header.scss */
+  /* line 428, _header.scss */
   #page .banner-formulario p {
     font-size: 12px;
   }
-  /* line 373, _header.scss */
+  /* line 431, _header.scss */
   #page .banner-formulario .responsivo-solicite {
     display: none;
   }
 }
 @media (min-width: 992px) {
-  /* line 383, _header.scss */
+  /* line 441, _header.scss */
   #page #header nav.menu-principal .botao-menu-responsivo {
     display: none;
   }
