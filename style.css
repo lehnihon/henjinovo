@@ -160,7 +160,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 /* line 60, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header_blog .youtube {
-  background-image: url("images/redes-sociais2.png");
+  background-image: url("images/redes-sociais2.jpg");
   background-position: left,center;
   background-repeat: no-repeat;
   width: 22px;
@@ -169,7 +169,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 /* line 69, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header_blog .instagram {
-  background-image: url("images/redes-sociais2.png");
+  background-image: url("images/redes-sociais2.jpg");
   background-position: -26px,center;
   background-repeat: no-repeat;
   width: 22px;
@@ -178,7 +178,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 /* line 78, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header_blog .twitter {
-  background-image: url("images/redes-sociais2.png");
+  background-image: url("images/redes-sociais2.jpg");
   background-position: -52px,center;
   background-repeat: no-repeat;
   width: 22px;
@@ -187,7 +187,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 /* line 87, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header_blog .facebook {
-  background-image: url("images/redes-sociais2.png");
+  background-image: url("images/redes-sociais2.jpg");
   background-position: -80px,center;
   background-repeat: no-repeat;
   width: 22px;

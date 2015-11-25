@@ -52,7 +52,7 @@ get_header('blog'); ?>
 							
 							<div class="entry-summary">
 								<?php the_excerpt(); ?>
-								<a href="<?php the_permalink(); ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-post.jpg"; ?>"/></a>
+								<a href="<?php the_permalink(); ?>"><img width="28" height="28" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-post.jpg"; ?>"/> <strong>Veja o post completo</strong></a>
 							</div> <!-- /.entry-summary -->
 
 						</article> <!-- /#post -->
