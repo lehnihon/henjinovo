@@ -160,6 +160,462 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 /* line 60, _header.scss */
 #page #header nav.menu-aux .redes_sociais_header_blog .youtube {
+  background-image: url("images/redes-sociais2.png");
+  background-position: left,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 69, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog .instagram {
+  background-image: url("images/redes-sociais2.png");
+  background-position: -26px,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 78, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog .twitter {
+  background-image: url("images/redes-sociais2.png");
+  background-position: -52px,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 87, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog .facebook {
+  background-image: url("images/redes-sociais2.png");
+  background-position: -80px,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 96, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 22px;
+  text-align: left;
+  list-style: none;
+  float: right;
+  padding-left: 10px;
+}
+/* line 106, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header li:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+}
+/* line 111, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header a {
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+}
+/* line 117, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header .youtube {
+  background-image: url("images/redes-sociais.png");
+  background-position: left,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 126, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header .instagram {
+  background-image: url("images/redes-sociais.png");
+  background-position: -26px,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 135, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header .twitter {
+  background-image: url("images/redes-sociais.png");
+  background-position: -52px,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 144, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header .facebook {
+  background-image: url("images/redes-sociais.png");
+  background-position: -80px,center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  display: inline-block;
+}
+/* line 159, _header.scss */
+#page #header nav.menu-aux .blog ul {
+  padding-left: 0;
+}
+/* line 161, _header.scss */
+#page #header nav.menu-aux .blog ul li {
+  color: #9e151a;
+}
+/* line 163, _header.scss */
+#page #header nav.menu-aux .blog ul li a {
+  color: #9e151a;
+}
+/* line 173, _header.scss */
+#page #header nav.menu-aux .container ul li a:hover {
+  color: #2d9e9a;
+}
+/* line 181, _header.scss */
+#page #header nav.menu-principal {
+  background-color: #9e151a;
+}
+/* line 185, _header.scss */
+#page #header nav.menu-principal .container .botao-menu-responsivo {
+  float: left;
+  margin-right: 20px;
+  margin-top: 12px;
+}
+/* line 191, _header.scss */
+#page #header nav.menu-principal .container .botao-menu-responsivo .dropdown-menu li {
+  width: 100%;
+}
+/* line 193, _header.scss */
+#page #header nav.menu-principal .container .botao-menu-responsivo .dropdown-menu li a {
+  width: 100%;
+  color: #606060;
+}
+/* line 197, _header.scss */
+#page #header nav.menu-principal .container .botao-menu-responsivo .dropdown-menu li a:hover {
+  background-color: #f0f2f4;
+}
+/* line 204, _header.scss */
+#page #header nav.menu-principal .container .logo-header {
+  padding: 7px;
+  margin-right: 20px;
+}
+/* line 208, _header.scss */
+#page #header nav.menu-principal .container .wrap-searchform {
+  float: right;
+}
+/* line 210, _header.scss */
+#page #header nav.menu-principal .container .wrap-searchform .search-form {
+  padding: 10px;
+}
+/* line 213, _header.scss */
+#page #header nav.menu-principal .container .wrap-searchform .search-form .pesquisar-input {
+  float: left;
+  padding: 8px;
+  border: 0;
+}
+/* line 218, _header.scss */
+#page #header nav.menu-principal .container .wrap-searchform .search-form .pesquisar-submit {
+  float: left;
+}
+/* line 227, _header.scss */
+#page #header nav.menu-principal .container ul li a {
+  display: inline-block;
+  padding: 20px 30px;
+}
+/* line 231, _header.scss */
+#page #header nav.menu-principal .container ul li a:hover {
+  text-decoration: none;
+  background-color: #BE191F;
+}
+/* line 242, _header.scss */
+#page header.banner-contrate {
+  background-image: url("images/banner-contrate.png");
+  width: 100%;
+  height: 579px;
+}
+/* line 247, _header.scss */
+#page header.banner-contrate .banner-formulario {
+  padding: 30px 0;
+  text-align: left;
+  color: #FFFFFF;
+}
+/* line 252, _header.scss */
+#page header.banner-contrate .banner-formulario h2 {
+  color: #FFFFFF;
+}
+/* line 256, _header.scss */
+#page header.banner-contrate .banner-formulario .form-criacao-site {
+  padding: 20px;
+  background-color: #9e151a;
+  background-color: rgba(111, 10, 13, 0.7);
+}
+/* line 261, _header.scss */
+#page header.banner-contrate .banner-formulario .form-criacao-site form input[type=text] {
+  color: #606060;
+}
+/* line 269, _header.scss */
+#page header.banner-solicite-uma-senha {
+  background-image: url("images/banner-solicite-uma-senha.png");
+  width: 100%;
+  height: 579px;
+}
+/* line 274, _header.scss */
+#page header.banner-solicite-uma-senha .banner-formulario {
+  padding: 5px 0;
+  text-align: left;
+  color: #FFFFFF;
+}
+/* line 279, _header.scss */
+#page header.banner-solicite-uma-senha .banner-formulario h2 {
+  color: #FFFFFF;
+}
+/* line 283, _header.scss */
+#page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha {
+  padding: 20px;
+  margin-top: 25px;
+  background-color: #9e151a;
+  background-color: rgba(111, 10, 13, 0.7);
+}
+/* line 289, _header.scss */
+#page header.banner-solicite-uma-senha .banner-formulario .form-solicite-uma-senha form input[type=text] {
+  color: #606060;
+}
+/* line 297, _header.scss */
+#page header.banner-locacao-de-maquinas {
+  background-image: url("images/banner-locacao-de-maquinas.png");
+  width: 100%;
+  height: 579px;
+}
+/* line 302, _header.scss */
+#page header.banner-locacao-de-maquinas .banner-formulario {
+  padding: 80px 0;
+  text-align: left;
+  color: #FFFFFF;
+}
+/* line 307, _header.scss */
+#page header.banner-locacao-de-maquinas .banner-formulario h2 {
+  color: #FFFFFF;
+}
+/* line 310, _header.scss */
+#page header.banner-locacao-de-maquinas .banner-formulario h3 {
+  color: #FFFFFF;
+}
+/* line 313, _header.scss */
+#page header.banner-locacao-de-maquinas .banner-formulario .form-criacao-site {
+  background-color: #9e151a;
+  background-color: rgba(111, 10, 13, 0.7);
+}
+/* line 320, _header.scss */
+#page header.banner-sistema-henji {
+  background-image: url("images/banner-sistema-henji.png");
+  width: 100%;
+  height: 579px;
+}
+/* line 325, _header.scss */
+#page header.banner-sistema-henji .banner-formulario {
+  padding: 80px 0;
+  text-align: left;
+  color: #FFFFFF;
+}
+/* line 330, _header.scss */
+#page header.banner-sistema-henji .banner-formulario h2 {
+  color: #FFFFFF;
+}
+/* line 333, _header.scss */
+#page header.banner-sistema-henji .banner-formulario h3 {
+  color: #FFFFFF;
+}
+/* line 336, _header.scss */
+#page header.banner-sistema-henji .banner-formulario .form-criacao-site {
+  background-color: #9e151a;
+  background-color: rgba(111, 10, 13, 0.7);
+}
+/* line 343, _header.scss */
+#page header.banner-criacao-de-site {
+  background-image: url("images/banner-solicite-uma-senha.png");
+  width: 100%;
+  height: 579px;
+}
+/* line 348, _header.scss */
+#page header.banner-criacao-de-site .banner-formulario {
+  padding: 80px 0;
+  text-align: left;
+  color: #FFFFFF;
+}
+/* line 353, _header.scss */
+#page header.banner-criacao-de-site .banner-formulario h2 {
+  color: #FFFFFF;
+}
+/* line 357, _header.scss */
+#page header.banner-criacao-de-site .banner-formulario h3 {
+  color: #FFFFFF;
+}
+/* line 361, _header.scss */
+#page header.banner-criacao-de-site .banner-formulario .form-criacao-site {
+  background-color: #9e151a;
+  background-color: rgba(111, 10, 13, 0.7);
+}
+/* line 369, _header.scss */
+#page header.banner-gmd {
+  background-image: url("images/banner-gmd.png");
+  width: 100%;
+  height: 579px;
+}
+/* line 374, _header.scss */
+#page header.banner-gmd .banner-formulario {
+  padding: 80px 0;
+  text-align: left;
+  color: #FFFFFF;
+}
+/* line 379, _header.scss */
+#page header.banner-gmd .banner-formulario h2 {
+  color: #FFFFFF;
+}
+/* line 383, _header.scss */
+#page header.banner-gmd .banner-formulario h3 {
+  color: #FFFFFF;
+}
+/* line 387, _header.scss */
+#page header.banner-gmd .banner-formulario .form-criacao-site {
+  background-color: #9e151a;
+  background-color: rgba(111, 10, 13, 0.7);
+}
+@media (max-width: 991px) {
+  /* line 397, _header.scss */
+  text-align: center;
+}
+/* line 28, style.scss */
+#page h1, #page h2, #page h3 {
+  color: #9e151a;
+  line-height: 1.3;
+}
+/* line 33, style.scss */
+#page h4, #page h5, #page h6 {
+  color: #606060;
+  line-height: 1.3;
+}
+/* line 38, style.scss */
+#page h4 {
+  font-size: 16px;
+}
+/* line 42, style.scss */
+#page h3 {
+  font-size: 20px;
+}
+/* line 46, style.scss */
+#page a {
+  color: #606060;
+}
+/* line 49, style.scss */
+#page a:hover {
+  color: #2d9e9a;
+  text-decoration: none;
+}
+/* line 54, style.scss */
+#page .row-spacing {
+  margin-bottom: 50px;
+}
+/* line 58, style.scss */
+#page .botao-enviar {
+  padding: 15px;
+  background-image: none;
+  background-color: #9e151a;
+  color: white;
+  border: 0;
+}
+/* line 65, style.scss */
+#page .botao-enviar:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+}
+/* line 70, style.scss */
+#page .botao-solicitar {
+  padding: 15px;
+  background-image: none;
+  background-color: #ffce00;
+  font-weight: bold;
+  color: #9e151a;
+  border: 0;
+}
+/* line 78, style.scss */
+#page .botao-solicitar:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* line 83, style.scss */
+#page .contato-input {
+  border: 0;
+  padding: 5px;
+}
+/* line 88, style.scss */
+#page .senha-input {
+  border-color: #F0F0F0;
+}
+/* line 92, style.scss */
+#page .senha-input-wrap {
+  margin-bottom: 10px;
+}
+/* line 96, style.scss */
+#page .ninja-forms-form-wrap label {
+  font-weight: normal !important;
+}
+/* line 4, _header.scss */
+#page #header nav .container ul {
+  margin: 0;
+}
+/* line 6, _header.scss */
+#page #header nav .container ul li {
+  list-style: none;
+  float: left;
+}
+/* line 10, _header.scss */
+#page #header nav .container ul li a {
+  display: inline-block;
+  padding: 10px;
+  color: #FFFFFF;
+}
+/* line 21, _header.scss */
+#page #header nav.menu-aux .dados-topo {
+  padding-left: 0;
+}
+/* line 24, _header.scss */
+#page #header nav.menu-aux .dados-topo li {
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: small;
+}
+/* line 30, _header.scss */
+#page #header nav.menu-aux .dados-topo-vermelho {
+  padding-left: 0;
+}
+/* line 32, _header.scss */
+#page #header nav.menu-aux .dados-topo-vermelho li {
+  padding: 10px;
+  color: #9e151a;
+  font-size: small;
+}
+/* line 39, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 22px;
+  text-align: left;
+  list-style: none;
+  float: right;
+  padding-left: 10px;
+}
+/* line 49, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog li:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+}
+/* line 54, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog a {
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+}
+/* line 60, _header.scss */
+#page #header nav.menu-aux .redes_sociais_header_blog .youtube {
   background-image: url("images/redes-sociais2.jpg");
   background-position: left,center;
   background-repeat: no-repeat;
