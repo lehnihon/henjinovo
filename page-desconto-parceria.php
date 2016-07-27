@@ -19,10 +19,14 @@ get_header('desconto'); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-				<h2>Chegou a hora de ser mais competitivo.</h2>
-				<h4>Prencha o formulário abaixo e garanta o seu desconto no melhor sistema de gestão para Locadoras de Veículos.</h4><br/>
-				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 12 ); } ?>
+				<h1>Chegou a hora de ser mais competitivo.</h1>
+				<h4>Prencha o formulário abaixo e garanta o seu desconto no melhor sistema de gestão para Locadoras de Veículos.</h4><br/><br/>
+				<div class="text-left">
+					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 12 ); } ?>
+				</div>
+				<br/>
 				<p>Após o envio do formulário acima, um de nossos especialistas entrará em contato com você!</p>
+				<br/>
 				</div>
 			</div>
 		</div>
